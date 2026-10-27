@@ -1,0 +1,788 @@
+subject:
+  slug: fisica
+  name: Física
+  description: Fundamentos da Física para o vestibular e o ENEM.
+
+topics:
+- slug: cinematica
+  name: Cinemática
+- slug: dinamica
+  name: Dinâmica e leis de Newton
+- slug: trabalho-energia
+  name: Trabalho, energia e potência
+- slug: impulso-momento
+  name: Impulso e quantidade de movimento
+- slug: hidrostatica
+  name: Hidrostática
+- slug: termologia
+  name: Termologia e calorimetria
+- slug: termodinamica
+  name: Termodinâmica e gases
+- slug: optica
+  name: Óptica geométrica
+- slug: ondas
+  name: Ondas e acústica
+- slug: eletrostatica
+  name: Eletrostática
+- slug: eletrodinamica
+  name: Eletrodinâmica e circuitos
+- slug: eletromagnetismo
+  name: Eletromagnetismo
+- slug: fisica-moderna
+  name: Física moderna
+
+tracks:
+- slug: fisica-base
+  title: Física — base
+  description: A trilha completa de Física, da Cinemática à Física Moderna.
+  lessons:
+  - slug: aula-1-cinematica
+    title: Aula 1 — Cinemática
+    description: Movimento, MRU e MRUV, queda livre e movimentos em duas dimensões.
+    tags: [fisica, cinematica]
+    summary:
+    - "O movimento é relativo: depende do referencial; deslocamento é vetor, distância é escalar."
+    - "No MRU a velocidade é constante; no MRUV a aceleração é constante."
+    - "As três equações do MRUV, incluindo a de Torricelli, resolvem a maioria dos problemas."
+    - "Queda livre e lançamento vertical são MRUV com a = g ≈ 10 m/s²."
+    - "Movimentos 2D se decompõem; no MCU há aceleração centrípeta a = v²/R."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-1-cinematica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-1-cinematica/02-conceitos-basicos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: cinematica
+        difficulty: easy
+        tags: [enem, cinematica]
+        skill: "calcular velocidade média a partir de deslocamento e tempo e converter entre km/h e m/s"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-1-cinematica/03-mru-mruv.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: cinematica
+        difficulty: medium
+        tags: [enem, cinematica]
+        skill: "aplicar a equação de Torricelli ou a função horária do MRUV em um problema de frenagem ou aceleração"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-1-cinematica/04-queda-livre.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: cinematica
+        difficulty: medium
+        tags: [enem, cinematica]
+        skill: "determinar tempo de queda, altura ou velocidade em queda livre ou lançamento vertical usando a = g"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-1-cinematica/05-movimentos-2d.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: cinematica
+        difficulty: hard
+        tags: [enem, cinematica]
+        skill: "analisar um lançamento horizontal/oblíquo por decomposição ou calcular a aceleração centrípeta no MCU"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c6
+      type: content
+      markdownFile: fisica/aula-1-cinematica/06-o-que-vimos.md
+
+  - slug: aula-2-dinamica
+    title: Aula 2 — Dinâmica (Leis de Newton)
+    description: As três leis de Newton, forças comuns e suas aplicações.
+    tags: [fisica, dinamica]
+    summary:
+    - "1ª Lei: sem força resultante, o corpo mantém repouso ou MRU (inércia)."
+    - "2ª Lei: F_resultante = m·a — a força é a causa da aceleração."
+    - "3ª Lei: ação e reação são iguais, opostas e atuam em corpos diferentes."
+    - "Peso, normal, tração e atrito (Fat = μ·N) são as forças mais comuns."
+    - "O diagrama de corpo livre e F = m·a resolvem plano inclinado, sistemas ligados e elevadores."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-2-dinamica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-2-dinamica/02-leis-de-newton.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: dinamica
+        difficulty: easy
+        tags: [enem, dinamica]
+        skill: "identificar a lei de Newton aplicável a uma situação do cotidiano (inércia, ação-reação)"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-2-dinamica/03-forcas-comuns.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: dinamica
+        difficulty: medium
+        tags: [enem, dinamica]
+        skill: "calcular a força de atrito ou a normal e relacionar peso e massa em diferentes situações"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-2-dinamica/04-aplicacoes.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: dinamica
+        difficulty: hard
+        tags: [enem, dinamica]
+        skill: "aplicar F = m·a a um sistema de corpos ligados ou a um bloco no plano inclinado, achando aceleração e tração"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-2-dinamica/05-o-que-vimos.md
+
+  - slug: aula-3-trabalho-energia
+    title: Aula 3 — Trabalho, energia e potência
+    description: Trabalho, potência, formas de energia mecânica e sua conservação.
+    tags: [fisica, trabalho-energia]
+    summary:
+    - "Trabalho: τ = F·d·cos θ — positivo, negativo ou nulo (força perpendicular)."
+    - "Potência mede a rapidez do trabalho: P = τ/Δt = F·v."
+    - "Energias mecânicas: cinética (m·v²/2), potencial gravitacional (m·g·h) e elástica (k·x²/2)."
+    - "O teorema trabalho-energia cinética liga o trabalho da resultante à variação de Ec."
+    - "Sem dissipação a energia mecânica se conserva; com atrito, parte vira calor."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-3-trabalho-energia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-3-trabalho-energia/02-trabalho-potencia.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: trabalho-energia
+        difficulty: easy
+        tags: [enem, trabalho-energia]
+        skill: "calcular o trabalho de uma força (τ = F·d·cos θ) ou a potência de um equipamento"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-3-trabalho-energia/03-formas-de-energia.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: trabalho-energia
+        difficulty: medium
+        tags: [enem, trabalho-energia]
+        skill: "aplicar o teorema trabalho-energia cinética ou calcular energia cinética/potencial de um corpo"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-3-trabalho-energia/04-conservacao.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: trabalho-energia
+        difficulty: hard
+        tags: [enem, trabalho-energia]
+        skill: "resolver um problema por conservação da energia mecânica, com ou sem dissipação por atrito"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-3-trabalho-energia/05-o-que-vimos.md
+
+  - slug: aula-4-impulso-quantidade-movimento
+    title: Aula 4 — Impulso e quantidade de movimento
+    description: Quantidade de movimento, impulso, sua conservação e colisões.
+    tags: [fisica, impulso-momento]
+    summary:
+    - "Quantidade de movimento: Q = m·v, grandeza vetorial."
+    - "Impulso: I = F·Δt, igual à área sob o gráfico força × tempo."
+    - "Teorema do impulso: I = ΔQ — base de airbags e cintos de segurança."
+    - "Sem força externa resultante, a quantidade de movimento total se conserva."
+    - "Colisões sempre conservam momento; só as elásticas conservam energia cinética."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-4-impulso-quantidade-movimento/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-4-impulso-quantidade-movimento/02-impulso-momento.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: impulso-momento
+        difficulty: medium
+        tags: [enem, impulso-momento]
+        skill: "aplicar o teorema do impulso (I = ΔQ) ou interpretar a relação força-tempo (airbag, frenagem)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-4-impulso-quantidade-movimento/03-conservacao-colisoes.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: impulso-momento
+        difficulty: medium
+        tags: [enem, impulso-momento]
+        skill: "calcular velocidade após uma colisão usando a conservação da quantidade de movimento"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: impulso-momento
+        difficulty: hard
+        tags: [enem, impulso-momento]
+        skill: "classificar uma colisão (elástica, inelástica, perfeitamente inelástica) e analisar a energia cinética"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-4-impulso-quantidade-movimento/04-o-que-vimos.md
+
+  - slug: aula-5-hidrostatica
+    title: Aula 5 — Hidrostática
+    description: Pressão, Teorema de Stevin, Princípio de Pascal e empuxo de Arquimedes.
+    tags: [fisica, hidrostatica]
+    summary:
+    - "Pressão: p = F/A; densidade d = m/V decide a flutuação."
+    - "Teorema de Stevin: p = p₀ + d·g·h; a pressão cresce com a profundidade."
+    - "Princípio de Pascal: a pressão se transmite integralmente (prensa hidráulica)."
+    - "Princípio de Arquimedes: empuxo E = d_fluido·V_imerso·g."
+    - "Comparar empuxo e peso decide se o corpo flutua, equilibra ou afunda."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-5-hidrostatica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-5-hidrostatica/02-pressao-stevin.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: hidrostatica
+        difficulty: easy
+        tags: [enem, hidrostatica]
+        skill: "calcular pressão (p = F/A) ou a pressão em profundidade pelo Teorema de Stevin"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-5-hidrostatica/03-pascal-arquimedes.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: hidrostatica
+        difficulty: medium
+        tags: [enem, hidrostatica]
+        skill: "resolver um problema de prensa hidráulica (Pascal) relacionando forças e áreas"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: hidrostatica
+        difficulty: hard
+        tags: [enem, hidrostatica]
+        skill: "calcular o empuxo e prever flutuação ou afundamento comparando empuxo e peso (Arquimedes)"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-5-hidrostatica/04-o-que-vimos.md
+
+  - slug: aula-6-termologia-calorimetria
+    title: Aula 6 — Termologia e calorimetria
+    description: Temperatura e calor, escalas, calor sensível e latente, dilatação e propagação.
+    tags: [fisica, termologia]
+    summary:
+    - "Temperatura mede agitação; calor é energia em trânsito do quente para o frio."
+    - "Escalas: T_K = T_C + 273; Celsius, Fahrenheit e Kelvin."
+    - "Calor sensível (Q = m·c·ΔT) muda a temperatura; latente (Q = m·L) muda o estado."
+    - "Em sistema isolado, a soma dos calores trocados é nula (Σ Q = 0)."
+    - "Dilatação (ΔL = L₀·α·ΔT) e três formas de propagação: condução, convecção e irradiação."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-6-termologia-calorimetria/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-6-termologia-calorimetria/02-temperatura-escalas.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: termologia
+        difficulty: easy
+        tags: [enem, termologia]
+        skill: "converter temperaturas entre as escalas Celsius, Fahrenheit e Kelvin"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-6-termologia-calorimetria/03-calor-sensivel-latente.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: termologia
+        difficulty: medium
+        tags: [enem, termologia]
+        skill: "calcular calor sensível ou latente, ou a temperatura de equilíbrio térmico (Σ Q = 0)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-6-termologia-calorimetria/04-dilatacao-propagacao.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: termologia
+        difficulty: medium
+        tags: [enem, termologia]
+        skill: "identificar a forma de propagação do calor (condução, convecção, irradiação) ou calcular dilatação"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-6-termologia-calorimetria/05-o-que-vimos.md
+
+  - slug: aula-7-termodinamica-gases
+    title: Aula 7 — Termodinâmica e gases
+    description: Gases ideais, transformações, 1ª e 2ª Leis e máquinas térmicas.
+    tags: [fisica, termodinamica]
+    summary:
+    - "Gás ideal: p·V = n·R·T, com T em kelvin; Lei Geral dos Gases."
+    - "Transformações: isotérmica (Boyle), isobárica (Charles) e isovolumétrica."
+    - "1ª Lei: Q = ΔU + τ — conservação da energia, com convenções de sinais."
+    - "2ª Lei: é impossível converter todo calor em trabalho; a entropia cresce."
+    - "Máquinas térmicas: η = 1 − Q_frio/Q_quente; Carnot fixa o rendimento máximo."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-7-termodinamica-gases/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-7-termodinamica-gases/02-gases-ideais.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: termodinamica
+        difficulty: medium
+        tags: [enem, termodinamica]
+        skill: "aplicar a equação de Clapeyron ou a Lei Geral dos Gases a uma transformação gasosa"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-7-termodinamica-gases/03-primeira-lei.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: termodinamica
+        difficulty: medium
+        tags: [enem, termodinamica]
+        skill: "aplicar a 1ª Lei (Q = ΔU + τ) com as convenções de sinais em uma transformação"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-7-termodinamica-gases/04-segunda-lei-maquinas.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: termodinamica
+        difficulty: hard
+        tags: [enem, termodinamica]
+        skill: "calcular o rendimento de uma máquina térmica ou comparar com o rendimento máximo de Carnot"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-7-termodinamica-gases/05-o-que-vimos.md
+
+  - slug: aula-8-optica-geometrica
+    title: Aula 8 — Óptica geométrica
+    description: Reflexão e espelhos, refração e lentes, e os defeitos da visão.
+    tags: [fisica, optica]
+    summary:
+    - "Reflexão: ângulo de reflexão igual ao de incidência; espelho plano dá imagem virtual e igual."
+    - "Espelhos esféricos: côncavo converge, convexo diverge; vale 1/f = 1/p + 1/p'."
+    - "Refração: n = c/v e Lei de Snell (n₁·sen θ₁ = n₂·sen θ₂)."
+    - "Reflexão total acima do ângulo limite — princípio das fibras ópticas."
+    - "Lentes: convergente corrige hipermetropia, divergente corrige miopia; P = 1/f em dioptrias."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-8-optica-geometrica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-8-optica-geometrica/02-reflexao-espelhos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: optica
+        difficulty: medium
+        tags: [enem, optica]
+        skill: "caracterizar a imagem formada por um espelho esférico ou aplicar a equação de Gauss"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-8-optica-geometrica/03-refracao-lentes.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: optica
+        difficulty: medium
+        tags: [enem, optica]
+        skill: "aplicar a Lei de Snell-Descartes ou relacionar índice de refração e velocidade da luz"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: optica
+        difficulty: hard
+        tags: [enem, optica]
+        skill: "associar o tipo de lente ao defeito de visão corrigido ou calcular a potência (vergência) de uma lente"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-8-optica-geometrica/04-o-que-vimos.md
+
+  - slug: aula-9-ondas-acustica
+    title: Aula 9 — Ondas e acústica
+    description: Tipos de onda, grandezas, fenômenos ondulatórios e a física do som.
+    tags: [fisica, ondas]
+    summary:
+    - "Ondas transportam energia, não matéria; mecânicas × eletromagnéticas, transversais × longitudinais."
+    - "Equação fundamental: v = λ·f; num mesmo meio a velocidade é constante."
+    - "Fenômenos: reflexão, refração, difração, interferência e ondas estacionárias."
+    - "A polarização só ocorre em ondas transversais — distingue luz de som."
+    - "O som é mecânico e longitudinal; altura, intensidade, timbre e Efeito Doppler."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-9-ondas-acustica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-9-ondas-acustica/02-ondas-grandezas.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: ondas
+        difficulty: easy
+        tags: [enem, ondas]
+        skill: "aplicar v = λ·f e classificar uma onda quanto à natureza e à direção de vibração"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-9-ondas-acustica/03-fenomenos.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: ondas
+        difficulty: medium
+        tags: [enem, ondas]
+        skill: "identificar o fenômeno ondulatório (reflexão, refração, difração, interferência) em uma situação descrita"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-9-ondas-acustica/04-acustica.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: ondas
+        difficulty: medium
+        tags: [enem, ondas]
+        skill: "relacionar qualidades do som (altura, intensidade, timbre) às grandezas físicas ou explicar o Efeito Doppler"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-9-ondas-acustica/05-o-que-vimos.md
+
+  - slug: aula-10-eletrostatica
+    title: Aula 10 — Eletrostática
+    description: Carga elétrica, eletrização, Lei de Coulomb, campo e potencial elétrico.
+    tags: [fisica, eletrostatica]
+    summary:
+    - "Carga elétrica tem dois sinais; iguais se repelem, opostas se atraem; é quantizada e conservada."
+    - "Eletrização por atrito, contato e indução."
+    - "Lei de Coulomb: F = k·Q₁·Q₂/d², variando com 1/d²."
+    - "Campo elétrico E = F/q = k·Q/d²; linhas saem do + e chegam ao −."
+    - "Potencial V = k·Q/d (varia com 1/d); a ddp impulsiona as cargas e τ = q·U."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-10-eletrostatica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-10-eletrostatica/02-carga-eletrizacao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: eletrostatica
+        difficulty: easy
+        tags: [enem, eletrostatica]
+        skill: "identificar o processo de eletrização e o sinal da carga resultante (atrito, contato, indução)"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-10-eletrostatica/03-coulomb-campo.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: eletrostatica
+        difficulty: medium
+        tags: [enem, eletrostatica]
+        skill: "calcular a força elétrica (Lei de Coulomb) ou o campo elétrico de uma carga pontual"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-10-eletrostatica/04-potencial.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: eletrostatica
+        difficulty: hard
+        tags: [enem, eletrostatica]
+        skill: "calcular potencial, energia potencial elétrica ou o trabalho da força elétrica (τ = q·U)"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-10-eletrostatica/05-o-que-vimos.md
+
+  - slug: aula-11-eletrodinamica-circuitos
+    title: Aula 11 — Eletrodinâmica e circuitos
+    description: Corrente, resistência, Lei de Ohm, associações, potência e consumo de energia.
+    tags: [fisica, eletrodinamica]
+    summary:
+    - "Corrente: i = Q/Δt, em ampères; mantida pela ddp da fonte."
+    - "Lei de Ohm: U = R·i; resistência do fio R = ρ·L/A."
+    - "Série: mesma corrente, R_eq é a soma (resistência maior)."
+    - "Paralelo: mesma tensão, 1/R_eq é a soma dos inversos (resistência menor)."
+    - "Potência P = U·i = R·i² = U²/R (efeito Joule); consumo E = P·Δt em kWh."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-11-eletrodinamica-circuitos/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-11-eletrodinamica-circuitos/02-corrente-ohm.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: eletrodinamica
+        difficulty: easy
+        tags: [enem, eletrodinamica]
+        skill: "aplicar a Lei de Ohm (U = R·i) ou calcular a corrente a partir de carga e tempo"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-11-eletrodinamica-circuitos/03-associacoes.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: eletrodinamica
+        difficulty: hard
+        tags: [enem, eletrodinamica]
+        skill: "calcular a resistência equivalente de uma associação em série, paralelo ou mista"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-11-eletrodinamica-circuitos/04-potencia-energia.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: eletrodinamica
+        difficulty: medium
+        tags: [enem, eletrodinamica]
+        skill: "calcular a potência dissipada por um aparelho e o consumo de energia em kWh"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-11-eletrodinamica-circuitos/05-o-que-vimos.md
+
+  - slug: aula-12-eletromagnetismo
+    title: Aula 12 — Eletromagnetismo
+    description: Ímãs, campo magnético, força magnética e indução eletromagnética.
+    tags: [fisica, eletromagnetismo]
+    summary:
+    - "Ímãs têm dois polos inseparáveis; linhas de B saem do norte e entram no sul."
+    - "Oersted: corrente cria campo magnético; bobina = eletroímã."
+    - "Força magnética: F = q·v·B·sen θ e F = B·i·L·sen θ; é perpendicular à velocidade."
+    - "Indução de Faraday: ε = −ΔΦ/Δt — campo variável gera corrente."
+    - "Lei de Lenz: a corrente induzida se opõe à variação; geradores e transformadores."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-12-eletromagnetismo/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-12-eletromagnetismo/02-imas-campo.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: eletromagnetismo
+        difficulty: easy
+        tags: [enem, eletromagnetismo]
+        skill: "reconhecer propriedades dos ímãs e a relação de Oersted entre corrente e campo magnético"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-12-eletromagnetismo/03-forca-magnetica.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: eletromagnetismo
+        difficulty: medium
+        tags: [enem, eletromagnetismo]
+        skill: "calcular a força magnética sobre uma carga ou fio e determinar sua direção pela regra da mão"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-12-eletromagnetismo/04-inducao.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: eletromagnetismo
+        difficulty: hard
+        tags: [enem, eletromagnetismo]
+        skill: "aplicar a Lei de Faraday/Lenz à corrente induzida ou ao funcionamento de geradores e transformadores"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: fisica/aula-12-eletromagnetismo/05-o-que-vimos.md
+
+  - slug: aula-13-fisica-moderna
+    title: Aula 13 — Física moderna
+    description: Quantização, efeito fotoelétrico, dualidade, relatividade e radioatividade.
+    tags: [fisica, fisica-moderna]
+    summary:
+    - "Planck: a luz vem em pacotes — fótons com E = h·f."
+    - "Efeito fotoelétrico: a luz arranca elétrons se a frequência for alta o bastante."
+    - "Dualidade onda-partícula: luz e matéria têm natureza dupla."
+    - "Relatividade: c é constante; dilatação do tempo, contração do comprimento e E = m·c²."
+    - "Radioatividade: emissões α, β e γ; meia-vida, datação por C-14 e medicina nuclear."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: fisica/aula-13-fisica-moderna/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: fisica/aula-13-fisica-moderna/02-quantica.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: fisica-moderna
+        difficulty: medium
+        tags: [enem, fisica-moderna]
+        skill: "relacionar a energia do fóton (E = h·f) à frequência ou interpretar o efeito fotoelétrico"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: fisica/aula-13-fisica-moderna/03-relatividade-radioatividade.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: fisica-moderna
+        difficulty: medium
+        tags: [enem, fisica-moderna]
+        skill: "interpretar consequências da relatividade (dilatação do tempo, E = m·c²) ou conceitos da radioatividade"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: fisica-moderna
+        difficulty: hard
+        tags: [enem, fisica-moderna]
+        skill: "resolver um problema de meia-vida ou identificar o tipo de radiação (alfa, beta, gama) e seu poder de penetração"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c4
+      type: content
+      markdownFile: fisica/aula-13-fisica-moderna/04-o-que-vimos.md

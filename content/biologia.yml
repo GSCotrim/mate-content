@@ -1,0 +1,787 @@
+subject:
+  slug: biologia
+  name: Biologia
+  description: Fundamentos da Biologia para o vestibular e o ENEM.
+
+topics:
+- slug: origem-vida
+  name: Origem da vida e bioquímica
+- slug: citologia
+  name: Citologia
+- slug: metabolismo-celular
+  name: Metabolismo celular
+- slug: divisao-celular
+  name: Divisão celular
+- slug: histologia
+  name: Histologia
+- slug: fisiologia
+  name: Fisiologia humana
+- slug: genetica
+  name: Genética
+- slug: biotecnologia
+  name: Biotecnologia
+- slug: evolucao
+  name: Evolução
+- slug: ecologia
+  name: Ecologia
+- slug: botanica
+  name: Botânica
+- slug: zoologia
+  name: Reinos e zoologia
+- slug: saude
+  name: Saúde e doenças
+
+tracks:
+- slug: biologia-base
+  title: Biologia — base
+  description: A trilha completa de Biologia, da origem da vida à saúde.
+  lessons:
+  - slug: aula-1-origem-da-vida
+    title: Aula 1 — Origem da vida e introdução à Biologia
+    description: Características dos seres vivos, níveis de organização, origem da vida e bioquímica.
+    tags: [biologia, origem-vida]
+    summary:
+    - "A vida se define por um conjunto de características: célula, metabolismo, reprodução, hereditariedade e evolução."
+    - "Os níveis de organização vão do átomo à biosfera."
+    - "A biogênese substituiu a abiogênese; a evolução química explica as primeiras moléculas orgânicas."
+    - "Água, sais e moléculas orgânicas (com as enzimas) compõem os seres vivos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-1-origem-da-vida/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-1-origem-da-vida/02-caracteristicas-dos-seres-vivos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: origem-vida
+        difficulty: easy
+        tags: [enem, origem-vida]
+        skill: "identificar características que distinguem seres vivos de matéria bruta e ordenar níveis de organização biológica"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-1-origem-da-vida/03-origem-da-vida.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: origem-vida
+        difficulty: medium
+        tags: [enem, origem-vida]
+        skill: "interpretar um experimento (Redi, Pasteur ou Miller-Urey) e associá-lo à biogênese ou à evolução química"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-1-origem-da-vida/04-bioquimica-da-vida.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: origem-vida
+        difficulty: medium
+        tags: [enem, origem-vida]
+        skill: "relacionar uma classe de biomolécula à sua função ou explicar a ação enzimática (especificidade, temperatura, pH)"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: biologia/aula-1-origem-da-vida/05-o-que-vimos.md
+
+  - slug: aula-2-citologia
+    title: Aula 2 — Citologia
+    description: Teoria celular, procariontes e eucariontes, membrana, transporte e organelas.
+    tags: [biologia, citologia]
+    summary:
+    - "A célula é a unidade da vida e vem sempre de outra célula (Teoria Celular)."
+    - "Procariontes não têm núcleo organizado; eucariontes têm núcleo e organelas membranosas."
+    - "A membrana é seletiva; o transporte é passivo (difusão, osmose) ou ativo (com ATP)."
+    - "Cada organela tem uma função; a teoria endossimbiótica explica mitocôndrias e cloroplastos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-2-citologia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-2-citologia/02-procarionte-eucarionte.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: citologia
+        difficulty: easy
+        tags: [enem, citologia]
+        skill: "diferenciar célula procarionte de eucarionte e célula animal de vegetal a partir de suas estruturas"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-2-citologia/03-membrana-e-transporte.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: citologia
+        difficulty: medium
+        tags: [enem, citologia]
+        skill: "prever o sentido da osmose e o comportamento da célula em meio isotônico, hipotônico ou hipertônico"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-2-citologia/04-organelas.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: citologia
+        difficulty: medium
+        tags: [enem, citologia]
+        skill: "associar uma organela à sua função e justificar a teoria endossimbiótica para mitocôndrias e cloroplastos"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: biologia/aula-2-citologia/05-o-que-vimos.md
+
+  - slug: aula-3-metabolismo-celular
+    title: Aula 3 — Metabolismo celular
+    description: ATP, fotossíntese, respiração celular aeróbia e fermentação.
+    tags: [biologia, metabolismo-celular]
+    summary:
+    - "O ATP é a moeda energética da célula."
+    - "A fotossíntese (cloroplastos) produz glicose e O₂ usando luz, CO₂ e água."
+    - "A respiração aeróbia (mitocôndrias) quebra a glicose com O₂ em três etapas, gerando muito ATP."
+    - "A fermentação é anaeróbia, rende pouco ATP e tem usos industriais."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-3-metabolismo-celular/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-3-metabolismo-celular/02-fotossintese.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: metabolismo-celular
+        difficulty: medium
+        tags: [enem, metabolismo-celular]
+        skill: "interpretar a equação e as fases da fotossíntese e o efeito de luz, CO₂ e temperatura sobre sua taxa"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-3-metabolismo-celular/03-respiracao-celular.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: metabolismo-celular
+        difficulty: medium
+        tags: [enem, metabolismo-celular]
+        skill: "comparar respiração aeróbia e fermentação quanto a etapas, uso de O₂ e rendimento de ATP"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: metabolismo-celular
+        difficulty: hard
+        tags: [enem, metabolismo-celular]
+        skill: "relacionar fotossíntese e respiração como processos complementares no fluxo de energia e de gases"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-3-metabolismo-celular/04-o-que-vimos.md
+
+  - slug: aula-4-divisao-celular
+    title: Aula 4 — Divisão celular
+    description: Ciclo celular, mitose, meiose e a origem da variabilidade.
+    tags: [biologia, divisao-celular]
+    summary:
+    - "O ciclo celular alterna intérfase (com duplicação do DNA) e divisão."
+    - "A mitose gera duas células idênticas (2n), para crescimento e reparo."
+    - "A meiose gera quatro células haploides (n), os gametas."
+    - "Crossing-over e segregação independente produzem variabilidade genética."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-4-divisao-celular/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-4-divisao-celular/02-ciclo-celular-mitose.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: divisao-celular
+        difficulty: medium
+        tags: [enem, divisao-celular]
+        skill: "identificar fases da mitose e relacionar a duplicação do DNA na intérfase à identidade das células-filhas"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-4-divisao-celular/03-meiose.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: divisao-celular
+        difficulty: medium
+        tags: [enem, divisao-celular]
+        skill: "comparar mitose e meiose quanto a número de células, ploidia e função"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: divisao-celular
+        difficulty: hard
+        tags: [enem, divisao-celular]
+        skill: "explicar como crossing-over e segregação independente geram variabilidade nos gametas"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-4-divisao-celular/04-o-que-vimos.md
+
+  - slug: aula-5-histologia
+    title: Aula 5 — Histologia
+    description: "Os quatro tecidos animais: epitelial, conjuntivo, muscular e nervoso."
+    tags: [biologia, histologia]
+    summary:
+    - "Tecido é um conjunto de células semelhantes com função comum."
+    - "Epitelial reveste e secreta; conjuntivo tem muita matriz (inclui o sangue)."
+    - "Muscular se contrai (esquelético, cardíaco, liso); nervoso conduz impulsos."
+    - "A histologia é a ponte entre a célula e a fisiologia dos órgãos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-5-histologia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-5-histologia/02-epitelial-conjuntivo.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: histologia
+        difficulty: medium
+        tags: [enem, histologia]
+        skill: "identificar tecido epitelial ou conjuntivo por suas características (união celular, matriz, vascularização)"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-5-histologia/03-muscular-nervoso.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: histologia
+        difficulty: medium
+        tags: [enem, histologia]
+        skill: "classificar tipos de tecido muscular ou reconhecer as partes do neurônio e suas funções"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-5-histologia/04-o-que-vimos.md
+
+  - slug: aula-6-fisiologia-i
+    title: Aula 6 — Fisiologia humana I
+    description: Sistemas digestório, respiratório e circulatório.
+    tags: [biologia, fisiologia]
+    summary:
+    - "O digestório faz digestão mecânica e química; o intestino delgado é o centro da absorção."
+    - "O respiratório ventila os pulmões e realiza a hematose nos alvéolos."
+    - "O circulatório é uma dupla circulação (pulmonar e sistêmica), com coração de quatro câmaras."
+    - "Artéria leva sangue do coração; veia o traz de volta."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-6-fisiologia-i/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-6-fisiologia-i/02-digestorio.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: fisiologia
+        difficulty: medium
+        tags: [enem, fisiologia]
+        skill: "associar um órgão ou enzima do sistema digestório à etapa de digestão ou absorção correspondente"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-6-fisiologia-i/03-respiratorio.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: fisiologia
+        difficulty: medium
+        tags: [enem, fisiologia]
+        skill: "distinguir ventilação, hematose e respiração celular e explicar o transporte de O₂ e CO₂ no sangue"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-6-fisiologia-i/04-circulatorio.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: fisiologia
+        difficulty: hard
+        tags: [enem, fisiologia]
+        skill: "rastrear o trajeto do sangue na dupla circulação e distinguir sangue arterial e venoso nos vasos"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: biologia/aula-6-fisiologia-i/05-o-que-vimos.md
+
+  - slug: aula-7-fisiologia-ii
+    title: Aula 7 — Fisiologia humana II
+    description: Sistemas nervoso, endócrino, imunológico e excretor.
+    tags: [biologia, fisiologia]
+    summary:
+    - "O nervoso é rápido e elétrico; a sinapse usa neurotransmissores."
+    - "O endócrino é químico e regulado por feedback negativo (insulina e glucagon na glicemia)."
+    - "O imunológico tem defesa inata e adquirida; vacina é imunização ativa, soro é passiva."
+    - "O excretor filtra o sangue no néfron, mantendo a homeostase."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-7-fisiologia-ii/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-7-fisiologia-ii/02-nervoso.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: fisiologia
+        difficulty: medium
+        tags: [enem, fisiologia]
+        skill: "explicar a condução do impulso nervoso, a sinapse e o ato reflexo (papel da medula)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-7-fisiologia-ii/03-endocrino.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: fisiologia
+        difficulty: medium
+        tags: [enem, fisiologia]
+        skill: "relacionar um hormônio ao seu efeito e explicar o controle da glicemia por feedback (insulina/glucagon)"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-7-fisiologia-ii/04-imunologico-excretor.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: fisiologia
+        difficulty: medium
+        tags: [enem, fisiologia]
+        skill: "distinguir imunização ativa (vacina) de passiva (soro) e descrever as etapas do néfron"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: biologia/aula-7-fisiologia-ii/05-o-que-vimos.md
+
+  - slug: aula-8-genetica
+    title: Aula 8 — Genética
+    description: Conceitos, leis de Mendel, heranças especiais, DNA, RNA e mutações.
+    tags: [biologia, genetica]
+    summary:
+    - "Genótipo é a constituição genética; fenótipo, a característica observável."
+    - "1ª Lei de Mendel dá 3:1 no fenótipo; a 2ª Lei dá 9:3:3:1."
+    - "Há heranças além de Mendel: codominância, alelos múltiplos (ABO) e ligada ao sexo."
+    - "O DNA é uma dupla-hélice (A-T, C-G) que vira proteína por transcrição e tradução."
+    - "Mutações alteram o DNA e são a fonte primária de variabilidade."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-8-genetica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-8-genetica/02-conceitos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: genetica
+        difficulty: easy
+        tags: [enem, genetica]
+        skill: "diferenciar genótipo de fenótipo e homozigoto de heterozigoto a partir de um exemplo"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-8-genetica/03-leis-de-mendel.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: genetica
+        difficulty: medium
+        tags: [enem, genetica]
+        skill: "calcular proporções genotípicas e fenotípicas de um cruzamento usando o quadro de Punnett (1ª Lei)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-8-genetica/04-heranca-especial-sexo.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: genetica
+        difficulty: hard
+        tags: [enem, genetica]
+        skill: "interpretar um heredograma de herança ligada ao sexo ou determinar grupos sanguíneos (ABO/Rh)"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: biologia/aula-8-genetica/05-dna-rna-mutacoes.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: genetica
+        difficulty: medium
+        tags: [enem, genetica]
+        skill: "aplicar o pareamento de bases e relacionar transcrição/tradução à síntese de proteínas e ao efeito de mutações"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: biologia/aula-8-genetica/06-o-que-vimos.md
+
+  - slug: aula-9-biotecnologia
+    title: Aula 9 — Biotecnologia
+    description: Engenharia genética, transgênicos, PCR, clonagem e células-tronco.
+    tags: [biologia, biotecnologia]
+    summary:
+    - "A engenharia genética usa enzimas de restrição, DNA recombinante e vetores."
+    - "Transgênicos recebem gene de outra espécie (insulina por bactérias, soja resistente)."
+    - "A PCR amplifica o DNA, base de diagnósticos e identificação."
+    - "Clonagem (como a Dolly) e células-tronco abrem debates de bioética."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-9-biotecnologia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-9-biotecnologia/02-engenharia-genetica.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: biotecnologia
+        difficulty: medium
+        tags: [enem, biotecnologia]
+        skill: "explicar a produção de um transgênico (DNA recombinante) e avaliar argumentos do debate sobre OGMs"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: biotecnologia
+        difficulty: medium
+        tags: [enem, biotecnologia]
+        skill: "reconhecer aplicações da PCR e da análise de DNA (diagnóstico, paternidade, identificação criminal)"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-9-biotecnologia/03-clonagem-celulas-tronco.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: biotecnologia
+        difficulty: medium
+        tags: [enem, biotecnologia]
+        skill: "diferenciar clonagem reprodutiva e terapêutica e células-tronco embrionárias e adultas, com a discussão ética"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-9-biotecnologia/04-o-que-vimos.md
+
+  - slug: aula-10-evolucao
+    title: Aula 10 — Evolução
+    description: Lamarck, Darwin, teoria sintética, evidências e especiação.
+    tags: [biologia, evolucao]
+    summary:
+    - "Lamarck propôs a mudança das espécies, mas a herança dos caracteres adquiridos está superada."
+    - "Darwin explicou a mudança pela seleção natural."
+    - "A teoria sintética une Darwin à genética (mutação, recombinação, deriva, migração)."
+    - "Evidências: fósseis, órgãos homólogos × análogos e semelhanças bioquímicas."
+    - "A especiação decorre do isolamento e leva ao isolamento reprodutivo."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-10-evolucao/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-10-evolucao/02-lamarck-darwin.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: evolucao
+        difficulty: medium
+        tags: [enem, evolucao]
+        skill: "comparar as explicações de Lamarck e Darwin para uma adaptação e identificar a falha do lamarckismo"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-10-evolucao/03-sintese-evidencias.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: evolucao
+        difficulty: medium
+        tags: [enem, evolucao]
+        skill: "distinguir órgãos homólogos (divergência) de análogos (convergência) como evidências da evolução"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: evolucao
+        difficulty: hard
+        tags: [enem, evolucao]
+        skill: "aplicar a seleção natural e o isolamento reprodutivo para explicar adaptação ou especiação em um caso dado"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-10-evolucao/04-o-que-vimos.md
+
+  - slug: aula-11-ecologia
+    title: Aula 11 — Ecologia
+    description: Cadeias, ciclos, relações, biomas, desequilíbrios ambientais e sustentabilidade.
+    tags: [biologia, ecologia]
+    summary:
+    - "Hierarquia: população → comunidade → ecossistema → biosfera; cada espécie tem nicho."
+    - "A energia flui em sentido único e cai ~10% por nível; a matéria é reciclada nos ciclos."
+    - "As relações ecológicas (harmônicas e desarmônicas) regulam as populações."
+    - "Os biomas brasileiros têm traços e ameaças próprios."
+    - "Desequilíbrios: aquecimento global, poluição, eutrofização e perda de biodiversidade."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-11-ecologia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-11-ecologia/02-conceitos-cadeias.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: ecologia
+        difficulty: medium
+        tags: [enem, ecologia]
+        skill: "interpretar uma cadeia ou teia alimentar e o fluxo de energia entre níveis tróficos (pirâmides, regra dos 10%)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-11-ecologia/03-ciclos-relacoes.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: ecologia
+        difficulty: medium
+        tags: [enem, ecologia]
+        skill: "identificar uma etapa do ciclo do carbono, da água ou do nitrogênio ou classificar uma relação ecológica"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-11-ecologia/04-biomas.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: ecologia
+        difficulty: medium
+        tags: [enem, ecologia]
+        skill: "reconhecer um bioma brasileiro por suas características e ameaças ou interpretar uma sucessão ecológica"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: biologia/aula-11-ecologia/05-desequilibrios.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: ecologia
+        difficulty: hard
+        tags: [enem, ecologia]
+        skill: "analisar um desequilíbrio ambiental (efeito estufa, eutrofização, magnificação trófica) e distinguir efeito estufa de buraco na camada de ozônio"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: biologia/aula-11-ecologia/06-sustentabilidade.md
+
+    - key: ph5
+      type: exercise_placeholder
+      placeholder:
+        topic: ecologia
+        difficulty: medium
+        tags: [enem, ecologia]
+        skill: "avaliar medidas de sustentabilidade ou serviços ecossistêmicos diante de um problema ambiental"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c7
+      type: content
+      markdownFile: biologia/aula-11-ecologia/07-o-que-vimos.md
+
+  - slug: aula-12-reinos-botanica-zoologia
+    title: Aula 12 — Reinos, botânica e zoologia
+    description: Classificação e reinos, grupos de plantas e diversidade animal.
+    tags: [biologia, zoologia]
+    summary:
+    - "A taxonomia classifica os seres (Domínio → Espécie) com nomenclatura binomial."
+    - "Cinco reinos: Monera, Protista, Fungi, Plantae e Animalia."
+    - "Plantas: briófitas → pteridófitas (vasos) → gimnospermas (sementes) → angiospermas (flores e frutos)."
+    - "Animais: invertebrados (artrópodes, o maior grupo) e vertebrados (peixes a mamíferos)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-12-reinos-botanica-zoologia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-12-reinos-botanica-zoologia/02-classificacao-reinos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: zoologia
+        difficulty: easy
+        tags: [enem, zoologia]
+        skill: "classificar um ser vivo em um dos cinco reinos por tipo de célula e forma de nutrição"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-12-reinos-botanica-zoologia/03-botanica.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: botanica
+        difficulty: medium
+        tags: [enem, botanica]
+        skill: "ordenar os grupos de plantas e relacionar uma novidade evolutiva (vasos, semente, flor/fruto) à conquista do ambiente terrestre"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-12-reinos-botanica-zoologia/04-zoologia.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: zoologia
+        difficulty: medium
+        tags: [enem, zoologia]
+        skill: "comparar grupos de vertebrados quanto a respiração, temperatura e reprodução (ovo com casca, homeotermia)"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: biologia/aula-12-reinos-botanica-zoologia/05-o-que-vimos.md
+
+  - slug: aula-13-saude-e-doencas
+    title: Aula 13 — Saúde e doenças
+    description: Agentes de doenças, transmissão, prevenção, saúde pública e doenças crônicas.
+    tags: [biologia, saude]
+    summary:
+    - "Patógenos: vírus, bactérias, protozoários, fungos e vermes; só bacterianas respondem a antibióticos."
+    - "A transmissão (vetores, água, contato, ar) define a prevenção."
+    - "Vacinação, saneamento e controle de vetores são pilares da saúde pública."
+    - "Doenças crônicas (diabetes, hipertensão, câncer) ligam-se a estilo de vida e genética."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: biologia/aula-13-saude-e-doencas/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: biologia/aula-13-saude-e-doencas/02-agentes-e-transmissao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: saude
+        difficulty: medium
+        tags: [enem, saude]
+        skill: "associar uma doença ao seu agente e à sua forma de transmissão e justificar por que antibiótico não age sobre vírus"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: biologia/aula-13-saude-e-doencas/03-prevencao-saude-publica.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: saude
+        difficulty: medium
+        tags: [enem, saude]
+        skill: "indicar medidas de prevenção (vacinação, saneamento, controle de vetores) adequadas a uma doença"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: saude
+        difficulty: medium
+        tags: [enem, saude]
+        skill: "relacionar fatores de risco e hábitos de vida à prevenção de doenças crônicas não transmissíveis"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: biologia/aula-13-saude-e-doencas/04-o-que-vimos.md

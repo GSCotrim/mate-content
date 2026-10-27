@@ -1,0 +1,692 @@
+subject:
+  slug: geografia-brasil
+  name: Geografia do Brasil
+  description: Geografia física, humana e econômica do Brasil para o vestibular e o ENEM, com foco nas desigualdades regionais.
+
+topics:
+- slug: regionalizacao
+  name: Regionalização do Brasil
+- slug: relevo
+  name: Relevo e estrutura geológica
+- slug: clima-vegetacao
+  name: Clima e vegetação
+- slug: biomas
+  name: Biomas brasileiros
+- slug: hidrografia
+  name: Hidrografia
+- slug: urbanizacao
+  name: Urbanização e problemas urbanos
+- slug: agropecuaria
+  name: Agropecuária e questão agrária
+- slug: industrializacao
+  name: Industrialização
+- slug: demografia
+  name: Demografia
+- slug: energia
+  name: Energia
+- slug: questoes-ambientais
+  name: Questões ambientais
+- slug: transportes
+  name: Transportes
+
+tracks:
+- slug: geografia-brasil-base
+  title: Geografia do Brasil — base
+  description: Trilha completa da Geografia do Brasil, do território às desigualdades regionais.
+  lessons:
+  - slug: aula-1-regionalizacao
+    title: Aula 1 — Regionalização do Brasil
+    description: As formas de dividir o território e o fio condutor das desigualdades regionais.
+    tags: [geografia-brasil, regionalizacao]
+    summary:
+    - "Regionalizar é dividir o território segundo um critério escolhido — não há divisão única."
+    - "O IBGE divide o país em 5 regiões respeitando limites estaduais, para fins estatísticos e administrativos."
+    - "Os complexos regionais (Amazônia, Nordeste, Centro-Sul) seguem o processo de formação econômica."
+    - "O contraste Centro-Sul × Norte/Nordeste expressa desigualdades historicamente construídas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-1-regionalizacao/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-1-regionalizacao/02-o-que-e-regionalizar.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: regionalizacao
+        difficulty: easy
+        tags: [enem, regionalizacao]
+        skill: "identificar o critério usado em uma regionalização proposta (natural, socioeconômico ou político-administrativo)"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-1-regionalizacao/03-divisao-ibge.md
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-1-regionalizacao/04-complexos-geoeconomicos.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: regionalizacao
+        difficulty: medium
+        tags: [enem, regionalizacao]
+        skill: "contrastar a divisão regional do IBGE com a divisão em complexos geoeconômicos, justificando por que não coincidem com os limites estaduais"
+        suggestedSources: [FUVEST, UNESP]
+    - key: c5
+      type: content
+      markdownFile: geografia-brasil/aula-1-regionalizacao/05-desigualdades-regionais.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: regionalizacao
+        difficulty: medium
+        tags: [enem, regionalizacao]
+        skill: "relacionar a concentração econômica no Centro-Sul a processos históricos de formação das desigualdades regionais"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-2-relevo
+    title: Aula 2 — Relevo e estrutura geológica
+    description: Por que o relevo brasileiro é antigo e baixo, e como ele condiciona a sociedade.
+    tags: [geografia-brasil, relevo]
+    summary:
+    - "O Brasil está no interior de uma placa: terrenos antigos e estáveis, sem dobramentos modernos."
+    - "A estrutura geológica tem escudos cristalinos (minérios metálicos) e bacias sedimentares (fósseis)."
+    - "Relevo se classifica em planaltos (erosão), planícies (deposição) e depressões; a proposta de Ross é a mais aceita."
+    - "O relevo condiciona deslizamentos em encostas, a mecanização agrícola e o potencial hidrelétrico."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-2-relevo/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-2-relevo/02-estrutura-geologica.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: relevo
+        difficulty: easy
+        tags: [enem, relevo]
+        skill: "associar tipos de estrutura geológica (escudo cristalino x bacia sedimentar) aos recursos minerais correspondentes"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-2-relevo/03-classificacoes-relevo.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: relevo
+        difficulty: medium
+        tags: [enem, relevo]
+        skill: "classificar formas de relevo como planalto, planície ou depressão a partir do predomínio de erosão ou deposição"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-2-relevo/04-relevo-e-sociedade.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: relevo
+        difficulty: hard
+        tags: [enem, relevo]
+        skill: "relacionar características do relevo (mares de morros, escarpas, planaltos) a riscos e usos do território, como deslizamentos e potencial hidrelétrico"
+        suggestedSources: [FUVEST, ENEM]
+
+  - slug: aula-3-clima-vegetacao
+    title: Aula 3 — Clima e vegetação do Brasil
+    description: Fatores climáticos, massas de ar, tipos de clima e sua relação com a vegetação.
+    tags: [geografia-brasil, clima-vegetacao]
+    summary:
+    - "Fatores (latitude, altitude, massas de ar, relevo, maritimidade) explicam a variação do clima; elementos são o que se mede."
+    - "Cinco massas de ar comandam a dinâmica climática; suas frentes organizam as chuvas."
+    - "Os climas vão do equatorial úmido ao semiárido e ao subtropical."
+    - "O clima condiciona a vegetação natural, base para o estudo dos biomas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-3-clima-vegetacao/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-3-clima-vegetacao/02-fatores-climaticos.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: clima-vegetacao
+        difficulty: easy
+        tags: [enem, clima-vegetacao]
+        skill: "distinguir fatores climáticos (latitude, altitude, maritimidade) de elementos do clima (temperatura, precipitação, umidade)"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-3-clima-vegetacao/03-massas-de-ar.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: clima-vegetacao
+        difficulty: medium
+        tags: [enem, clima-vegetacao]
+        skill: "explicar o regime de chuvas ou de temperatura de uma região a partir das massas de ar atuantes e das frentes"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-3-clima-vegetacao/04-tipos-climaticos.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: clima-vegetacao
+        difficulty: medium
+        tags: [enem, clima-vegetacao]
+        skill: "identificar o tipo climático brasileiro a partir de climograma ou descrição de temperatura e pluviosidade"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c5
+      type: content
+      markdownFile: geografia-brasil/aula-3-clima-vegetacao/05-clima-e-vegetacao.md
+
+  - slug: aula-4-biomas
+    title: Aula 4 — Biomas brasileiros
+    description: Os seis biomas continentais, sua localização e os problemas ambientais associados.
+    tags: [geografia-brasil, biomas]
+    summary:
+    - "O Brasil tem seis biomas continentais, integrando clima, solo, vegetação e fauna."
+    - "Amazônia e Cerrado são os maiores e estão sob forte pressão da fronteira agrícola."
+    - "Mata Atlântica é o mais devastado; Caatinga é exclusivamente brasileira e enfrenta desertificação."
+    - "Pampa e Pantanal são os menores, mas ecologicamente estratégicos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-4-biomas/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-4-biomas/02-amazonia-cerrado.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: biomas
+        difficulty: easy
+        tags: [enem, biomas]
+        skill: "identificar um bioma brasileiro a partir de características de vegetação, clima e localização"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-4-biomas/03-caatinga-mata-atlantica.md
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-4-biomas/04-pampa-pantanal.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: biomas
+        difficulty: medium
+        tags: [enem, biomas]
+        skill: "relacionar um bioma à sua principal ameaça ambiental (desmatamento, desertificação, conversão em lavouras, assoreamento)"
+        suggestedSources: [FUVEST, ENEM]
+    - key: c5
+      type: content
+      markdownFile: geografia-brasil/aula-4-biomas/05-biomas-e-conservacao.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: biomas
+        difficulty: medium
+        tags: [enem, biomas]
+        skill: "analisar conflitos entre conservação de biomas e expansão de atividades econômicas, considerando solos e biodiversidade"
+        suggestedSources: [UNICAMP, FUVEST]
+
+  - slug: aula-5-hidrografia
+    title: Aula 5 — Hidrografia brasileira
+    description: Bacias hidrográficas, tipos de rio e os usos e conflitos pela água.
+    tags: [geografia-brasil, hidrografia]
+    summary:
+    - "Bacia hidrográfica é a área drenada por um rio e seus afluentes; é a unidade de gestão da água."
+    - "O Brasil tem rios majoritariamente de planalto, pluviais e perenes, com grande potencial hidrelétrico."
+    - "Bacias-chave: Amazônica (volume), Paraná (energia/economia), São Francisco (integração do semiárido)."
+    - "A água é abundante porém mal distribuída, gerando conflitos de uso e crises hídricas mesmo em áreas úmidas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-5-hidrografia/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-5-hidrografia/02-bacias-conceitos.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: hidrografia
+        difficulty: easy
+        tags: [enem, hidrografia]
+        skill: "classificar um rio quanto ao regime, à perenidade e ao tipo de foz (estuário ou delta)"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-5-hidrografia/03-principais-bacias.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: hidrografia
+        difficulty: medium
+        tags: [enem, hidrografia]
+        skill: "associar uma bacia hidrográfica brasileira ao seu principal aproveitamento econômico (navegação, hidroeletricidade, irrigação)"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-5-hidrografia/04-usos-e-conflitos.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: hidrografia
+        difficulty: hard
+        tags: [enem, hidrografia]
+        skill: "analisar conflitos pelo uso múltiplo da água e crises hídricas, distinguindo causas climáticas de causas de gestão"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-6-urbanizacao
+    title: Aula 6 — Urbanização e problemas urbanos
+    description: O processo de urbanização brasileiro, a rede urbana e os problemas das cidades.
+    tags: [geografia-brasil, urbanizacao]
+    summary:
+    - "A urbanização brasileira foi tardia, rápida e sem planejamento, impulsionada pela industrialização e pelo êxodo rural."
+    - "As cidades formam uma rede urbana hierarquizada e desequilibrada, com forte peso de São Paulo."
+    - "A segregação socioespacial explica favelas, periferização e ocupação de áreas de risco."
+    - "Mobilidade, saneamento e problemas ambientais (ilhas de calor, enchentes) são os grandes desafios urbanos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-6-urbanizacao/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-6-urbanizacao/02-processo-de-urbanizacao.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: urbanizacao
+        difficulty: easy
+        tags: [enem, urbanizacao]
+        skill: "relacionar o êxodo rural a fatores de expulsão (mecanização, concentração de terras) e de atração (emprego urbano)"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-6-urbanizacao/03-rede-e-hierarquia-urbana.md
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-6-urbanizacao/04-segregacao-e-favelas.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: urbanizacao
+        difficulty: medium
+        tags: [enem, urbanizacao]
+        skill: "explicar a segregação socioespacial e a formação de favelas a partir da especulação imobiliária e do acesso desigual à moradia"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: geografia-brasil/aula-6-urbanizacao/05-mobilidade-saneamento.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: urbanizacao
+        difficulty: medium
+        tags: [enem, urbanizacao]
+        skill: "relacionar déficit de saneamento básico a impactos na saúde pública e na poluição de mananciais"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c6
+      type: content
+      markdownFile: geografia-brasil/aula-6-urbanizacao/06-problemas-ambientais-urbanos.md
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: urbanizacao
+        difficulty: hard
+        tags: [enem, urbanizacao]
+        skill: "explicar fenômenos ambientais urbanos (ilha de calor, inversão térmica, enchentes) a partir da impermeabilização e da ocupação do solo"
+        suggestedSources: [FUVEST, ENEM]
+
+  - slug: aula-7-agropecuaria
+    title: Aula 7 — Agropecuária e questão agrária
+    description: Estrutura fundiária, agronegócio, agricultura familiar e reforma agrária.
+    tags: [geografia-brasil, agropecuaria]
+    summary:
+    - "A estrutura fundiária brasileira é concentrada desde a colonização (latifúndio x minifúndio)."
+    - "Coexistem o agronegócio (exportação de commodities) e a agricultura familiar (alimentos do mercado interno)."
+    - "A reforma agrária busca redistribuir terras que não cumprem a função social; o campo é palco de conflitos."
+    - "A modernização elevou a produtividade, mas foi 'conservadora', com fortes impactos sociais e ambientais."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-7-agropecuaria/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-7-agropecuaria/02-estrutura-fundiaria.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: agropecuaria
+        difficulty: easy
+        tags: [enem, agropecuaria]
+        skill: "definir e distinguir latifúndio e minifúndio e relacioná-los à concentração fundiária de origem colonial"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-7-agropecuaria/03-agronegocio-agricultura-familiar.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: agropecuaria
+        difficulty: medium
+        tags: [enem, agropecuaria]
+        skill: "contrastar agronegócio e agricultura familiar quanto a escala, destino da produção e papel no abastecimento interno"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-7-agropecuaria/04-reforma-agraria-conflitos.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: agropecuaria
+        difficulty: medium
+        tags: [enem, agropecuaria]
+        skill: "analisar a reforma agrária e os conflitos pela terra, incluindo a função social da propriedade e os territórios tradicionais"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: geografia-brasil/aula-7-agropecuaria/05-modernizacao-impactos.md
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: agropecuaria
+        difficulty: hard
+        tags: [enem, agropecuaria]
+        skill: "avaliar os impactos socioambientais da modernização agrícola (êxodo rural, fronteira agrícola, agrotóxicos, erosão)"
+        suggestedSources: [FUVEST, ENEM]
+
+  - slug: aula-8-industrializacao
+    title: Aula 8 — Industrialização
+    description: Etapas da industrialização, concentração no Sudeste, desconcentração e desindustrialização.
+    tags: [geografia-brasil, industrializacao]
+    summary:
+    - "A industrialização brasileira foi tardia, passou pela substituição de importações e dependeu fortemente do Estado."
+    - "A indústria se concentrou no Sudeste por capital do café, mercado, mão de obra, infraestrutura e aglomeração."
+    - "A desconcentração recente difundiu fábricas pelo interior e por outras regiões (incentivos fiscais), mas é parcial."
+    - "Discute-se a desindustrialização (inclusive precoce) e a maior dependência de commodities."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-8-industrializacao/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-8-industrializacao/02-etapas-da-industrializacao.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: industrializacao
+        difficulty: easy
+        tags: [enem, industrializacao]
+        skill: "caracterizar a substituição de importações e o papel do Estado na industrialização brasileira"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-8-industrializacao/03-concentracao-sudeste.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: industrializacao
+        difficulty: medium
+        tags: [enem, industrializacao]
+        skill: "explicar a concentração industrial no Sudeste a partir de capital, mercado, mão de obra, infraestrutura e economias de aglomeração"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-8-industrializacao/04-desconcentracao-industrial.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: industrializacao
+        difficulty: medium
+        tags: [enem, industrializacao]
+        skill: "relacionar a desconcentração industrial a deseconomias de aglomeração e à guerra fiscal entre estados"
+        suggestedSources: [FUVEST, ENEM]
+    - key: c5
+      type: content
+      markdownFile: geografia-brasil/aula-8-industrializacao/05-desindustrializacao.md
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: industrializacao
+        difficulty: hard
+        tags: [enem, industrializacao]
+        skill: "analisar o conceito de desindustrialização precoce e a dependência de commodities na pauta de exportação"
+        suggestedSources: [UNICAMP, FUVEST]
+
+  - slug: aula-9-demografia
+    title: Aula 9 — Demografia
+    description: Transição demográfica, pirâmides etárias, migrações internas e indicadores sociais.
+    tags: [geografia-brasil, demografia]
+    summary:
+    - "A transição demográfica levou o Brasil de alto crescimento ao envelhecimento, abrindo o bônus demográfico."
+    - "As pirâmides etárias mostram a forma da população: a base se estreita e o topo se alarga (envelhecimento)."
+    - "As migrações internas (êxodo rural, Nordeste→Sudeste, frentes pioneiras) respondem às desigualdades regionais."
+    - "O IDH mede desenvolvimento humano (renda, educação, saúde) e revela fortes desigualdades regionais."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-9-demografia/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-9-demografia/02-transicao-demografica.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: demografia
+        difficulty: easy
+        tags: [enem, demografia]
+        skill: "calcular ou interpretar o crescimento vegetativo a partir das taxas de natalidade e mortalidade"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-9-demografia/03-piramides-etarias.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: demografia
+        difficulty: medium
+        tags: [enem, demografia]
+        skill: "interpretar pirâmides etárias para inferir natalidade, envelhecimento e consequências sociais (previdência, saúde)"
+        suggestedSources: [FUVEST, ENEM]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-9-demografia/04-migracoes-internas.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: demografia
+        difficulty: medium
+        tags: [enem, demografia]
+        skill: "relacionar fluxos migratórios internos (Nordeste→Sudeste, frentes pioneiras, migração de retorno) às desigualdades regionais"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: geografia-brasil/aula-9-demografia/05-indicadores-idh.md
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: demografia
+        difficulty: medium
+        tags: [enem, demografia]
+        skill: "interpretar o IDH e suas três dimensões (renda, educação, saúde) e comparar regiões brasileiras"
+        suggestedSources: [ENEM, UNESP]
+
+  - slug: aula-10-energia
+    title: Aula 10 — Energia
+    description: Matriz energética e elétrica, hidrelétricas, Pré-Sal e fontes renováveis.
+    tags: [geografia-brasil, energia]
+    summary:
+    - "Matriz energética = todas as fontes para todos os fins; matriz elétrica = só geração de eletricidade."
+    - "A eletricidade brasileira depende fortemente das hidrelétricas (renováveis, mas dependentes de chuva e de alto impacto local)."
+    - "O Pré-Sal ampliou as reservas de petróleo, num cenário de tensão com a transição energética."
+    - "Eólica, solar e biomassa diversificam a matriz e se complementam às hidrelétricas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-10-energia/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-10-energia/02-matriz-energetica-eletrica.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: energia
+        difficulty: easy
+        tags: [enem, energia]
+        skill: "distinguir matriz energética de matriz elétrica e classificar fontes como renováveis ou não renováveis"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-10-energia/03-hidreletricas.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: energia
+        difficulty: medium
+        tags: [enem, energia]
+        skill: "avaliar vantagens e impactos das hidrelétricas, incluindo a dependência das chuvas e o acionamento de térmicas"
+        suggestedSources: [FUVEST, ENEM]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-10-energia/04-petroleo-pre-sal.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: energia
+        difficulty: medium
+        tags: [enem, energia]
+        skill: "explicar as características do Pré-Sal e a tensão entre exploração de petróleo e transição energética"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: geografia-brasil/aula-10-energia/05-renovaveis.md
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: energia
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          **Pesquisa pioneira no Brasil propõe o uso de energia do solo para climatizar edifícios**
+
+          Pela primeira vez na história, o Brasil terá um prédio que usa energia do solo para climatizar seus ambientes. Uma pesquisa inovadora avaliou o uso das fundações de edifícios como meio para a troca de energia térmica entre o prédio e o subsolo. A energia geotérmica é aquela encontrada dentro da crosta terrestre, seja no solo, nas rochas ou mesmo na água, sendo identificada pela temperatura. Essa energia pode ser transferida para a superfície por processos de troca térmica a partir das fundações da edificação.
+
+          Disponível em: https://jornal.usp.br. Acesso em: 7 nov. 2021 (adaptado).
+
+          Para o sistema elétrico brasileiro, a expansão de tecnologias como a descrita no texto representa uma tendência de
+        options:
+        - text: "homogeneização da oferta da matriz produtiva."
+          correct: false
+          feedback: "Acrescentar a geotérmica torna a matriz mais diversa, não mais homogênea."
+        - text: "ampliação do consumo em unidades residenciais."
+          correct: false
+          feedback: "A tecnologia substitui parte do consumo elétrico de climatização — tende a reduzi-lo, não ampliá-lo."
+        - text: "redução da pressão sobre as usinas hidrelétricas."
+          correct: true
+        - text: "estagnação do consumo em unidades industriais."
+          correct: false
+          feedback: "O texto trata da climatização de edifícios, não de estagnação industrial."
+        - text: "superação da necessidade de recursos renováveis."
+          correct: false
+          feedback: "A geotérmica é ela própria uma fonte renovável; não supera a necessidade de renováveis."
+        explanation: |
+          A matriz elétrica brasileira depende fortemente das hidrelétricas, vulneráveis à falta de chuvas. Usar energia geotérmica para climatizar edifícios reduz o consumo de eletricidade da rede e, com isso, alivia a **pressão sobre as usinas hidrelétricas**, diversificando a matriz. Resposta **(C)**.
+
+  - slug: aula-11-questoes-ambientais
+    title: Aula 11 — Questões ambientais brasileiras
+    description: Desmatamento, queimadas, degradação dos solos, poluição e gestão ambiental.
+    tags: [geografia-brasil, questoes-ambientais]
+    summary:
+    - "O desmatamento e as queimadas ligam-se à fronteira agrícola e emitem gases de efeito estufa."
+    - "Desertificação ocorre em terras secas degradadas; arenização é diferente (clima úmido do Sul)."
+    - "A poluição atinge água, ar e solo, incluindo desastres com barragens de rejeitos."
+    - "A gestão ambiental (Código Florestal, APPs, Unidades de Conservação, acordos) busca conciliar desenvolvimento e conservação."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-11-questoes-ambientais/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-11-questoes-ambientais/02-desmatamento-queimadas.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: questoes-ambientais
+        difficulty: medium
+        tags: [enem, questoes-ambientais]
+        skill: "relacionar o desmatamento e as queimadas à expansão da fronteira agrícola e às emissões de gases de efeito estufa"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-11-questoes-ambientais/03-solos-desertificacao-poluicao.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: questoes-ambientais
+        difficulty: medium
+        tags: [enem, questoes-ambientais]
+        skill: "distinguir desertificação (terras secas) de arenização (clima úmido do Sul) e identificar processos de degradação do solo"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-11-questoes-ambientais/04-gestao-ambiental.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: questoes-ambientais
+        difficulty: hard
+        tags: [enem, questoes-ambientais]
+        skill: "analisar instrumentos de gestão ambiental (APP, Reserva Legal, Unidades de Conservação) no conflito entre desenvolvimento e conservação"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-12-transportes
+    title: Aula 12 — Transportes
+    description: Modais, o rodoviarismo brasileiro e a integração desigual do território.
+    tags: [geografia-brasil, transportes]
+    summary:
+    - "Cada modal tem uso ideal: rodovia (flexibilidade), ferrovia/hidrovia (grandes volumes), avião (velocidade), dutos (líquidos/gases)."
+    - "O Brasil é dominado pelo rodoviarismo, fruto de escolhas históricas (Estado, indústria automobilística, abertura do interior)."
+    - "A dependência das rodovias encarece o frete e prejudica o escoamento de commodities pesadas."
+    - "A rede de transportes é desigual no território e condiciona a integração regional e a competitividade do país."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-brasil/aula-12-transportes/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-brasil/aula-12-transportes/02-modais.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: transportes
+        difficulty: easy
+        tags: [enem, transportes]
+        skill: "associar cada modal de transporte ao tipo de carga e à distância para os quais é mais adequado"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-brasil/aula-12-transportes/03-rodoviarismo.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: transportes
+        difficulty: medium
+        tags: [enem, transportes]
+        skill: "explicar a consolidação histórica do rodoviarismo e seus custos (frete elevado, emissões) para um país exportador de commodities"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: geografia-brasil/aula-12-transportes/04-transportes-e-integracao.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: transportes
+        difficulty: hard
+        tags: [enem, transportes]
+        skill: "relacionar a desigualdade da malha de transportes à integração do território e à competitividade da produção (corredores de exportação)"
+        suggestedSources: [ENEM, UNICAMP]

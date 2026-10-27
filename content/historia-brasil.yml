@@ -1,0 +1,721 @@
+subject:
+  slug: historia-brasil
+  name: História do Brasil
+  description: História do Brasil dos povos indígenas à Nova República, no nível do vestibular e do ENEM.
+
+topics:
+- slug: indigenas-e-conquista
+  name: Povos indígenas e chegada dos europeus
+- slug: brasil-colonia
+  name: Brasil Colônia
+- slug: escravidao
+  name: Escravidão e resistência
+- slug: independencia
+  name: Independência e Primeiro Reinado
+- slug: periodo-regencial
+  name: Período Regencial
+- slug: segundo-reinado
+  name: Segundo Reinado
+- slug: abolicao
+  name: Abolição da escravidão
+- slug: proclamacao-republica
+  name: Proclamação da República
+- slug: primeira-republica
+  name: Primeira República
+- slug: era-vargas
+  name: Era Vargas e Estado Novo
+- slug: republica-democratica
+  name: República democrática (1946–1964)
+- slug: ditadura-militar
+  name: Ditadura Militar
+- slug: redemocratizacao
+  name: Redemocratização e Nova República
+- slug: desigualdades
+  name: História e desigualdades sociais
+
+tracks:
+- slug: historia-brasil-base
+  title: História do Brasil — base
+  description: A trilha completa de História do Brasil, dos povos indígenas à Nova República.
+  lessons:
+  - slug: aula-1-povos-indigenas-e-chegada-dos-europeus
+    title: Aula 1 — Povos indígenas e a chegada dos europeus
+    description: O território antes de 1500, a expansão marítima e o período pré-colonial.
+    tags: [historia-brasil, indigenas-e-conquista]
+    summary:
+    - "O território já era habitado por milhões de indígenas de centenas de povos distintos."
+    - "A expansão marítima nasceu do mercantilismo, da busca de especiarias e da centralização política."
+    - "Tordesilhas (1494) dividiu o mundo entre Portugal e Espanha antes de Cabral."
+    - "No período pré-colonial predominou o escambo do pau-brasil."
+    - "O encontro foi violento: doenças, escravização e catequese dizimaram os povos originários."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-1-povos-indigenas-e-chegada-dos-europeus/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-1-povos-indigenas-e-chegada-dos-europeus/02-povos-indigenas.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: indigenas-e-conquista
+        difficulty: medium
+        tags: [enem, indigenas-e-conquista]
+        skill: "criticar a ideia homogênea de 'índio' reconhecendo a diversidade de povos, línguas e organizações sociais anteriores a 1500"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-1-povos-indigenas-e-chegada-dos-europeus/03-expansao-europeia.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: indigenas-e-conquista
+        difficulty: medium
+        tags: [enem, indigenas-e-conquista]
+        skill: "relacionar a expansão marítima portuguesa ao mercantilismo, à centralização do Estado e às inovações técnicas"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-1-povos-indigenas-e-chegada-dos-europeus/04-encontro-e-pre-colonizacao.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: indigenas-e-conquista
+        difficulty: medium
+        tags: [enem, indigenas-e-conquista]
+        skill: "analisar o impacto do contato (doenças, escambo do pau-brasil, escravização e catequese) sobre os povos indígenas e ligá-lo às lutas indígenas atuais"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-brasil/aula-1-povos-indigenas-e-chegada-dos-europeus/05-o-que-vimos.md
+
+  - slug: aula-2-brasil-colonia
+    title: Aula 2 — Brasil Colônia
+    description: Açúcar, mineração, escravidão, jesuítas e bandeiras no sistema colonial.
+    tags: [historia-brasil, brasil-colonia]
+    summary:
+    - "A colônia existia para enriquecer Portugal: monocultura, latifúndio e escravidão."
+    - "O açúcar organizou o Nordeste em torno do engenho e da sociedade patriarcal."
+    - "A escravidão africana foi o eixo do sistema; Palmares marcou a resistência."
+    - "O ouro deslocou o eixo para o Centro-Sul, e as bandeiras ampliaram o território."
+    - "Os jesuítas catequizaram e disputaram a mão de obra indígena até a expulsão por Pombal (1759)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-2-brasil-colonia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-2-brasil-colonia/02-administracao-e-acucar.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: brasil-colonia
+        difficulty: medium
+        tags: [enem, brasil-colonia]
+        skill: "explicar o sistema colonial (pacto colonial, mercantilismo) e o papel do engenho de açúcar na sociedade colonial"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-2-brasil-colonia/03-escravidao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: escravidao
+        difficulty: medium
+        tags: [enem, escravidao]
+        skill: "analisar o tráfico transatlântico e as formas de resistência (quilombos como Palmares) e relacioná-los ao racismo estrutural atual"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-2-brasil-colonia/04-mineracao-bandeiras.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: brasil-colonia
+        difficulty: hard
+        tags: [enem, brasil-colonia]
+        skill: "relacionar a mineração e as bandeiras à interiorização, à expansão territorial além de Tordesilhas e ao aperto fiscal (quinto, derrama)"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-brasil/aula-2-brasil-colonia/05-jesuitas-e-sociedade.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: brasil-colonia
+        difficulty: medium
+        tags: [enem, brasil-colonia]
+        skill: "avaliar o papel dos jesuítas (catequese × disputa pela mão de obra indígena) e a relação Igreja–Estado (padroado) na colônia"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: historia-brasil/aula-2-brasil-colonia/06-o-que-vimos.md
+
+  - slug: aula-3-independencia-e-primeiro-reinado
+    title: Aula 3 — Independência e Primeiro Reinado
+    description: Vinda da corte, independência conservadora, Constituição de 1824 e crises do Primeiro Reinado.
+    tags: [historia-brasil, independencia]
+    summary:
+    - "A vinda da corte (1808) abriu os portos e quebrou o pacto colonial."
+    - "A independência (1822) foi conservadora: feita pela elite e mantendo escravidão e monarquia."
+    - "O reconhecimento custou indenização a Portugal e pressão inglesa."
+    - "A Constituição de 1824, outorgada, criou o Poder Moderador e o voto censitário."
+    - "Crises levaram à abdicação de Dom Pedro I em 1831."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-3-independencia-e-primeiro-reinado/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-3-independencia-e-primeiro-reinado/02-corte-no-brasil.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: independencia
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          A Impressão Régia do Rio de Janeiro foi criada pelo decreto de 13 de maio de 1808 para dar continuidade à nova sede do império português. A nova tipografia é criada em um momento no qual o projeto de reforma do império se transforma em um projeto de construção de um novo império português na América. Frente às tensões políticas que essa nova situação criava, a tipografia atuou na legitimação e sustentação daquele projeto político.
+
+          BARRA, S. H. S. *A Impressão Régia do Rio de Janeiro e a colonização dos sertões na construção do novo império português na América (1808-1822)*. Topoi, n. 31, jul.-dez. 2015 (adaptado).
+
+          A função política da tecnologia mencionada no texto favoreceu a nova sede do Império português por
+        options:
+        - text: "estabelecer as normativas ideológicas aos periódicos."
+          correct: false
+          feedback: "O foco é a sustentação do projeto imperial, não a censura aos jornais."
+        - text: "propagar as diretrizes administrativas às capitanias."
+          correct: false
+          feedback: "A ênfase é a legitimação política do novo centro, não a mera comunicação administrativa."
+        - text: "divulgar as conquistas às metrópoles europeias."
+          correct: false
+          feedback: "A corte estava no Brasil; a tipografia servia ao novo centro, não à Europa."
+        - text: "integrar as regiões territoriais ao poder central."
+          correct: true
+        - text: "difundir as publicações às elites lusitanas."
+          correct: false
+          feedback: "O projeto voltava-se à construção do império na América, não às elites de Portugal."
+        explanation: |
+          Com a corte instalada no Rio, a Impressão Régia permitiu produzir e difundir leis, documentos e impressos que sustentavam o novo centro de poder na América. Ao alcançar o território, a tipografia ajudou a **integrar as regiões ao poder central**, legitimando o projeto imperial joanino. Resposta **(D)**.
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-3-independencia-e-primeiro-reinado/03-processo-de-independencia.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: independencia
+        difficulty: medium
+        tags: [enem, independencia]
+        skill: "caracterizar a independência de 1822 como processo conservador, conduzido pela elite, e compará-la às independências da América espanhola"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-3-independencia-e-primeiro-reinado/04-primeiro-reinado.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: independencia
+        difficulty: hard
+        tags: [enem, independencia]
+        skill: "interpretar a Constituição de 1824 (Poder Moderador, voto censitário, outorga) e as crises que levaram à abdicação de 1831"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-brasil/aula-3-independencia-e-primeiro-reinado/05-o-que-vimos.md
+
+  - slug: aula-4-periodo-regencial
+    title: Aula 4 — Período Regencial
+    description: As regências, a disputa centralização × descentralização, as revoltas e o Golpe da Maioridade.
+    tags: [historia-brasil, periodo-regencial]
+    summary:
+    - "O Período Regencial (1831–1840) foi o mais instável do Império."
+    - "A disputa central foi entre descentralização (Ato Adicional de 1834) e centralização (Regresso de 1840)."
+    - "Estouraram revoltas: Cabanagem, Balaiada, Sabinada, Farroupilha e a Revolta dos Malês."
+    - "As revoltas revelaram a desigualdade e a exclusão profundas da sociedade imperial."
+    - "O Golpe da Maioridade (1840) antecipou a coroação de Dom Pedro II."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-4-periodo-regencial/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-4-periodo-regencial/02-as-regencias.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: periodo-regencial
+        difficulty: medium
+        tags: [enem, periodo-regencial]
+        skill: "relacionar a disputa entre liberais e conservadores ao Ato Adicional de 1834 e ao Regresso de 1840 (descentralização × centralização)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-4-periodo-regencial/03-revoltas-regenciais.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: periodo-regencial
+        difficulty: medium
+        tags: [enem, periodo-regencial]
+        skill: "identificar o caráter social das revoltas regenciais (Cabanagem, Balaiada, Malês) como expressão das desigualdades e da escravidão"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-4-periodo-regencial/04-golpe-da-maioridade.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: periodo-regencial
+        difficulty: medium
+        tags: [enem, periodo-regencial]
+        skill: "explicar o Golpe da Maioridade (1840) como solução das elites para a instabilidade e a unidade territorial"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-brasil/aula-4-periodo-regencial/05-o-que-vimos.md
+
+  - slug: aula-5-segundo-reinado
+    title: Aula 5 — Segundo Reinado
+    description: Café, trabalho imigrante, leis abolicionistas, Lei Áurea e a crise final do Império.
+    tags: [historia-brasil, segundo-reinado]
+    summary:
+    - "O café foi o motor do Segundo Reinado e deslocou o eixo para o Sudeste."
+    - "A mão de obra passou do escravizado ao imigrante europeu, embutindo o branqueamento."
+    - "A escravidão foi abolida por etapas, até a Lei Áurea (1888)."
+    - "A Lei Áurea não ofereceu reparação — raiz da desigualdade racial atual."
+    - "A monarquia caiu por perder o apoio de proprietários, Exército e Igreja."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-5-segundo-reinado/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-5-segundo-reinado/02-cafe-e-economia.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: segundo-reinado
+        difficulty: medium
+        tags: [enem, segundo-reinado]
+        skill: "relacionar a economia cafeeira à modernização (ferrovias) e à transição do trabalho escravizado para o imigrante europeu"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-5-segundo-reinado/03-caminho-da-abolicao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: abolicao
+        difficulty: medium
+        tags: [enem, abolicao]
+        skill: "ordenar e interpretar as leis abolicionistas (1850, 1871, 1885, 1888) e o papel da pressão inglesa e do movimento abolicionista"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-5-segundo-reinado/04-abolicao-e-crise-do-imperio.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: abolicao
+        difficulty: hard
+        tags: [enem, abolicao]
+        skill: "analisar a abolição sem reparação (Lei Áurea) como origem da desigualdade racial e relacioná-la às crises que derrubaram a monarquia"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-brasil/aula-5-segundo-reinado/05-o-que-vimos.md
+
+  - slug: aula-6-abolicao-e-proclamacao-da-republica
+    title: Aula 6 — Proclamação da República
+    description: O golpe de 1889, a República da Espada, a Constituição de 1891 e as continuidades do novo regime.
+    tags: [historia-brasil, proclamacao-republica]
+    summary:
+    - "A Proclamação da República (1889) foi um golpe militar sem participação popular."
+    - "Foi conduzida por militares positivistas e cafeicultores paulistas."
+    - "A Constituição de 1891 trouxe presidencialismo, federalismo, Estado laico e voto excludente."
+    - "A República foi mais continuidade que ruptura: manteve o latifúndio e a exclusão social."
+    - "A população negra recém-liberta continuou à margem, aprofundando a desigualdade."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-6-abolicao-e-proclamacao-da-republica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-6-abolicao-e-proclamacao-da-republica/02-proclamacao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: proclamacao-republica
+        difficulty: medium
+        tags: [enem, proclamacao-republica]
+        skill: "identificar os grupos que articularam a Proclamação (militares positivistas, cafeicultores) e o caráter não popular do golpe de 1889"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-6-abolicao-e-proclamacao-da-republica/03-continuidades-e-rupturas.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: proclamacao-republica
+        difficulty: hard
+        tags: [enem, proclamacao-republica]
+        skill: "avaliar a Proclamação como continuidade × ruptura, destacando a permanência do latifúndio e a exclusão da população negra recém-liberta"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-6-abolicao-e-proclamacao-da-republica/04-o-que-vimos.md
+
+  - slug: aula-7-primeira-republica
+    title: Aula 7 — Primeira República (1889–1930)
+    description: Coronelismo, café com leite, economia agroexportadora, movimento operário e as revoltas.
+    tags: [historia-brasil, primeira-republica]
+    summary:
+    - "A Primeira República foi o governo das oligarquias agrárias (República Velha)."
+    - "O poder se sustentava em coronelismo, política dos governadores e café com leite (SP–MG)."
+    - "A economia seguiu agroexportadora, dependente do café, protegido pela valorização (Taubaté, 1906)."
+    - "Operários e imigrantes organizaram greves; o Estado respondeu com repressão."
+    - "Revoltas (Canudos, Contestado, Vacina, Chibata) e o tenentismo abalaram o regime."
+    - "A Crise de 1929 e a quebra do pacto levaram à Revolução de 1930."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-7-primeira-republica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-7-primeira-republica/02-coronelismo-e-oligarquias.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: primeira-republica
+        difficulty: medium
+        tags: [enem, primeira-republica]
+        skill: "explicar o funcionamento do coronelismo (voto de cabresto), da política dos governadores e do café com leite no sistema oligárquico"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-7-primeira-republica/03-economia-e-sociedade.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: primeira-republica
+        difficulty: medium
+        tags: [enem, primeira-republica]
+        skill: "relacionar a economia cafeeira, a imigração e o surgimento do movimento operário às tensões sociais e à repressão estatal"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-7-primeira-republica/04-revoltas-e-crise.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: primeira-republica
+        difficulty: hard
+        tags: [enem, primeira-republica]
+        skill: "interpretar as revoltas (Canudos, Contestado, Vacina, Chibata) e o tenentismo como contestação à ordem oligárquica e à exclusão social"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-brasil/aula-7-primeira-republica/05-o-que-vimos.md
+
+  - slug: aula-8-era-vargas
+    title: Aula 8 — Era Vargas e Estado Novo
+    description: Revolução de 1930, Estado Novo, trabalhismo, CLT e industrialização de base.
+    tags: [historia-brasil, era-vargas]
+    summary:
+    - "A Revolução de 1930 levou Vargas ao poder e encerrou a República Velha."
+    - "A Era Vargas teve três fases: Provisório, Constitucional e Estado Novo."
+    - "O Estado Novo (1937–1945) foi uma ditadura com censura, repressão e culto ao líder."
+    - "Vargas consolidou o trabalhismo (CLT, 1943) com sindicatos atrelados ao Estado."
+    - "Promoveu a industrialização de base (CSN, Vale) com forte papel do Estado."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-8-era-vargas/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-8-era-vargas/02-governo-provisorio-e-constitucional.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: era-vargas
+        difficulty: medium
+        tags: [enem, era-vargas]
+        skill: "caracterizar a Revolução de 1930 e as fases do governo Vargas, incluindo os avanços da Constituição de 1934 (voto secreto e feminino)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-8-era-vargas/03-estado-novo.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: era-vargas
+        difficulty: hard
+        tags: [enem, era-vargas]
+        skill: "analisar o trabalhismo/populismo varguista: a CLT e os direitos trabalhistas em troca de sindicatos atrelados ao Estado e da censura do Estado Novo"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-8-era-vargas/04-industrializacao-e-fim.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: era-vargas
+        difficulty: medium
+        tags: [enem, era-vargas]
+        skill: "relacionar a industrialização de base (CSN, Vale) e o nacional-desenvolvimentismo ao papel do Estado e ao contexto da Segunda Guerra"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-brasil/aula-8-era-vargas/05-o-que-vimos.md
+
+  - slug: aula-9-republica-democratica-1946-1964
+    title: Aula 9 — República democrática (1946–1964)
+    description: Redemocratização, desenvolvimentismo de JK, crise política e o governo Jango.
+    tags: [historia-brasil, republica-democratica]
+    summary:
+    - "A Constituição de 1946 restaurou a democracia; surgiram PSD, UDN e PTB."
+    - "JK promoveu o desenvolvimentismo, o Plano de Metas e a construção de Brasília."
+    - "O desenvolvimento gerou inflação, dívida e mais desigualdade regional."
+    - "Jânio renunciou em 1961; Jango assumiu sob forte resistência."
+    - "As Reformas de Base e a Guerra Fria polarizaram o país e prepararam o golpe."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-9-republica-democratica-1946-1964/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-9-republica-democratica-1946-1964/02-redemocratizacao-e-jk.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: republica-democratica
+        difficulty: medium
+        tags: [enem, republica-democratica]
+        skill: "analisar o desenvolvimentismo de JK (Plano de Metas, Brasília, capital estrangeiro) e seus efeitos sobre inflação e desigualdade regional"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-9-republica-democratica-1946-1964/03-crise-e-jango.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: republica-democratica
+        difficulty: hard
+        tags: [enem, republica-democratica]
+        skill: "explicar a crise política de 1961–1964 (renúncia de Jânio, Reformas de Base, Guerra Fria) como antecedente do golpe militar"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-9-republica-democratica-1946-1964/04-o-que-vimos.md
+
+  - slug: aula-10-ditadura-militar
+    title: Aula 10 — Ditadura Militar (1964–1985)
+    description: Golpe, Atos Institucionais e AI-5, milagre econômico, repressão, resistência e anistia.
+    tags: [historia-brasil, ditadura-militar]
+    summary:
+    - "O golpe de 1964 instaurou uma ditadura militar de 21 anos."
+    - "Os Atos Institucionais ampliaram o poder do regime; o AI-5 (1968) marcou os 'anos de chumbo'."
+    - "O 'milagre econômico' cresceu o PIB mas concentrou renda."
+    - "O regime praticou censura, tortura e desaparecimentos; houve ampla resistência."
+    - "A abertura foi controlada; a Anistia (1979) foi recíproca e controversa, e as Diretas Já (1984) falharam."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-10-ditadura-militar/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-10-ditadura-militar/02-golpe-e-ai-5.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: ditadura-militar
+        difficulty: medium
+        tags: [enem, ditadura-militar]
+        skill: "explicar o golpe de 1964 e a escalada dos Atos Institucionais, com destaque para o conteúdo e o significado do AI-5 (1968)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-10-ditadura-militar/03-milagre-e-repressao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: ditadura-militar
+        difficulty: hard
+        tags: [enem, ditadura-militar]
+        skill: "analisar o 'milagre econômico' como crescimento com concentração de renda e relacioná-lo à repressão e às formas de resistência"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-10-ditadura-militar/04-abertura-e-anistia.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: ditadura-militar
+        difficulty: medium
+        tags: [enem, ditadura-militar]
+        skill: "interpretar a abertura política, a Lei da Anistia (1979) e a campanha Diretas Já no processo de fim da ditadura"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-brasil/aula-10-ditadura-militar/05-o-que-vimos.md
+
+  - slug: aula-11-redemocratizacao-e-nova-republica
+    title: Aula 11 — Redemocratização e Nova República
+    description: Constituição de 1988, combate à hiperinflação, alternância democrática e políticas sociais.
+    tags: [historia-brasil, redemocratizacao]
+    summary:
+    - "O governo Sarney comandou a transição e convocou a Constituinte."
+    - "A Constituição de 1988 ('Cidadã') ampliou direitos: voto universal, SUS e direitos de minorias."
+    - "O Plano Real (1994) venceu a hiperinflação após o fracasso do Plano Collor e o impeachment (1992)."
+    - "A Nova República consolidou a alternância democrática pelo voto."
+    - "A agenda passou a ser reduzir a desigualdade: transferência de renda, educação e cotas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-11-redemocratizacao-e-nova-republica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-11-redemocratizacao-e-nova-republica/02-constituicao-1988.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: redemocratizacao
+        difficulty: medium
+        tags: [enem, redemocratizacao]
+        skill: "identificar os avanços da Constituição de 1988 (direitos sociais, SUS, liberdades, direitos de indígenas e quilombolas) como resposta à ditadura"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-11-redemocratizacao-e-nova-republica/03-nova-republica.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: redemocratizacao
+        difficulty: hard
+        tags: [enem, redemocratizacao]
+        skill: "relacionar o combate à hiperinflação (Plano Real), a consolidação democrática (impeachment de 1992) e as políticas de combate à desigualdade"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-11-redemocratizacao-e-nova-republica/04-o-que-vimos.md
+
+  - slug: aula-12-brasil-e-as-desigualdades
+    title: Aula 12 — História do Brasil e as desigualdades
+    description: Síntese das raízes históricas da desigualdade e a ponte argumentativa passado–presente do ENEM.
+    tags: [historia-brasil, desigualdades]
+    summary:
+    - "A desigualdade brasileira foi construída historicamente, não é um acidente recente."
+    - "Seus pilares: latifúndio, escravidão e abolição sem reparação, modernização excludente e exclusão política."
+    - "A Lei de Terras (1850) fechou o acesso à terra justamente quando os escravizados se aproximavam da liberdade."
+    - "O ENEM cobra a ponte entre causa histórica e consequência atual."
+    - "A boa resposta contextualiza, conecta e não naturaliza a desigualdade."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-brasil/aula-12-brasil-e-as-desigualdades/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-brasil/aula-12-brasil-e-as-desigualdades/02-raizes-da-desigualdade.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: desigualdades
+        difficulty: medium
+        tags: [enem, desigualdades]
+        skill: "relacionar a Lei de Terras (1850), o latifúndio e a abolição sem reparação à concentração fundiária e à desigualdade racial atuais"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-brasil/aula-12-brasil-e-as-desigualdades/03-passado-presente-enem.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: desigualdades
+        difficulty: hard
+        tags: [enem, desigualdades]
+        skill: "construir um argumento que conecte um processo histórico a uma desigualdade social atual, sem naturalizá-la (perspectiva interdisciplinar do ENEM)"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-brasil/aula-12-brasil-e-as-desigualdades/04-o-que-vimos.md

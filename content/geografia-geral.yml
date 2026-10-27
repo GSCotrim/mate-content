@@ -1,0 +1,632 @@
+subject:
+  slug: geografia-geral
+  name: Geografia Geral
+  description: Geografia física, humana e geopolítica do mundo para o vestibular e o ENEM.
+
+topics:
+- slug: cartografia
+  name: Cartografia
+- slug: estrutura-relevo
+  name: Estrutura da Terra e relevo
+- slug: climatologia
+  name: Climatologia
+- slug: biomas
+  name: Biomas e domínios naturais
+- slug: hidrografia
+  name: Hidrografia e recursos hídricos
+- slug: questoes-ambientais
+  name: Questões ambientais e acordos
+- slug: globalizacao
+  name: Globalização
+- slug: blocos-economicos
+  name: Blocos econômicos
+- slug: geopolitica
+  name: Geopolítica e ordem mundial
+- slug: populacao
+  name: População e migrações
+- slug: urbanizacao
+  name: Urbanização
+- slug: energia-recursos
+  name: Fontes de energia e recursos
+
+tracks:
+- slug: geografia-geral-base
+  title: Geografia Geral — base
+  description: Trilha de Geografia Geral, da cartografia à energia e aos recursos.
+  lessons:
+  - slug: aula-1-cartografia
+    title: Aula 1 — Cartografia
+    description: Projeções, escalas, coordenadas, GPS e fusos horários.
+    tags: [geografia-geral, cartografia]
+    summary:
+    - "Toda projeção distorce algo; a escolha depende do objetivo do mapa."
+    - "A escala relaciona o mapa ao terreno: denominador maior significa menor escala e menos detalhe."
+    - "Latitude e longitude localizam qualquer ponto; o GPS faz isso por satélites."
+    - "Os fusos seguem a regra de 15° por hora a partir de Greenwich (UTC)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-1-cartografia/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-1-cartografia/02-projecoes.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: cartografia
+        difficulty: medium
+        tags: [enem, cartografia]
+        skill: "identificar a propriedade preservada por uma projeção (conforme, equivalente, equidistante) e interpretar a distorção de áreas em Mercator vs. Peters"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-1-cartografia/03-escalas.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: cartografia
+        difficulty: medium
+        tags: [enem, cartografia]
+        skill: "calcular distância real ou distância no mapa a partir da escala numérica e comparar grande vs. pequena escala"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-1-cartografia/04-coordenadas-gps.md
+    - key: c5
+      type: content
+      markdownFile: geografia-geral/aula-1-cartografia/05-fusos-horarios.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: cartografia
+        difficulty: hard
+        tags: [enem, cartografia]
+        skill: "calcular a hora local em outra cidade a partir da diferença de longitude/fusos, aplicando a regra de 15° por hora e o sentido leste/oeste"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-2-estrutura-relevo
+    title: Aula 2 — Estrutura da Terra e relevo
+    description: Camadas internas, tectônica de placas, agentes e formas de relevo.
+    tags: [geografia-geral, estrutura-relevo]
+    summary:
+    - "A Terra tem crosta, manto e núcleo; a litosfera rígida se fragmenta em placas."
+    - "A tectônica de placas explica montanhas, vulcões e terremotos nas bordas das placas."
+    - "Agentes internos constroem o relevo; agentes externos o desgastam e depositam."
+    - "As formas básicas são montanhas, planaltos, planícies e depressões."
+    - "O relevo do Brasil é antigo, estável e de altitudes modestas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-2-estrutura-relevo/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-2-estrutura-relevo/02-estrutura-interna.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: estrutura-relevo
+        difficulty: easy
+        tags: [enem, estrutura-relevo]
+        skill: "associar as camadas internas da Terra (crosta, manto, núcleo) e os tipos de rocha (ígnea, sedimentar, metamórfica) às suas características"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-2-estrutura-relevo/03-tectonica.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: estrutura-relevo
+        difficulty: medium
+        tags: [enem, estrutura-relevo]
+        skill: "relacionar tipos de limites de placas (convergente, divergente, transformante) à formação de cordilheiras, vulcões e terremotos e à estabilidade do Brasil"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-2-estrutura-relevo/04-agentes-relevo.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: estrutura-relevo
+        difficulty: medium
+        tags: [enem, estrutura-relevo]
+        skill: "distinguir agentes internos e externos do relevo e identificar processos de intemperismo e erosão, inclusive os acelerados pela ação humana"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: geografia-geral/aula-2-estrutura-relevo/05-formas-relevo.md
+
+  - slug: aula-3-climatologia
+    title: Aula 3 — Climatologia
+    description: Tempo e clima, fatores e elementos, tipos climáticos e El Niño.
+    tags: [geografia-geral, climatologia]
+    summary:
+    - "Tempo é o estado momentâneo da atmosfera; clima é o padrão médio de longo prazo."
+    - "Elementos do clima são medidos; fatores como latitude, altitude e maritimidade os influenciam."
+    - "Os grandes tipos climáticos se distribuem por faixas de latitude, com exceções pela altitude e correntes."
+    - "El Niño aquece o Pacífico e altera as chuvas no Brasil; La Niña é a fase oposta."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-3-climatologia/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-3-climatologia/02-tempo-clima.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: climatologia
+        difficulty: medium
+        tags: [enem, climatologia]
+        skill: "diferenciar tempo de clima e identificar como cada fator climático (latitude, altitude, maritimidade, correntes) altera os elementos do clima"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-3-climatologia/03-tipos-climaticos.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: climatologia
+        difficulty: medium
+        tags: [enem, climatologia]
+        skill: "interpretar climogramas e associar tipos climáticos a regiões, distinguindo influência da latitude e da altitude"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-3-climatologia/04-el-nino.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: climatologia
+        difficulty: hard
+        tags: [enem, climatologia]
+        skill: "explicar o mecanismo do El Niño/La Niña e prever seus efeitos sobre chuvas no Sul e secas no Nordeste, sem confundir com aquecimento global"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-4-biomas
+    title: Aula 4 — Biomas e domínios naturais
+    description: Grandes biomas mundiais e os domínios morfoclimáticos do Brasil.
+    tags: [geografia-geral, biomas]
+    summary:
+    - "Bioma é um grande conjunto de ecossistemas definido sobretudo pelo clima."
+    - "Florestas úmidas surgem no calor e na umidade; desertos e tundra, na aridez e no frio."
+    - "O Brasil tem seis grandes domínios: Amazônia, Cerrado, Caatinga, Mata Atlântica, Pampa e Pantanal."
+    - "A Caatinga é exclusivamente brasileira; a Mata Atlântica é a mais devastada."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-4-biomas/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-4-biomas/02-biomas-mundiais.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: biomas
+        difficulty: medium
+        tags: [enem, biomas]
+        skill: "associar biomas mundiais (floresta tropical, savana, deserto, taiga, tundra) às condições climáticas e à distribuição latitudinal"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-4-biomas/03-dominios-brasil.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: biomas
+        difficulty: medium
+        tags: [enem, biomas]
+        skill: "identificar os domínios brasileiros por suas características de vegetação e clima e relacioná-los às pressões ambientais (desmatamento, desertificação)"
+        suggestedSources: [ENEM, UNESP]
+
+  - slug: aula-5-hidrografia
+    title: Aula 5 — Hidrografia e recursos hídricos
+    description: Ciclo da água, bacias hidrográficas, aquíferos e desafios da água.
+    tags: [geografia-geral, hidrografia]
+    summary:
+    - "A maior parte da água do planeta é salgada; a doce acessível é escassa e mal distribuída."
+    - "O ciclo hidrológico repõe a água; a bacia hidrográfica é a unidade de gestão."
+    - "Aquíferos, como o Guarani, são reservas estratégicas de água subterrânea."
+    - "A irrigação é o maior consumo global; poluição e desperdício agravam a escassez."
+    - "O Brasil tem muita água, mas mal distribuída e ameaçada pela falta de saneamento."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-5-hidrografia/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-5-hidrografia/02-ciclo-bacias.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: hidrografia
+        difficulty: medium
+        tags: [enem, hidrografia]
+        skill: "interpretar as etapas do ciclo hidrológico e os conceitos de bacia hidrográfica, regime fluvial, montante e jusante"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-5-hidrografia/03-aguas-subterraneas.md
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-5-hidrografia/04-desafios.md
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: hidrografia
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          Por séculos, o Rio Reno tem sido uma rota de navegação confiável, ajudando a criar gigantes fabris ao longo de suas margens. No entanto, esses dias parecem estar no fim, pois o nível da água tem diminuído regularmente, o que impede a navegação fluvial do final do verão até o outono. Isso mostra como a crise climática atinge as economias dos países ricos.
+
+          Disponível em: www.estadao.com.br. Acesso em: 10 ago. 2023 (adaptado).
+
+          Qual é o efeito econômico do problema ambiental apresentado no texto?
+        options:
+        - text: "Supressão da extração de minério."
+          correct: false
+          feedback: "O texto trata de navegação fluvial, não de mineração."
+        - text: "Intensificação da atividade de pesca."
+          correct: false
+          feedback: "A queda do nível da água prejudica os usos do rio; não há ganho para a pesca no texto."
+        - text: "Encarecimento da logística de transporte."
+          correct: true
+        - text: "Inviabilização da agricultura de subsistência."
+          correct: false
+          feedback: "O Reno é via de transporte industrial; o texto não fala de agricultura de subsistência."
+        - text: "Sucateamento da indústria de transformação."
+          correct: false
+          feedback: "As fábricas não são sucateadas; o problema é o escoamento da produção encarecer."
+        explanation: |
+          O Reno é uma hidrovia que abastece a indústria europeia. Com o nível da água baixo, a navegação fica impedida e as cargas precisam migrar para modais mais caros (rodoviário e ferroviário), elevando o custo do frete. O efeito econômico é o **encarecimento da logística de transporte**. Resposta **(C)**.
+
+  - slug: aula-6-questoes-ambientais
+    title: Aula 6 — Questões ambientais e acordos
+    description: Aquecimento global, problemas ambientais e tratados de Kyoto a Paris.
+    tags: [geografia-geral, questoes-ambientais]
+    summary:
+    - "O efeito estufa é natural e vital; seu reforço pelo homem causa o aquecimento global."
+    - "Os gases de efeito estufa vêm sobretudo de combustíveis fósseis, desmatamento e agropecuária."
+    - "Camada de ozônio, chuva ácida, desertificação e poluição são problemas distintos do clima."
+    - "Kyoto trouxe metas obrigatórias para países ricos; Paris, metas voluntárias para quase todos."
+    - "O impasse entre responsabilidade histórica e direito ao desenvolvimento marca as negociações."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-6-questoes-ambientais/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-6-questoes-ambientais/02-aquecimento-global.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: questoes-ambientais
+        difficulty: medium
+        tags: [enem, questoes-ambientais]
+        skill: "distinguir efeito estufa natural do intensificado, identificar fontes de gases de efeito estufa e não confundir aquecimento global com destruição da camada de ozônio"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-6-questoes-ambientais/03-outras-questoes.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: questoes-ambientais
+        difficulty: medium
+        tags: [enem, questoes-ambientais]
+        skill: "associar problemas ambientais (chuva ácida, ozônio, desertificação, ilhas de calor, inversão térmica) às suas causas específicas"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-6-questoes-ambientais/04-tratados.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: questoes-ambientais
+        difficulty: hard
+        tags: [enem, questoes-ambientais]
+        skill: "comparar Protocolo de Kyoto e Acordo de Paris (metas obrigatórias vs. voluntárias) e discutir o impasse entre países ricos e em desenvolvimento"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-7-globalizacao
+    title: Aula 7 — Globalização
+    description: Conceito, bases técnicas, divisão internacional do trabalho e contradições.
+    tags: [geografia-geral, globalizacao]
+    summary:
+    - "Globalização é a integração mundial de economias, culturas e informações."
+    - "Suas bases são o meio técnico-científico-informacional e a abertura comercial."
+    - "A nova divisão internacional do trabalho fragmenta a produção em cadeias globais."
+    - "O processo amplia o acesso a bens e tecnologias, mas aprofunda desigualdades e tensões culturais."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-7-globalizacao/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-7-globalizacao/02-conceito-bases.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: globalizacao
+        difficulty: medium
+        tags: [enem, globalizacao]
+        skill: "identificar as bases técnicas da globalização (meio técnico-científico-informacional) e o papel das transnacionais e instituições (FMI, OMC)"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-7-globalizacao/03-dit.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: globalizacao
+        difficulty: medium
+        tags: [enem, globalizacao]
+        skill: "comparar a divisão internacional do trabalho clássica e a nova, e classificar países como centrais, periféricos e emergentes"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-7-globalizacao/04-efeitos.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: globalizacao
+        difficulty: hard
+        tags: [enem, globalizacao]
+        skill: "analisar criticamente as contradições da globalização (desigualdade, exclusão digital, homogeneização cultural) à luz da crítica de Milton Santos"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-8-blocos-economicos
+    title: Aula 8 — Blocos econômicos
+    description: Níveis de integração e os principais blocos, incluindo o Mercosul.
+    tags: [geografia-geral, blocos-economicos]
+    summary:
+    - "Blocos econômicos reduzem barreiras entre países para facilitar comércio e circulação."
+    - "Os níveis crescem de livre comércio a união aduaneira, mercado comum e união monetária."
+    - "A União Europeia é o bloco mais integrado, com moeda única (euro) e Schengen."
+    - "O Mercosul é uma união aduaneira sul-americana liderada por Brasil e Argentina."
+    - "OPEP e BRICS não são blocos de integração comercial."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-8-blocos-economicos/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-8-blocos-economicos/02-niveis-integracao.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: blocos-economicos
+        difficulty: medium
+        tags: [enem, blocos-economicos]
+        skill: "ordenar os níveis de integração econômica (livre comércio, união aduaneira, mercado comum, união monetária) e identificar suas características"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-8-blocos-economicos/03-principais-blocos.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: blocos-economicos
+        difficulty: medium
+        tags: [enem, blocos-economicos]
+        skill: "classificar União Europeia, Mercosul e USMCA pelo seu nível de integração e distinguir blocos comerciais de OPEP e BRICS"
+        suggestedSources: [ENEM, UNESP]
+
+  - slug: aula-9-geopolitica
+    title: Aula 9 — Geopolítica e ordem mundial
+    description: Guerra Fria, nova ordem mundial e conflitos contemporâneos.
+    tags: [geografia-geral, geopolitica]
+    summary:
+    - "A Guerra Fria foi uma ordem bipolar (EUA × URSS) sem confronto direto, encerrada em 1989–1991."
+    - "A ordem atual combina unipolaridade militar dos EUA com multipolaridade econômica."
+    - "A ascensão da China redesenha o equilíbrio de poder mundial."
+    - "Os conflitos atuais combinam território, etnia, religião e disputa por recursos."
+    - "Fronteiras coloniais e o Oriente Médio são focos clássicos de tensão."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-9-geopolitica/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-9-geopolitica/02-guerra-fria.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: geopolitica
+        difficulty: medium
+        tags: [enem, geopolitica]
+        skill: "caracterizar a ordem bipolar da Guerra Fria, seus blocos e alianças e o significado da queda do Muro de Berlim e do fim da URSS"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-9-geopolitica/03-nova-ordem.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: geopolitica
+        difficulty: hard
+        tags: [enem, geopolitica]
+        skill: "discutir a nova ordem mundial como unipolar no militar e multipolar no econômico e o papel da ascensão da China"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-9-geopolitica/04-conflitos.md
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: geopolitica
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          **Macedônia do Norte — Acordo entra em vigor e país muda oficialmente de nome**
+
+          Entrou em vigor, em 2019, o acordo que determina a mudança de nome da Macedônia para Macedônia do Norte. A troca põe fim — ao menos por enquanto — no impasse entre essa antiga república da Iugoslávia e a vizinha Grécia. O governo grego se opunha ao uso do nome Macedônia pelo novo país vizinho porque a Grécia tem uma província no norte com o mesmo nome. Por causa desse impasse, a Grécia bloqueou as negociações de adesão de seu vizinho à União Europeia. Depois de negociações, as duas partes chegaram a um acordo.
+
+          Disponível em: https://g1.globo.com. Acesso em: 7 nov. 2021 (adaptado).
+
+          Para o país originado da antiga Iugoslávia, a mudança de nome é uma estratégia política para
+        options:
+        - text: "criar a moeda própria."
+          correct: false
+          feedback: "O bloco que o país quer integrar (UE) já tem o euro; a mudança de nome não cria moeda."
+        - text: "proteger a cultura local."
+          correct: false
+          feedback: "A disputa é diplomática com a Grécia, não uma defesa da cultura interna."
+        - text: "subjugar a minoria étnica."
+          correct: false
+          feedback: "O acordo resolve um impasse externo com a Grécia, não trata de minorias internas."
+        - text: "expandir o território nacional."
+          correct: false
+          feedback: "Não há mudança territorial — apenas do nome do país."
+        - text: "intensificar a integração regional."
+          correct: true
+        explanation: |
+          A Grécia bloqueava a adesão do vizinho à União Europeia por causa do nome. Ao aceitar "Macedônia do Norte", o país remove o veto grego e destrava as negociações de adesão à UE (e à OTAN) — ou seja, a mudança de nome é uma estratégia para **intensificar a integração regional**. Resposta **(E)**.
+
+  - slug: aula-10-populacao-migracoes
+    title: Aula 10 — População e migrações
+    description: Crescimento, transição demográfica, indicadores e migrações.
+    tags: [geografia-geral, populacao]
+    summary:
+    - "A população cresce pelo saldo entre natalidade, mortalidade e migrações."
+    - "A transição demográfica vai de alta natalidade e mortalidade ao envelhecimento."
+    - "Pirâmides etárias e indicadores como IDH e fecundidade revelam o estágio de cada país."
+    - "Migrações respondem a fatores de repulsão e atração; refugiados fogem de guerra e perseguição."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-10-populacao-migracoes/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-10-populacao-migracoes/02-crescimento-transicao.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: populacao
+        difficulty: medium
+        tags: [enem, populacao]
+        skill: "calcular crescimento vegetativo e situar países nas fases da transição demográfica"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-10-populacao-migracoes/03-estrutura-indicadores.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: populacao
+        difficulty: medium
+        tags: [enem, populacao]
+        skill: "interpretar pirâmides etárias e indicadores demográficos (IDH, fecundidade, mortalidade infantil) e os conceitos de bônus demográfico e envelhecimento"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-10-populacao-migracoes/04-migracoes.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: populacao
+        difficulty: medium
+        tags: [enem, populacao]
+        skill: "explicar migrações por fatores de repulsão e atração e distinguir migrantes econômicos, refugiados e refugiados ambientais"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-11-urbanizacao
+    title: Aula 11 — Urbanização
+    description: Processo de urbanização, redes e hierarquia urbana e problemas das cidades.
+    tags: [geografia-geral, urbanizacao]
+    summary:
+    - "Urbanização é o crescimento da população urbana, iniciado com a Revolução Industrial."
+    - "Nos países pobres ela foi tardia e rápida, gerando urbanização desordenada."
+    - "As cidades se organizam em redes e hierarquia, de metrópoles a megacidades e cidades globais."
+    - "Megacidade é uma questão de tamanho; cidade global é de influência econômica mundial."
+    - "Os problemas urbanos incluem moradia, saneamento, mobilidade, poluição e enchentes."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-11-urbanizacao/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-11-urbanizacao/02-processo.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: urbanizacao
+        difficulty: medium
+        tags: [enem, urbanizacao]
+        skill: "comparar a urbanização dos países desenvolvidos e em desenvolvimento e explicar a rapidez da urbanização brasileira e seus efeitos"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-11-urbanizacao/03-redes-hierarquia.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: urbanizacao
+        difficulty: medium
+        tags: [enem, urbanizacao]
+        skill: "distinguir hierarquia urbana, metrópole, megacidade e cidade global, separando critério de tamanho do de influência econômica"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-11-urbanizacao/04-problemas-urbanos.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: urbanizacao
+        difficulty: medium
+        tags: [enem, urbanizacao]
+        skill: "relacionar problemas urbanos (segregação, saneamento, mobilidade, enchentes, ilhas de calor) às causas da urbanização desordenada e às soluções de planejamento"
+        suggestedSources: [ENEM, UNICAMP]
+
+  - slug: aula-12-energia-recursos
+    title: Aula 12 — Fontes de energia e recursos
+    description: Recursos renováveis e não renováveis, fontes de energia e matriz energética.
+    tags: [geografia-geral, energia-recursos]
+    summary:
+    - "Recursos renováveis se repõem; não renováveis (fósseis, minérios) se esgotam."
+    - "\"Renovável\" não é o mesmo que \"inesgotável\" nem que \"totalmente limpo\"."
+    - "As fontes vão dos fósseis às renováveis (hídrica, eólica, solar, biomassa) e à nuclear."
+    - "A matriz mundial é predominantemente fóssil; a brasileira é mais renovável, graças às hidrelétricas."
+    - "A transição energética é um desafio ambiental, econômico e geopolítico."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: geografia-geral/aula-12-energia-recursos/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: geografia-geral/aula-12-energia-recursos/02-recursos.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: energia-recursos
+        difficulty: easy
+        tags: [enem, energia-recursos]
+        skill: "classificar recursos e fontes em renováveis e não renováveis e distinguir renovável de inesgotável e de limpo"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: geografia-geral/aula-12-energia-recursos/03-fontes.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: energia-recursos
+        difficulty: medium
+        tags: [enem, energia-recursos]
+        skill: "comparar vantagens e impactos das fontes de energia (fósseis, hídrica, eólica, solar, biomassa, nuclear)"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: geografia-geral/aula-12-energia-recursos/04-matriz-energetica.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: energia-recursos
+        difficulty: hard
+        tags: [enem, energia-recursos]
+        skill: "comparar a matriz energética mundial e a brasileira, distinguir matriz energética de elétrica e discutir os obstáculos da transição energética"
+        suggestedSources: [ENEM, UNICAMP]

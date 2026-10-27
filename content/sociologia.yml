@@ -1,0 +1,833 @@
+subject:
+  slug: sociologia
+  name: Sociologia
+  description: Fundamentos da Sociologia para o vestibular e o ENEM.
+
+topics:
+- slug: o-que-e-sociologia
+  name: O que é Sociologia e seu surgimento
+- slug: classicos
+  name: Clássicos (Durkheim, Weber, Marx)
+- slug: cultura-sociedade
+  name: Cultura e sociedade
+- slug: socializacao-instituicoes
+  name: Socialização e instituições sociais
+- slug: trabalho-sociedade
+  name: Trabalho e sociedade
+- slug: estratificacao-desigualdade
+  name: Estratificação e desigualdade social
+- slug: movimentos-cidadania-direitos
+  name: Movimentos sociais, cidadania e direitos
+- slug: identidade-diversidade
+  name: Identidade e diversidade
+- slug: politica-estado-democracia
+  name: Política, Estado e democracia
+- slug: globalizacao
+  name: Globalização e sociedade contemporânea
+
+tracks:
+- slug: sociologia-base
+  title: Sociologia — base
+  description: A trilha completa de Sociologia, dos clássicos à sociedade contemporânea.
+  lessons:
+  - slug: aula-1-o-que-e-sociologia
+    title: Aula 1 — O que é Sociologia
+    description: A ciência da sociedade, o contexto de seu surgimento e o olhar sociológico.
+    tags: [sociologia, o-que-e-sociologia]
+    summary:
+    - "Sociologia é a ciência que estuda a vida em sociedade e como ela nos molda."
+    - "Surge no século XIX com a Revolução Industrial, a Revolução Francesa e o Iluminismo."
+    - "Comte cunhou o termo e ligou a disciplina ao Positivismo."
+    - "O olhar sociológico desnaturaliza o que parece óbvio (imaginação sociológica)."
+    - "As Ciências Sociais usam métodos quantitativos e qualitativos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-1-o-que-e-sociologia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-1-o-que-e-sociologia/02-contexto-do-surgimento.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: o-que-e-sociologia
+        difficulty: medium
+        tags: [enem, o-que-e-sociologia]
+        skill: "relacionar o surgimento da Sociologia às transformações do século XIX (Revolução Industrial, Revolução Francesa, Iluminismo)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-1-o-que-e-sociologia/03-de-comte-a-ciencia-social.md
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-1-o-que-e-sociologia/04-olhar-sociologico.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: o-que-e-sociologia
+        difficulty: medium
+        tags: [enem, o-que-e-sociologia]
+        skill: "identificar o olhar sociológico (desnaturalização, estranhamento, imaginação sociológica) em contraste com o senso comum"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-1-o-que-e-sociologia/05-metodos-e-objeto.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: o-que-e-sociologia
+        difficulty: easy
+        tags: [enem, o-que-e-sociologia]
+        skill: "distinguir métodos quantitativos e qualitativos e as áreas das Ciências Sociais"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-1-o-que-e-sociologia/06-o-que-vimos.md
+
+  - slug: aula-2-classicos
+    title: Aula 2 — Os clássicos da Sociologia
+    description: Durkheim (fato social), Weber (ação social) e Marx (classes e trabalho).
+    tags: [sociologia, classicos]
+    summary:
+    - "Durkheim: o fato social é externo, coercitivo e geral; foco na coesão e na anomia."
+    - "Weber: a ação social tem sentido; racionalização, burocracia e tipos de dominação."
+    - "Marx: classes definidas pelos meios de produção; mais-valia, alienação e luta de classes."
+    - "Os três oferecem lentes distintas: ordem, sentido e conflito."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-2-classicos/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-2-classicos/02-durkheim-fato-social.md
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-2-classicos/03-durkheim-coesao-anomia.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: classicos
+        difficulty: medium
+        tags: [enem, classicos]
+        skill: "reconhecer um fato social por suas características (exterioridade, coercitividade, generalidade) em um caso descrito"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-2-classicos/04-weber-acao-social.md
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-2-classicos/05-weber-burocracia-dominacao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: classicos
+        difficulty: hard
+        tags: [enem, classicos]
+        skill: "classificar exemplos nos tipos de ação social de Weber ou nos tipos de dominação (tradicional, carismática, racional-legal)"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-2-classicos/06-marx-classes-trabalho.md
+
+    - key: c7
+      type: content
+      markdownFile: sociologia/aula-2-classicos/07-marx-luta-de-classes.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: classicos
+        difficulty: medium
+        tags: [enem, classicos]
+        skill: "aplicar conceitos marxistas (meios de produção, mais-valia, alienação, ideologia) a uma situação do mundo do trabalho"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: classicos
+        difficulty: hard
+        tags: [enem, classicos]
+        skill: "comparar as abordagens de Durkheim, Weber e Marx atribuindo corretamente cada conceito a seu autor"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c8
+      type: content
+      markdownFile: sociologia/aula-2-classicos/08-o-que-vimos.md
+
+  - slug: aula-3-cultura-e-sociedade
+    title: Aula 3 — Cultura e sociedade
+    description: Conceito de cultura, etnocentrismo, identidade, indústria cultural e multiculturalismo.
+    tags: [sociologia, cultura-sociedade]
+    summary:
+    - "Cultura é tudo o que se cria, aprende e transmite em sociedade; é simbólica e mutável."
+    - "Etnocentrismo julga o outro pela própria cultura; o relativismo a compreende em sua lógica."
+    - "A identidade cultural é construída, múltipla e relacional (diversidade brasileira)."
+    - "Indústria cultural (Adorno e Horkheimer): cultura como mercadoria padronizada."
+    - "Multiculturalismo: a convivência respeitosa entre culturas; assimilação x integração."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-3-cultura-e-sociedade/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-3-cultura-e-sociedade/02-conceito-de-cultura.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: cultura-sociedade
+        difficulty: easy
+        tags: [enem, cultura-sociedade]
+        skill: "identificar o caráter aprendido, simbólico e coletivo da cultura em oposição a explicações naturalizantes"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-3-cultura-e-sociedade/03-etnocentrismo-relativismo.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: cultura-sociedade
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          **TEXTO I**
+
+          A partir do século IV, com os imperadores ditos cristãos, o teatro e a dança foram condenados. O batismo era recusado aos que atuavam no circo ou na pantomima. E em 398, no Concílio de Cartago, os que iam ao teatro nos dias santos foram excomungados.
+
+          DINIZ, T. et al. *História da dança*. Disponível em: www.uel.br. Acesso em: 18 out. 2023.
+
+          **TEXTO II**
+
+          A dança no ato litúrgico cumpre tanto um papel de adoração quanto mercadológico. Não à toa há aceitação, expansão e investimento nessa prática percebida massivamente pela ampla divulgação principalmente nas redes sociais. A expansão e ampliação por via de festivais, aulas, cursos, palestras etc. consolida a criação de um mercado específico para esse público.
+
+          *Dança gospel*. Salvador: UFBA, 2021.
+
+          A percepção sobre a dança e a cultura corporal apresenta aspectos relacionados, respectivamente, a
+        options:
+        - text: "segregação social e intolerância eclesiástica."
+          correct: false
+          feedback: "O TEXTO I trata de condenação religiosa, não de segregação social."
+        - text: "rituais eucarísticos e sacramentos da Igreja."
+          correct: false
+          feedback: "Nenhum dos textos trata de eucaristia ou de sacramentos."
+        - text: "transe individual e progresso intelectual."
+          correct: false
+          feedback: "Os textos não mencionam transe nem progresso intelectual."
+        - text: "penitência pessoal e juramento coletivo."
+          correct: false
+          feedback: "Não há penitência nem juramento nos textos."
+        - text: "dogmatismo religioso e adesão de fiéis."
+          correct: true
+        explanation: |
+          No TEXTO I, a Igreja antiga condena e excomunga quem pratica ou assiste à dança e ao teatro — uma postura de **dogmatismo religioso**. No TEXTO II, a dança gospel é aceita e expandida como adoração e mercado, ligada à **adesão de fiéis**. Respectivamente: dogmatismo religioso e adesão de fiéis. Resposta **(E)**.
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-3-cultura-e-sociedade/04-identidade-e-diversidade-cultural.md
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-3-cultura-e-sociedade/05-industria-cultural.md
+
+    - key: ex2
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: cultura-sociedade
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          Independência de pensamento, autonomia e direito à oposição política estão perdendo sua função crítica básica numa sociedade que parece cada vez mais capaz de atender às necessidades dos indivíduos através da forma pela qual é organizada. Nas condições de um padrão de vida crescente, o não conformismo com o próprio sistema parece socialmente inútil, principalmente quando acarreta desvantagens econômicas e políticas tangíveis e ameaça o funcionamento suave do todo.
+
+          MARCUSE, H. *Ideologia da sociedade industrial*. Rio de Janeiro: Zahar, 1969.
+
+          Qual é a característica da sociedade industrial do século XX apresentada no texto?
+        options:
+        - text: "Gestão integrada."
+          correct: false
+          feedback: "O texto não trata de um modelo de gestão, e sim da perda da crítica."
+        - text: "Relativismo moral."
+          correct: false
+          feedback: "A questão é a anulação da oposição, não a relativização de valores morais."
+        - text: "Desobediência civil."
+          correct: false
+          feedback: "O texto descreve o contrário: o conformismo e a aparente inutilidade do não conformismo."
+        - text: "Realidade unidimensional."
+          correct: true
+        - text: "Desenvolvimento tecnológico."
+          correct: false
+          feedback: "A tecnologia é pano de fundo; o ponto é a supressão do pensamento crítico."
+        explanation: |
+          Marcuse descreve uma sociedade que, ao atender ao consumo e elevar o padrão de vida, absorve e neutraliza a crítica: o não conformismo torna-se "socialmente inútil". É a **realidade unidimensional** — uma sociedade que perde a dimensão da negação e da oposição. Resposta **(D)**.
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-3-cultura-e-sociedade/06-multiculturalismo.md
+
+    - key: c7
+      type: content
+      markdownFile: sociologia/aula-3-cultura-e-sociedade/07-o-que-vimos.md
+
+  - slug: aula-4-socializacao-e-instituicoes
+    title: Aula 4 — Socialização e instituições sociais
+    description: Socialização, papéis e status, instituições, controle social, desvio e reprodução social.
+    tags: [sociologia, socializacao-instituicoes]
+    summary:
+    - "Socialização é o processo de internalizar a cultura; primária (família) e secundária."
+    - "Papel e status (atribuído x adquirido) organizam a posição dos indivíduos."
+    - "Instituições sociais dão estabilidade e socializam (família, escola, religião, Estado)."
+    - "Controle social (formal e informal) e desvio como construção social."
+    - "Bourdieu: capital cultural, habitus e a reprodução social na escola."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-4-socializacao-e-instituicoes/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-4-socializacao-e-instituicoes/02-socializacao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: socializacao-instituicoes
+        difficulty: easy
+        tags: [enem, socializacao-instituicoes]
+        skill: "distinguir socialização primária e secundária e identificar agentes de socialização"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-4-socializacao-e-instituicoes/03-instituicoes-sociais.md
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-4-socializacao-e-instituicoes/04-controle-social.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: socializacao-instituicoes
+        difficulty: medium
+        tags: [enem, socializacao-instituicoes]
+        skill: "distinguir controle social formal e informal e reconhecer o desvio como construção social"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-4-socializacao-e-instituicoes/05-reproducao-social.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: socializacao-instituicoes
+        difficulty: hard
+        tags: [enem, socializacao-instituicoes]
+        skill: "aplicar os conceitos de Bourdieu (capital cultural, habitus, reprodução social) ao papel da escola na desigualdade"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-4-socializacao-e-instituicoes/06-o-que-vimos.md
+
+  - slug: aula-5-trabalho-e-sociedade
+    title: Aula 5 — Trabalho e sociedade
+    description: Divisão do trabalho, taylorismo/fordismo/toyotismo, informalidade, desemprego e uberização.
+    tags: [sociologia, trabalho-sociedade]
+    summary:
+    - "Trabalho transforma a natureza e a sociedade; é central na Sociologia desde os clássicos."
+    - "Divisão do trabalho social (especialização) e técnica (tarefas fatiadas), e desigual."
+    - "Taylorismo, fordismo e toyotismo: formas históricas de organizar a produção."
+    - "Formal x informal, desemprego (inclusive estrutural) e precarização marcam o Brasil."
+    - "Uberização: trabalho por plataformas sem direitos, sob aparência de autonomia."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-5-trabalho-e-sociedade/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-5-trabalho-e-sociedade/02-divisao-do-trabalho.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: trabalho-sociedade
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          Adam Smith via o açougueiro e o padeiro não só como indivíduos buscando seus interesses financeiros, mas como pessoas moralmente motivadas dentro de uma sociedade. A base da moral era a empatia e o julgamento, instaurando uma distinção entre o que queremos fazer e o que sentimos que devemos fazer.
+
+          *O futuro do capitalismo*. Porto Alegre: L&PM, 2019.
+
+          O texto defende uma motivação capitalista para o campo dos negócios, na qual o lucro se mostra associado à
+        options:
+        - text: "consolidação do poder político."
+          correct: false
+          feedback: "O texto trata da motivação moral nos negócios, não de poder político."
+        - text: "procura de satisfação subjetiva."
+          correct: false
+          feedback: "A ênfase está na empatia e no dever para com a sociedade, não na satisfação pessoal."
+        - text: "estruturação do monopólio comercial."
+          correct: false
+          feedback: "Não há menção a monopólio; trata-se da dimensão moral da ação econômica."
+        - text: "percepção de responsabilidade ética."
+          correct: true
+        - text: "conquista do reconhecimento público."
+          correct: false
+          feedback: "O critério apresentado é interno (empatia e dever), não a busca por reconhecimento."
+        explanation: |
+          O texto retoma a dimensão moral de Adam Smith: o agente econômico não age só pelo interesse financeiro, mas movido pela empatia e pelo senso do que "devemos fazer". O lucro, assim, aparece associado a uma **percepção de responsabilidade ética** para com a sociedade. Resposta **(D)**.
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-5-trabalho-e-sociedade/03-taylorismo-fordismo-toyotismo.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: trabalho-sociedade
+        difficulty: hard
+        tags: [enem, trabalho-sociedade]
+        skill: "comparar taylorismo, fordismo e toyotismo identificando suas características na organização da produção"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-5-trabalho-e-sociedade/04-informalidade-desemprego.md
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-5-trabalho-e-sociedade/05-uberizacao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: trabalho-sociedade
+        difficulty: medium
+        tags: [enem, trabalho-sociedade]
+        skill: "analisar a uberização e a precarização do trabalho (perda de direitos, transferência de riscos) num caso atual"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-5-trabalho-e-sociedade/06-o-que-vimos.md
+
+  - slug: aula-6-estratificacao-e-desigualdade
+    title: Aula 6 — Estratificação e desigualdade social
+    description: Sistemas de estratificação, classe em Marx e Weber, mobilidade social e desigualdade no Brasil.
+    tags: [sociologia, estratificacao-desigualdade]
+    summary:
+    - "Estratificação social divide a sociedade em camadas hierarquizadas (riqueza, poder, prestígio)."
+    - "Sistemas fechados (castas, estamentos) x sistema de classes (aberto, capitalista)."
+    - "Classe em Marx (meios de produção) x Weber (classe, status e poder)."
+    - "Mobilidade social e a crítica à meritocracia (pontos de partida desiguais)."
+    - "A desigualdade no Brasil tem raízes na escravidão e na concentração de terra."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-6-estratificacao-e-desigualdade/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-6-estratificacao-e-desigualdade/02-estratificacao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: estratificacao-desigualdade
+        difficulty: medium
+        tags: [enem, estratificacao-desigualdade]
+        skill: "distinguir sistemas de estratificação (castas, estamentos, classes) quanto à abertura e ao critério de posição"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-6-estratificacao-e-desigualdade/03-classe-em-marx-e-weber.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: estratificacao-desigualdade
+        difficulty: hard
+        tags: [enem, estratificacao-desigualdade]
+        skill: "comparar o conceito de classe em Marx e a estratificação multidimensional de Weber (classe, status, poder)"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-6-estratificacao-e-desigualdade/04-mobilidade-social.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: estratificacao-desigualdade
+        difficulty: medium
+        tags: [enem, estratificacao-desigualdade]
+        skill: "identificar tipos de mobilidade social e avaliar criticamente o discurso da meritocracia"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-6-estratificacao-e-desigualdade/05-desigualdade-no-brasil.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: estratificacao-desigualdade
+        difficulty: medium
+        tags: [enem, estratificacao-desigualdade]
+        skill: "relacionar a desigualdade brasileira a suas raízes históricas e ao cruzamento de classe, raça, gênero e região"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-6-estratificacao-e-desigualdade/06-o-que-vimos.md
+
+  - slug: aula-7-movimentos-cidadania-e-direitos
+    title: Aula 7 — Movimentos sociais, cidadania e direitos
+    description: Cidadania e gerações de direitos, movimentos sociais, Constituição de 1988 e cotas.
+    tags: [sociologia, movimentos-cidadania-direitos]
+    summary:
+    - "Cidadania (Marshall): direitos civis, políticos e sociais, conquistados em lutas."
+    - "Movimentos sociais são ação coletiva por mudança, do operário aos novos movimentos."
+    - "A Constituição de 1988 ('Cidadã') marca a redemocratização e amplia direitos."
+    - "Ações afirmativas e cotas buscam transformar igualdade formal em igualdade real."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-7-movimentos-cidadania-e-direitos/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-7-movimentos-cidadania-e-direitos/02-cidadania-e-direitos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: movimentos-cidadania-direitos
+        difficulty: medium
+        tags: [enem, movimentos-cidadania-direitos]
+        skill: "classificar exemplos nas gerações de direitos de Marshall (civis, políticos, sociais)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-7-movimentos-cidadania-e-direitos/03-movimentos-sociais.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: movimentos-cidadania-direitos
+        difficulty: medium
+        tags: [enem, movimentos-cidadania-direitos]
+        skill: "caracterizar movimentos sociais e distinguir movimentos do trabalho dos novos movimentos sociais"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-7-movimentos-cidadania-e-direitos/04-constituicao-88.md
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-7-movimentos-cidadania-e-direitos/05-politicas-afirmativas-cotas.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: movimentos-cidadania-direitos
+        difficulty: hard
+        tags: [enem, movimentos-cidadania-direitos]
+        skill: "analisar as ações afirmativas/cotas distinguindo igualdade formal de igualdade material e seus argumentos"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-7-movimentos-cidadania-e-direitos/06-o-que-vimos.md
+
+  - slug: aula-8-identidade-e-diversidade
+    title: Aula 8 — Identidade e diversidade
+    description: Gênero, raça e racismo, povos indígenas e as lutas por reconhecimento.
+    tags: [sociologia, identidade-diversidade]
+    summary:
+    - "Gênero é construção social; a divisão sexual do trabalho gera desigualdades."
+    - "Raça é construção social; o racismo opera nos níveis individual, institucional e estrutural."
+    - "Povos indígenas formam uma diversidade de culturas; a terra é questão central."
+    - "Estigma (Goffman) e interseccionalidade: as opressões se combinam."
+    - "Respeitar a diversidade é questão de direitos humanos e de democracia."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-8-identidade-e-diversidade/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-8-identidade-e-diversidade/02-genero.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: identidade-diversidade
+        difficulty: medium
+        tags: [enem, identidade-diversidade]
+        skill: "distinguir sexo de gênero e identificar a divisão sexual do trabalho e suas desigualdades"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-8-identidade-e-diversidade/03-raca-e-racismo.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: identidade-diversidade
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          Fragmentada em pequenos grupos, fragilizada pela ausência de algum tipo de organização ampla, tendo que carregar o peso do preconceito racial que se transfere do negro para a cultura negra, a religião dos orixás tem poucas chances de se sair melhor na competição — desigual — com outras religiões. Silenciosamente, assistimos hoje a um verdadeiro massacre das religiões afro-brasileiras.
+
+          *O Brasil com axé*. Estudos Avançados, n. 52, dez. 2004.
+
+          No processo de invisibilização dos cultos afro-brasileiros, o texto associa os seguintes elementos essenciais:
+        options:
+        - text: "Ausência de soluções partidárias e rejeição da laicidade."
+          correct: false
+          feedback: "O texto não fala em partidos nem em defesa da laicidade."
+        - text: "Precariedade de coesão representativa e recusa da alteridade."
+          correct: true
+        - text: "Insuficiência de estruturas decisórias e exclusão da dialogicidade."
+          correct: false
+          feedback: "O foco é a fragmentação e o preconceito racial, não estruturas decisórias formais."
+        - text: "Inexistência de direitos constitucionais e negação do ecumenismo."
+          correct: false
+          feedback: "Não se trata da ausência de direitos formais nem de ecumenismo."
+        - text: "Efemeridade das relações políticas e debilidade do pertencimento étnico."
+          correct: false
+          feedback: "O texto afirma o peso do preconceito racial, não a debilidade do pertencimento."
+        explanation: |
+          O texto aponta dois elementos: a fragmentação em pequenos grupos sem organização ampla (**precariedade de coesão representativa**) e o preconceito racial transferido à cultura negra (**recusa da alteridade**). Juntos, explicam a invisibilização e o "massacre" das religiões afro-brasileiras. Resposta **(B)**.
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-8-identidade-e-diversidade/04-povos-indigenas.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: identidade-diversidade
+        difficulty: medium
+        tags: [enem, identidade-diversidade]
+        skill: "reconhecer a diversidade dos povos indígenas, a centralidade da terra e os direitos da Constituição de 1988"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-8-identidade-e-diversidade/05-reconhecimento-e-diversidade.md
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-8-identidade-e-diversidade/06-o-que-vimos.md
+
+  - slug: aula-9-politica-estado-e-democracia
+    title: Aula 9 — Política, Estado e democracia
+    description: Poder e política, o Estado moderno, formas de organização do poder e democracia.
+    tags: [sociologia, politica-estado-democracia]
+    summary:
+    - "Poder é impor a vontade; política organiza o poder na vida coletiva."
+    - "O Estado (Weber) detém o monopólio legítimo da força num território."
+    - "Regimes democráticos x autoritários e a separação de poderes."
+    - "Democracia direta, representativa e participativa exige mais que votar."
+    - "A democracia brasileira é recente e enfrenta desafios (desigualdade, desinformação)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-9-politica-estado-e-democracia/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-9-politica-estado-e-democracia/02-poder-e-politica.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: politica-estado-democracia
+        difficulty: medium
+        tags: [enem, politica-estado-democracia]
+        skill: "aplicar a definição weberiana de Estado (monopólio legítimo da força) e seus elementos constitutivos"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-9-politica-estado-e-democracia/03-formas-de-estado-e-governo.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: politica-estado-democracia
+        difficulty: medium
+        tags: [enem, politica-estado-democracia]
+        skill: "identificar a função de cada poder (Executivo, Legislativo, Judiciário) e o sentido da separação de poderes"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-9-politica-estado-e-democracia/04-democracia.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: politica-estado-democracia
+        difficulty: hard
+        tags: [enem, politica-estado-democracia]
+        skill: "distinguir democracia direta, representativa e participativa e as condições de uma democracia plena"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-9-politica-estado-e-democracia/05-democracia-no-brasil.md
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-9-politica-estado-e-democracia/06-o-que-vimos.md
+
+  - slug: aula-10-globalizacao-e-sociedade-contemporanea
+    title: Aula 10 — Globalização e sociedade contemporânea
+    description: O que é globalização, suas dimensões, contradições e a sociedade em rede.
+    tags: [sociologia, globalizacao]
+    summary:
+    - "Globalização é a integração e interdependência crescentes do mundo."
+    - "Tem dimensões econômica, cultural e política, intensificadas pela tecnologia."
+    - "É contraditória: conecta o mundo, mas aprofunda desigualdades."
+    - "Bauman (modernidade líquida) e Castells (sociedade em rede) descrevem o presente."
+    - "O mundo social é construído e, portanto, transformável."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: sociologia/aula-10-globalizacao-e-sociedade-contemporanea/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: sociologia/aula-10-globalizacao-e-sociedade-contemporanea/02-o-que-e-globalizacao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: globalizacao
+        difficulty: easy
+        tags: [enem, globalizacao]
+        skill: "caracterizar a globalização (interdependência, compressão do espaço-tempo) e seus fatores impulsionadores"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: sociologia/aula-10-globalizacao-e-sociedade-contemporanea/03-dimensoes-da-globalizacao.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: globalizacao
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          **Sinal fechado**
+
+          Olá, como vai? / Eu vou indo e você, tudo bem? / Tudo bem, eu vou indo, correndo / Pegar meu lugar no futuro, e você? / Tudo bem, eu vou indo em busca / De um sono tranquilo, quem sabe? / Quanto tempo... / Pois é, quanto tempo... / Me perdoe a pressa / É a alma dos nossos negócios... / Oh, não tem de quê / Eu também só ando a cem / Quando é que você telefona? / Precisamos nos ver por aí / Pra semana, prometo, / Talvez nos vejamos, quem sabe? / [...] / Por favor, telefone, eu preciso beber / Alguma coisa rapidamente / Pra semana... / O sinal... / Eu procuro você... / Prometo, não esqueço / Por favor, não esqueça / Não esqueço, não esqueço / Adeus...
+
+          DA VIOLA, P. *Foi um rio que passou em minha vida*. Rio de Janeiro: Odeon, 1970.
+
+          A letra da canção apresenta a permanência de uma situação da vida cotidiana ao destacar a
+        options:
+        - text: "diminuição do comportamento competitivo."
+          correct: false
+          feedback: "Todos estão 'correndo' e 'a cem'; a pressa e a competição permanecem, não diminuem."
+        - text: "importância da memória coletiva."
+          correct: false
+          feedback: "A música fala de esquecimento e pressa individual, não de memória coletiva."
+        - text: "redução da mobilidade urbana."
+          correct: false
+          feedback: "Os personagens estão em deslocamento apressado constante; não há redução da mobilidade."
+        - text: "efemeridade dos vínculos de afetividade."
+          correct: true
+        - text: "obsolescência dos meios de comunicação."
+          correct: false
+          feedback: "Telefone e encontros são citados como meios ainda usados, embora sempre adiados."
+        explanation: |
+          O diálogo apressado entre dois conhecidos que se reencontram no sinal — com promessas vagas de "telefonar" e "se ver pra semana" — retrata relações superficiais e passageiras típicas da vida urbana moderna. A permanência dessa cena cotidiana está na **efemeridade dos vínculos de afetividade**. Resposta **(D)**.
+
+    - key: c4
+      type: content
+      markdownFile: sociologia/aula-10-globalizacao-e-sociedade-contemporanea/04-contradicoes-da-globalizacao.md
+
+    - key: ex2
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: globalizacao
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          Para que a utopia nasça, é preciso duas condições. A primeira é a forte sensação de que o mundo não está funcionando adequadamente e deve ter seus fundamentos revistos para que se reajuste. A segunda condição é a existência de uma confiança no potencial humano à altura da tarefa de reformar o mundo, a crença de que nós, seres humanos, podemos fazê-lo, sendo capazes de perceber o que está errado com o mundo, o que precisa ser modificado, quais são os pontos problemáticos, e ter força e coragem para extirpá-los.
+
+          BAUMAN, Z. *Revista Cult*, jan. 2017.
+
+          De acordo com o autor, qual é a função da utopia no contexto das transformações sociais?
+        options:
+        - text: "Habilitar memórias afetivas."
+          correct: false
+          feedback: "A utopia volta-se ao futuro a ser reformado, não às memórias do passado."
+        - text: "Apontar alternativas possíveis."
+          correct: true
+        - text: "Legitimar experiências pretéritas."
+          correct: false
+          feedback: "A utopia critica o presente e projeta o novo; não legitima o passado."
+        - text: "Perpetuar paradigmas científicos."
+          correct: false
+          feedback: "O texto fala em rever fundamentos, não em perpetuar paradigmas."
+        - text: "Empreender soluções conclusivas."
+          correct: false
+          feedback: "A utopia aponta caminhos possíveis, não soluções definitivas e fechadas."
+        explanation: |
+          Para Bauman, a utopia nasce da percepção de que o mundo precisa ser reformado somada à confiança no potencial humano de transformá-lo. Sua função é justamente **apontar alternativas possíveis** — imaginar um mundo melhor que oriente a mudança social. Resposta **(B)**.
+
+    - key: c5
+      type: content
+      markdownFile: sociologia/aula-10-globalizacao-e-sociedade-contemporanea/05-sociedade-contemporanea.md
+
+    - key: c6
+      type: content
+      markdownFile: sociologia/aula-10-globalizacao-e-sociedade-contemporanea/06-o-que-vimos.md

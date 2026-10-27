@@ -1,0 +1,1106 @@
+subject:
+  slug: quimica
+  name: Química
+  description: Fundamentos da Química para o vestibular e o ENEM.
+
+topics:
+- slug: materia
+  name: Matéria e estados físicos
+- slug: substancias-misturas
+  name: Substâncias e misturas
+- slug: separacao
+  name: Separação de misturas
+- slug: atomos-tabela
+  name: Átomos e tabela periódica
+- slug: modelos-atomicos
+  name: Modelos atômicos e estrutura
+- slug: tabela-periodica
+  name: Tabela periódica
+- slug: ligacoes
+  name: Ligações químicas
+- slug: funcoes-inorganicas
+  name: Funções inorgânicas
+- slug: reacoes
+  name: Reações químicas e balanceamento
+- slug: estequiometria
+  name: Estequiometria
+- slug: solucoes
+  name: Soluções
+- slug: termoquimica
+  name: Termoquímica
+- slug: cinetica-equilibrio
+  name: Cinética e equilíbrio
+- slug: eletroquimica
+  name: Eletroquímica
+- slug: organica
+  name: Química orgânica
+- slug: ambiental
+  name: Química ambiental
+
+tracks:
+- slug: quimica-base
+  title: Química — base
+  description: A trilha inicial de Química, da matéria aos átomos.
+  lessons:
+  - slug: aula-1-fundamentos
+    title: Aula 1 — Fundamentos da Química
+    description: Matéria, substâncias, misturas, separação e átomos.
+    tags: [quimica, materia]
+    summary:
+    - "Matéria é tudo que tem massa e ocupa espaço, em três estados físicos."
+    - "Substâncias puras têm constantes físicas definidas; misturas, não."
+    - "Cada técnica de separação explora uma propriedade dos componentes."
+    - "O átomo tem prótons, nêutrons e elétrons; Z identifica o elemento e A = Z + N."
+    - "A tabela periódica organiza os elementos em grupos e períodos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-1-fundamentos/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-1-fundamentos/02-materia.md
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-1-fundamentos/03-substancias-e-misturas.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: substancias-misturas
+        source:
+          exam: UFMG
+        prompt: |
+          Embora uma substância pura, como a água destilada, e uma mistura homogênea, como a água mineral, possam apresentar aspecto uniforme, a substância pura difere da mistura homogênea por:
+        options:
+        - text: "ser visualmente mais límpida."
+          correct: false
+          feedback: "Limpidez é aparência — as duas podem ser uniformes e límpidas. Não é isso que as distingue."
+        - text: "apresentar maior afinidade química."
+          correct: false
+          feedback: "\"Afinidade química\" não é a propriedade que separa substância pura de mistura."
+        - text: "apresentar constantes físicas definidas."
+          correct: true
+        - text: "apresentar maior interação entre as moléculas."
+          correct: false
+          feedback: "A intensidade das interações não é o critério — o que distingue são as constantes físicas."
+        explanation: |
+          Uma **substância pura** tem **constantes físicas definidas**: ponto de fusão e de ebulição fixos. Uma **mistura homogênea** funde e ferve em *faixas* de temperatura. Por isso a resposta é a **(C)** — é a constância das propriedades físicas que distingue a substância pura, não a aparência.
+
+    - key: ex2
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: substancias-misturas
+        source:
+          exam: UEL — PR
+        prompt: |
+          Um rapaz pediu sua namorada em casamento, presenteando-a com uma aliança de ouro 18 quilates. Para comemorar, brindaram com água gaseificada com gelo, ao ar livre.
+
+          Os sistemas **ouro 18 quilates**, **água gaseificada com gelo** e **ar atmosférico** são, respectivamente:
+        options:
+        - text: "substância heterogênea, mistura heterogênea e mistura homogênea."
+          correct: false
+        - text: "mistura heterogênea, mistura homogênea e substância homogênea."
+          correct: false
+        - text: "substância homogênea, mistura heterogênea e mistura homogênea."
+          correct: false
+          feedback: "Ouro 18 quilates não é substância — é uma liga, ou seja, uma mistura."
+        - text: "mistura homogênea, mistura heterogênea e mistura homogênea."
+          correct: true
+        - text: "mistura heterogênea, substância homogênea e substância heterogênea."
+          correct: false
+        explanation: |
+          **Ouro 18 quilates** é uma *liga metálica* → mistura **homogênea**. **Água gaseificada com gelo** tem várias fases (gelo sólido, água líquida, gás) → mistura **heterogênea**. O **ar atmosférico** é uma mistura **homogênea** de gases. Logo: homogênea, heterogênea, homogênea — alternativa **(D)**.
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-1-fundamentos/04-separacao-de-misturas.md
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-1-fundamentos/05-outros-metodos-de-separacao.md
+
+    - key: ex3
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: separacao
+        source:
+          exam: ENEM
+          year: 2020
+        prompt: |
+          As pilhas zinco-carbono têm um invólucro externo de aço (liga de ferro-carbono), um ânodo de zinco, um cátodo de grafita e um eletrólito em pasta. Na reciclagem, após a moagem, uma etapa separa o aço do invólucro dos demais componentes.
+
+          Que processo aplicado à pilha moída permite obter essa separação?
+        options:
+        - text: "Catação manual"
+          correct: false
+        - text: "Ação de um eletroímã"
+          correct: true
+        - text: "Flotação"
+          correct: false
+        - text: "Dissolução em ácido"
+          correct: false
+        - text: "Centrifugação"
+          correct: false
+          feedback: "A centrifugação separa por densidade, não por magnetismo — não isola seletivamente o aço."
+        explanation: |
+          O **aço** é uma liga de **ferro**, material ferromagnético. Um **eletroímã** atrai e separa o invólucro de aço dos demais componentes (zinco e grafita), que não são magnéticos. Resposta **(B)**.
+
+    - key: ex4
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: separacao
+        source:
+          exam: ENEM
+          year: 2019
+        prompt: |
+          Sistemas de dessalinização da água do mar usam duas câmaras — uma com água doce e outra com água salgada — separadas por uma membrana semipermeável. Aplicando-se pressão na câmara com água salgada, a água pura é forçada a passar pela membrana para a câmara de água doce.
+
+          O processo descrito para a purificação da água é denominado:
+        options:
+        - text: "filtração."
+          correct: false
+          feedback: "Filtração retém sólidos em suspensão — não separa sais dissolvidos."
+        - text: "adsorção."
+          correct: false
+        - text: "destilação."
+          correct: false
+          feedback: "A destilação envolve mudança de estado por aquecimento — aqui não há aquecimento, e sim pressão."
+        - text: "troca iônica."
+          correct: false
+        - text: "osmose reversa."
+          correct: true
+        explanation: |
+          Aplicar **pressão** na água salgada para forçar a água pura através de uma **membrana semipermeável**, retendo os sais, é exatamente a **osmose reversa**. Resposta **(E)**.
+
+    - key: ex5
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: easy
+        topic: separacao
+        source:
+          exam: Vunesp
+          year: 2020
+        prompt: |
+          Na preparação do café, a água quente entra em contato com o pó e é separada no coador.
+
+          As operações envolvidas nessa separação são, respectivamente:
+        options:
+        - text: "destilação e decantação."
+          correct: false
+        - text: "filtração e destilação."
+          correct: false
+        - text: "destilação e coação."
+          correct: false
+        - text: "extração e filtração."
+          correct: true
+        - text: "extração e decantação."
+          correct: false
+          feedback: "A segunda etapa é o coador retendo o pó — isso é filtração, não decantação."
+        explanation: |
+          A água quente **extrai** as substâncias solúveis do pó (extração) e, em seguida, o coador **retém** o pó insolúvel deixando o líquido passar (filtração). Resposta **(D)**.
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-1-fundamentos/06-atomos-e-tabela-periodica.md
+
+    - key: ex6
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: easy
+        topic: atomos-tabela
+        source:
+          exam: FUVEST
+        prompt: |
+          O átomo constituído de 17 prótons, 18 nêutrons e 17 elétrons possui número atômico e número de massa iguais a:
+        options:
+        - text: "Z = 17 e A = 17"
+          correct: false
+          feedback: "A é a soma de prótons + nêutrons, não apenas os prótons."
+        - text: "Z = 18 e A = 35"
+          correct: false
+          feedback: "Z é o nº de prótons (17), não de nêutrons."
+        - text: "Z = 17 e A = 35"
+          correct: true
+        - text: "Z = 35 e A = 17"
+          correct: false
+        - text: "Z = 18 e A = 17"
+          correct: false
+        explanation: |
+          **Z** = número de prótons = **17**. **A** = prótons + nêutrons = 17 + 18 = **35** (os elétrons não entram no número de massa). Resposta **(C)**.
+
+    - key: ex7
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: atomos-tabela
+        source:
+          exam: Unitins
+        prompt: |
+          Com relação à classificação periódica moderna dos elementos, identifique a afirmação verdadeira:
+        options:
+        - text: "Em uma família, os elementos apresentam geralmente o mesmo número de elétrons na última camada."
+          correct: true
+        - text: "Na tabela periódica, os elementos estão em ordem decrescente de massas atômicas."
+          correct: false
+          feedback: "A ordem é crescente de número atômico (Z), não decrescente de massa."
+        - text: "Em uma família, os elementos apresentam propriedades químicas bem distintas."
+          correct: false
+          feedback: "É o contrário: a mesma família tem propriedades semelhantes."
+        - text: "Em um período, os elementos apresentam propriedades químicas semelhantes."
+          correct: false
+          feedback: "Propriedades semelhantes ocorrem na mesma família (coluna), não no mesmo período (linha)."
+        - text: "Todos os elementos representativos pertencem ao grupo B da tabela periódica."
+          correct: false
+        explanation: |
+          Elementos de uma mesma **família** (coluna) têm o mesmo número de elétrons na **camada de valência** — por isso têm propriedades químicas semelhantes. Resposta **(A)**.
+
+    - key: c7
+      type: content
+      markdownFile: quimica/aula-1-fundamentos/07-o-que-vimos.md
+
+  - slug: aula-2-modelos-atomicos
+    title: Aula 2 — Modelos atômicos e estrutura
+    description: De Dalton a Bohr, partículas, Z e A, isótopos e distribuição eletrônica.
+    tags: [quimica, modelos-atomicos]
+    summary:
+    - "Os modelos atômicos evoluíram de Dalton a Bohr conforme novas evidências."
+    - "Z (prótons) é a identidade do elemento e A = Z + N."
+    - "Isótopos, isóbaros e isótonos comparam Z, A e N entre átomos."
+    - "Íons mudam só o número de elétrons, não Z nem A."
+    - "A distribuição eletrônica segue o diagrama de Pauling, em camadas e subníveis."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-2-modelos-atomicos/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-2-modelos-atomicos/02-evolucao-dos-modelos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: modelos-atomicos
+        difficulty: medium
+        tags: [enem, modelos-atomicos]
+        skill: "associar a evidência experimental (ex.: experimento de Rutherford) ao modelo atômico correspondente e ao que ele introduziu"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-2-modelos-atomicos/03-particulas-z-e-a.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: modelos-atomicos
+        difficulty: easy
+        tags: [enem, modelos-atomicos]
+        skill: "determinar número de prótons, nêutrons e elétrons a partir de Z, A e da carga de um íon"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-2-modelos-atomicos/04-isotopos-isobaros-isotonos.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: modelos-atomicos
+        difficulty: medium
+        tags: [enem, modelos-atomicos]
+        skill: "classificar pares de átomos como isótopos, isóbaros ou isótonos a partir de Z e A"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-2-modelos-atomicos/05-distribuicao-eletronica.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: modelos-atomicos
+        difficulty: hard
+        tags: [enem, modelos-atomicos]
+        skill: "fazer a distribuição eletrônica pelo diagrama de Pauling e identificar a camada de valência"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-2-modelos-atomicos/06-o-que-vimos.md
+
+  - slug: aula-3-tabela-periodica
+    title: Aula 3 — Tabela periódica
+    description: Organização, classificação dos elementos e propriedades periódicas.
+    tags: [quimica, tabela-periodica]
+    summary:
+    - "A tabela é ordenada por Z crescente: períodos (linhas) e grupos (colunas)."
+    - "Metais perdem elétrons, ametais ganham, gases nobres são estáveis."
+    - "O raio atômico aumenta para baixo e para a esquerda."
+    - "Ionização, eletronegatividade e afinidade crescem para cima e para a direita."
+    - "Cátions são menores e ânions maiores que seus átomos de origem."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-3-tabela-periodica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-3-tabela-periodica/02-organizacao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: tabela-periodica
+        difficulty: easy
+        tags: [enem, tabela-periodica]
+        skill: "localizar um elemento na tabela (período e grupo) a partir da distribuição eletrônica e vice-versa"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-3-tabela-periodica/03-classificacao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: tabela-periodica
+        difficulty: medium
+        tags: [enem, tabela-periodica]
+        skill: "classificar elementos (metal, ametal, gás nobre, semimetal) e prever comportamento geral"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-3-tabela-periodica/04-raio-atomico.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: tabela-periodica
+        difficulty: medium
+        tags: [enem, tabela-periodica]
+        skill: "comparar raio atômico e iônico entre elementos com base na posição na tabela"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-3-tabela-periodica/05-energia-eletronegatividade.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: tabela-periodica
+        difficulty: hard
+        tags: [enem, tabela-periodica]
+        skill: "ordenar elementos por energia de ionização ou eletronegatividade usando as tendências periódicas"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-3-tabela-periodica/06-o-que-vimos.md
+
+  - slug: aula-4-ligacoes
+    title: Aula 4 — Ligações químicas
+    description: Octeto, ligações iônica, covalente e metálica, geometria, polaridade e forças intermoleculares.
+    tags: [quimica, ligacoes]
+    summary:
+    - "Os átomos se ligam buscando o octeto (estabilidade dos gases nobres)."
+    - "Iônica: metal + ametal (transferência); covalente: ametais (compartilhamento); metálica: mar de elétrons."
+    - "A geometria (VSEPR) e a diferença de eletronegatividade definem a polaridade."
+    - "Forças intermoleculares (London, dipolo-dipolo, ligação de hidrogênio) explicam pontos de ebulição."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-4-ligacoes/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-4-ligacoes/02-octeto-e-ionica.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: ligacoes
+        difficulty: easy
+        tags: [enem, ligacoes]
+        skill: "prever o tipo de ligação (iônica ou covalente) a partir dos elementos envolvidos"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-4-ligacoes/03-covalente-e-metalica.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: ligacoes
+        difficulty: medium
+        tags: [enem, ligacoes]
+        skill: "relacionar o tipo de ligação às propriedades do material (condutividade, ponto de fusão, dureza)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-4-ligacoes/04-geometria-e-polaridade.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: ligacoes
+        difficulty: hard
+        tags: [enem, ligacoes]
+        skill: "determinar a geometria molecular (VSEPR) e a polaridade resultante de uma molécula"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-4-ligacoes/05-forcas-intermoleculares.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: ligacoes
+        difficulty: medium
+        tags: [enem, ligacoes]
+        skill: "comparar pontos de ebulição de substâncias a partir das forças intermoleculares presentes"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-4-ligacoes/06-o-que-vimos.md
+
+  - slug: aula-5-funcoes-inorganicas
+    title: Aula 5 — Funções inorgânicas
+    description: Ácidos, bases, sais, óxidos, nomenclatura, neutralização, indicadores e pH.
+    tags: [quimica, funcoes-inorganicas]
+    summary:
+    - "Ácidos liberam H⁺ e bases liberam OH⁻ em água (Arrhenius)."
+    - "Sais vêm da neutralização; óxidos são binários com oxigênio."
+    - "A nomenclatura segue os sufixos do ânion (-eto/-ídrico, -ato/-ico, -ito/-oso)."
+    - "Neutralização: ácido + base → sal + água."
+    - "Indicadores revelam o meio; o pH (0–14) mede a acidez em escala logarítmica."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-5-funcoes-inorganicas/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-5-funcoes-inorganicas/02-acidos-e-bases.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: funcoes-inorganicas
+        difficulty: medium
+        tags: [enem, funcoes-inorganicas]
+        skill: "nomear e classificar ácidos e bases a partir da fórmula, e vice-versa"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-5-funcoes-inorganicas/03-sais-e-oxidos.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: funcoes-inorganicas
+        difficulty: medium
+        tags: [enem, funcoes-inorganicas]
+        skill: "identificar a função inorgânica (sal ou óxido) e prever o produto da reação com água"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-5-funcoes-inorganicas/04-neutralizacao.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: funcoes-inorganicas
+        difficulty: easy
+        tags: [enem, funcoes-inorganicas]
+        skill: "identificar os produtos de uma reação de neutralização em um contexto do cotidiano"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-5-funcoes-inorganicas/05-indicadores-e-ph.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: funcoes-inorganicas
+        difficulty: medium
+        tags: [enem, funcoes-inorganicas]
+        skill: "classificar o caráter ácido ou básico de substâncias a partir do pH ou da cor de um indicador"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-5-funcoes-inorganicas/06-o-que-vimos.md
+
+  - slug: aula-6-reacoes
+    title: Aula 6 — Reações químicas e balanceamento
+    description: Evidências, tipos de reação e balanceamento por tentativa.
+    tags: [quimica, reacoes]
+    summary:
+    - "Uma reação química forma substâncias novas (cor, gás, precipitado, calor/luz)."
+    - "Quatro tipos: síntese, decomposição, simples troca e dupla troca."
+    - "Balancear é igualar os átomos de cada elemento (Lei de Lavoisier)."
+    - "Ajustam-se os coeficientes, nunca os índices das fórmulas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-6-reacoes/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-6-reacoes/02-evidencias.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: reacoes
+        difficulty: easy
+        tags: [enem, reacoes]
+        skill: "distinguir transformação física de transformação química a partir das evidências observadas"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-6-reacoes/03-tipos-de-reacao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: reacoes
+        difficulty: medium
+        tags: [enem, reacoes]
+        skill: "classificar uma reação (síntese, decomposição, simples ou dupla troca) a partir da equação"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-6-reacoes/04-balanceamento.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: reacoes
+        difficulty: medium
+        tags: [enem, reacoes]
+        skill: "balancear uma equação por tentativa e determinar a soma dos coeficientes"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-6-reacoes/05-o-que-vimos.md
+
+  - slug: aula-7-estequiometria
+    title: Aula 7 — Estequiometria
+    description: Mol, massa molar, leis ponderais, cálculos, reagente limitante, pureza e rendimento.
+    tags: [quimica, estequiometria]
+    summary:
+    - "1 mol = 6,02 × 10²³ partículas; massa molar em g/mol; n = m / M."
+    - "Lavoisier: a massa se conserva; Proust: proporção fixa em massa."
+    - "Os coeficientes balanceados dão a proporção em mols dos cálculos."
+    - "Reagente limitante, pureza e rendimento ajustam o cálculo ao mundo real."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-7-estequiometria/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-7-estequiometria/02-mol-e-massa-molar.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: estequiometria
+        difficulty: easy
+        tags: [enem, estequiometria]
+        skill: "converter entre massa, número de mols e número de partículas usando n = m / M e a constante de Avogadro"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-7-estequiometria/03-leis-ponderais.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: estequiometria
+        difficulty: medium
+        tags: [enem, estequiometria]
+        skill: "aplicar a Lei de Lavoisier ou de Proust para determinar massas em uma reação"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-7-estequiometria/04-calculos.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: estequiometria
+        difficulty: medium
+        tags: [enem, estequiometria]
+        skill: "calcular massa ou volume de um produto a partir da equação balanceada e da proporção em mols"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-7-estequiometria/05-limitante-pureza-rendimento.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: estequiometria
+        difficulty: hard
+        tags: [enem, estequiometria]
+        skill: "resolver um cálculo estequiométrico envolvendo reagente limitante, pureza e/ou rendimento"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-7-estequiometria/06-o-que-vimos.md
+
+  - slug: aula-8-solucoes
+    title: Aula 8 — Soluções
+    description: Soluto e solvente, concentração, diluição, mistura, solubilidade e coligativas.
+    tags: [quimica, solucoes]
+    summary:
+    - "Solução é mistura homogênea de soluto (menor parte) e solvente (maior parte)."
+    - "Concentração: comum (g/L), molar (mol/L), porcentagem e ppm."
+    - "Diluição: C₁V₁ = C₂V₂, com o soluto constante."
+    - "Solubilidade define soluções insaturadas, saturadas e supersaturadas."
+    - "Propriedades coligativas dependem do número de partículas dissolvidas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-8-solucoes/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-8-solucoes/02-soluto-solvente.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: solucoes
+        difficulty: medium
+        tags: [enem, solucoes]
+        skill: "interpretar uma curva de solubilidade e classificar a solução (insaturada, saturada, supersaturada)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-8-solucoes/03-concentracao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: solucoes
+        difficulty: medium
+        tags: [enem, solucoes]
+        skill: "calcular a concentração em g/L, mol/L, porcentagem ou ppm de uma solução"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-8-solucoes/04-diluicao-e-mistura.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: solucoes
+        difficulty: hard
+        tags: [enem, solucoes]
+        skill: "resolver um problema de diluição ou mistura de soluções usando C₁V₁ = C₂V₂"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-8-solucoes/05-coligativas.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: solucoes
+        difficulty: medium
+        tags: [enem, solucoes]
+        skill: "explicar um fenômeno do cotidiano por uma propriedade coligativa (crioscopia, ebulioscopia, osmose)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-8-solucoes/06-o-que-vimos.md
+
+  - slug: aula-9-termoquimica
+    title: Aula 9 — Termoquímica
+    description: Reações endo e exotérmicas, entalpia, Lei de Hess e entalpias de formação e combustão.
+    tags: [quimica, termoquimica]
+    summary:
+    - "ΔH = H(produtos) − H(reagentes)."
+    - "Exotérmica libera calor (ΔH < 0); endotérmica absorve (ΔH > 0)."
+    - "Lei de Hess: o ΔH só depende dos estados inicial e final."
+    - "Entalpia de formação (substância simples padrão = 0) e de combustão (exotérmica)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-9-termoquimica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-9-termoquimica/02-endo-exo-entalpia.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: termoquimica
+        difficulty: easy
+        tags: [enem, termoquimica]
+        skill: "classificar uma reação como endo ou exotérmica a partir do sinal de ΔH ou de um gráfico de entalpia"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-9-termoquimica/03-lei-de-hess.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: termoquimica
+        difficulty: hard
+        tags: [enem, termoquimica]
+        skill: "calcular o ΔH de uma reação combinando equações intermediárias pela Lei de Hess"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-9-termoquimica/04-entalpias.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: termoquimica
+        difficulty: medium
+        tags: [enem, termoquimica]
+        skill: "calcular o ΔH de uma reação a partir das entalpias de formação dos participantes"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-9-termoquimica/05-o-que-vimos.md
+
+  - slug: aula-10-cinetica-equilibrio
+    title: Aula 10 — Cinética e equilíbrio
+    description: Velocidade e seus fatores, equilíbrio químico, Kc, Le Chatelier e equilíbrio iônico.
+    tags: [quimica, cinetica-equilibrio]
+    summary:
+    - "A velocidade depende de temperatura, concentração, superfície de contato e catalisador."
+    - "No equilíbrio dinâmico, as velocidades direta e inversa se igualam."
+    - "Kc relaciona as concentrações e só muda com a temperatura."
+    - "Le Chatelier: o sistema reage à perturbação minimizando-a."
+    - "pH = −log[H⁺]; pH + pOH = 14; ácidos/bases fortes ionizam totalmente."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-10-cinetica-equilibrio/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-10-cinetica-equilibrio/02-velocidade.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: cinetica-equilibrio
+        difficulty: medium
+        tags: [enem, cinetica-equilibrio]
+        skill: "prever o efeito de temperatura, concentração, superfície ou catalisador sobre a velocidade de uma reação"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-10-cinetica-equilibrio/03-equilibrio-kc.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: cinetica-equilibrio
+        difficulty: hard
+        tags: [enem, cinetica-equilibrio]
+        skill: "escrever a expressão de Kc e interpretar o seu valor quanto ao favorecimento de reagentes ou produtos"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-10-cinetica-equilibrio/04-le-chatelier.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: cinetica-equilibrio
+        difficulty: medium
+        tags: [enem, cinetica-equilibrio]
+        skill: "prever o deslocamento de um equilíbrio ao alterar concentração, pressão ou temperatura (Le Chatelier)"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-10-cinetica-equilibrio/05-equilibrio-ionico-ph.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: cinetica-equilibrio
+        difficulty: medium
+        tags: [enem, cinetica-equilibrio]
+        skill: "calcular pH ou pOH e relacionar à concentração de H⁺ e à força do ácido ou base"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-10-cinetica-equilibrio/06-o-que-vimos.md
+
+  - slug: aula-11-eletroquimica
+    title: Aula 11 — Eletroquímica
+    description: Oxirredução e nox, pilhas, potenciais, eletrólise e aplicações.
+    tags: [quimica, eletroquimica]
+    summary:
+    - "Oxirredução é transferência de elétrons, rastreada pelo nox."
+    - "Oxidação perde elétrons (agente redutor); redução ganha (agente oxidante)."
+    - "Pilha: reação espontânea gera corrente; ΔE° = E°(cátodo) − E°(ânodo) > 0."
+    - "Eletrólise: a corrente força uma reação não espontânea (ígnea ou aquosa)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-11-eletroquimica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-11-eletroquimica/02-oxirreducao-nox.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: eletroquimica
+        difficulty: medium
+        tags: [enem, eletroquimica]
+        skill: "determinar o nox dos elementos e identificar o agente oxidante e o redutor em uma reação"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-11-eletroquimica/03-pilhas.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: eletroquimica
+        difficulty: hard
+        tags: [enem, eletroquimica]
+        skill: "identificar ânodo, cátodo e calcular a ddp de uma pilha a partir dos potenciais-padrão de redução"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-11-eletroquimica/04-eletrolise.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: eletroquimica
+        difficulty: medium
+        tags: [enem, eletroquimica]
+        skill: "distinguir pilha de eletrólise e reconhecer aplicações (galvanização, produção de metais)"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-11-eletroquimica/05-o-que-vimos.md
+
+  - slug: aula-12-organica
+    title: Aula 12 — Química orgânica
+    description: O carbono, cadeias, funções, nomenclatura, isomeria, reações, polímeros e petroquímica.
+    tags: [quimica, organica]
+    summary:
+    - "O carbono é tetravalente e se encadeia, gerando enorme variedade de compostos."
+    - "As funções orgânicas são definidas pelo grupo funcional."
+    - "Nomenclatura IUPAC: prefixo (C) + infixo (ligação) + sufixo (função)."
+    - "Isomeria plana e espacial geram compostos de mesma fórmula e propriedades distintas."
+    - "Polímeros e petroquímica conectam a química orgânica à indústria e ao ambiente."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-12-organica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-12-organica/02-o-carbono.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: organica
+        difficulty: easy
+        tags: [enem, organica]
+        skill: "classificar carbonos (primário a quaternário) e identificar hidrocarbonetos saturados ou insaturados"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-12-organica/03-cadeias-carbonicas.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: organica
+        difficulty: medium
+        tags: [enem, organica]
+        skill: "classificar uma cadeia carbônica quanto a fechamento, saturação, ramificação e heteroátomos"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-12-organica/04-funcoes-organicas.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: organica
+        difficulty: medium
+        tags: [enem, organica]
+        skill: "reconhecer a função orgânica de um composto a partir do seu grupo funcional"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-12-organica/05-nomenclatura.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: organica
+        difficulty: hard
+        tags: [enem, organica]
+        skill: "nomear um composto pela IUPAC ou desenhar a estrutura a partir do nome"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-12-organica/06-isomeria.md
+
+    - key: ph5
+      type: exercise_placeholder
+      placeholder:
+        topic: organica
+        difficulty: hard
+        tags: [enem, organica]
+        skill: "identificar o tipo de isomeria (plana ou espacial) entre dois compostos de mesma fórmula molecular"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c7
+      type: content
+      markdownFile: quimica/aula-12-organica/07-reacoes-polimeros.md
+
+    - key: ph6
+      type: exercise_placeholder
+      placeholder:
+        topic: organica
+        difficulty: medium
+        tags: [enem, organica]
+        skill: "reconhecer um tipo de reação orgânica ou de polimerização e relacioná-lo a uma aplicação"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c8
+      type: content
+      markdownFile: quimica/aula-12-organica/08-o-que-vimos.md
+
+  - slug: aula-13-ambiental
+    title: Aula 13 — Química ambiental
+    description: Poluição do ar e da água, lixo, reciclagem e energia, ligados aos temas do ENEM.
+    tags: [quimica, ambiental]
+    summary:
+    - "Efeito estufa (CO₂, CH₄) e chuva ácida (SO₂/SO₃, NOₓ) decorrem da poluição do ar."
+    - "A camada de ozônio (filtro de UV) é um problema distinto do efeito estufa."
+    - "O tratamento da água usa coagulação, decantação, filtração e cloração."
+    - "A gestão do lixo segue a política dos 3 R (reduzir, reutilizar, reciclar)."
+    - "A matriz energética opõe fósseis (emissores) a renováveis e fontes limpas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: quimica/aula-13-ambiental/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: quimica/aula-13-ambiental/02-poluicao-do-ar.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: ambiental
+        difficulty: medium
+        tags: [enem, ambiental]
+        skill: "relacionar gases poluentes (CO₂, SO₂, NOₓ) ao efeito estufa ou à chuva ácida e suas consequências"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: quimica/aula-13-ambiental/03-ozonio-inversao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: ambiental
+        difficulty: medium
+        tags: [enem, ambiental]
+        skill: "distinguir camada de ozônio, efeito estufa e inversão térmica e suas causas químicas"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: quimica/aula-13-ambiental/04-agua.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: ambiental
+        difficulty: medium
+        tags: [enem, ambiental]
+        skill: "interpretar etapas do tratamento de água ou os efeitos da poluição hídrica (eutrofização, oxigênio dissolvido)"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: quimica/aula-13-ambiental/05-lixo-e-energia.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: ambiental
+        difficulty: medium
+        tags: [enem, ambiental]
+        skill: "comparar fontes de energia ou práticas de gestão de resíduos quanto a impacto ambiental e renovabilidade"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: quimica/aula-13-ambiental/06-o-que-vimos.md

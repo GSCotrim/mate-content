@@ -1,0 +1,735 @@
+subject:
+  slug: filosofia
+  name: Filosofia
+  description: História e problemas da Filosofia, dos pré-socráticos à ética contemporânea, com foco no ENEM.
+
+topics:
+- slug: introducao-filosofia
+  name: O que é Filosofia e o mito ao logos
+- slug: pre-socraticos
+  name: Filósofos pré-socráticos
+- slug: socrates-sofistas
+  name: Sócrates e os sofistas
+- slug: platao
+  name: Platão e o mundo das ideias
+- slug: aristoteles
+  name: Aristóteles (lógica, ética e política)
+- slug: filosofia-medieval
+  name: Filosofia medieval (patrística e escolástica)
+- slug: racionalismo
+  name: Descartes e o racionalismo
+- slug: empirismo
+  name: Empirismo
+- slug: iluminismo
+  name: Iluminismo e razão crítica
+- slug: contratualistas
+  name: Filosofia política e contratualistas
+- slug: etica-moral
+  name: Ética e moral (Kant e utilitarismo)
+- slug: filosofia-contemporanea
+  name: Filosofia contemporânea
+
+tracks:
+- slug: filosofia-base
+  title: Filosofia — base
+  description: A trilha completa de Filosofia, do nascimento do pensamento racional à ética contemporânea.
+  lessons:
+  - slug: aula-1-o-que-e-filosofia
+    title: Aula 1 — O que é Filosofia e a passagem do mito ao logos
+    description: O nascimento da Filosofia na Grécia, a atitude filosófica e a diferença entre mito e razão.
+    tags: [filosofia, introducao-filosofia]
+    summary:
+    - "Filosofia é a busca racional, crítica e argumentada por respostas a problemas fundamentais."
+    - "O mito explica o mundo por narrativas; o logos busca explicações racionais e universais."
+    - "A admiração (thauma) e a dúvida são as origens da atitude filosófica."
+    - "A Filosofia nasce na Grécia do século VI a.C. e organiza-se em grandes áreas (metafísica, ética, política, lógica, estética)."
+    - "No ENEM, a Filosofia aparece aplicada a debates atuais sobre ética, política e conhecimento."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-1-o-que-e-filosofia/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-1-o-que-e-filosofia/02-o-que-e-filosofia.md
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-1-o-que-e-filosofia/03-mito-ao-logos.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: introducao-filosofia
+        difficulty: easy
+        tags: [enem, introducao-filosofia]
+        skill: "distinguir a explicação mítica da explicação racional (logos) a partir de um texto-base"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-1-o-que-e-filosofia/04-areas-e-atitude.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: introducao-filosofia
+        difficulty: medium
+        tags: [enem, introducao-filosofia]
+        skill: "identificar a área da Filosofia (ética, política, epistemologia, estética) mobilizada por um problema atual"
+        suggestedSources: [ENEM, UNESP]
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-1-o-que-e-filosofia/05-o-que-vimos.md
+
+  - slug: aula-2-pre-socraticos
+    title: Aula 2 — Os pré-socráticos e a pergunta pela natureza
+    description: Os primeiros filósofos e a busca pela arché, princípio de todas as coisas.
+    tags: [filosofia, pre-socraticos]
+    summary:
+    - "Os pré-socráticos buscaram a arché, o princípio originário e ordenador de tudo o que existe."
+    - "Tales, Anaximandro e Anaxímenes (escola de Mileto) propuseram princípios materiais para a physis."
+    - "Heráclito afirmou o devir e o conflito; Parmênides afirmou o ser imutável e a primazia da razão."
+    - "Os atomistas (Demócrito) explicaram a realidade por átomos e vazio."
+    - "A pergunta pela natureza inaugura a investigação racional sobre a realidade (cosmologia)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-2-pre-socraticos/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-2-pre-socraticos/02-a-arche-e-mileto.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: pre-socraticos
+        difficulty: easy
+        tags: [enem, pre-socraticos]
+        skill: "relacionar cada filósofo de Mileto à arché que propôs (água, ápeiron, ar)"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-2-pre-socraticos/03-heraclito-e-parmenides.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: pre-socraticos
+        difficulty: medium
+        tags: [enem, pre-socraticos]
+        skill: "contrastar a tese do devir (Heráclito) com a tese do ser imutável (Parmênides) em um texto-base"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-2-pre-socraticos/04-pluralistas-e-atomistas.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: pre-socraticos
+        difficulty: medium
+        tags: [enem, pre-socraticos]
+        skill: "identificar a explicação atomista da realidade (átomos e vazio) e seu caráter materialista"
+        suggestedSources: [ENEM, UNESP]
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-2-pre-socraticos/05-o-que-vimos.md
+
+  - slug: aula-3-socrates-e-sofistas
+    title: Aula 3 — Sócrates e os sofistas
+    description: O giro antropológico, o relativismo sofista e o método socrático.
+    tags: [filosofia, socrates-sofistas]
+    summary:
+    - "Os sofistas deslocaram a Filosofia da natureza para o ser humano e a vida em sociedade."
+    - "O relativismo (Protágoras) afirma que não há verdade absoluta, e a retórica ensina a persuadir."
+    - "Sócrates buscava definições universais e o autoconhecimento, opondo-se ao relativismo."
+    - "O método socrático combina ironia (refutar o falso saber) e maiêutica (fazer nascer o conceito)."
+    - "Sócrates ligou virtude e conhecimento: agir bem depende de saber o que é o bem (intelectualismo moral)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-3-socrates-e-sofistas/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-3-socrates-e-sofistas/02-os-sofistas.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: socrates-sofistas
+        difficulty: medium
+        tags: [enem, socrates-sofistas]
+        skill: "reconhecer o relativismo sofista (Protágoras) e diferenciá-lo da busca socrática por verdade universal"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-3-socrates-e-sofistas/03-socrates-e-o-metodo.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: socrates-sofistas
+        difficulty: easy
+        tags: [enem, socrates-sofistas]
+        skill: "identificar as etapas do método socrático (ironia e maiêutica) em um diálogo"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-3-socrates-e-sofistas/04-virtude-e-conhecimento.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: socrates-sofistas
+        difficulty: medium
+        tags: [enem, socrates-sofistas]
+        skill: "relacionar o intelectualismo moral socrático (virtude como conhecimento) a um dilema ético atual"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-3-socrates-e-sofistas/05-o-que-vimos.md
+
+  - slug: aula-4-platao
+    title: Aula 4 — Platão e o mundo das ideias
+    description: A teoria das ideias, o dualismo entre sensível e inteligível e a teoria política.
+    tags: [filosofia, platao]
+    summary:
+    - "Platão distingue o mundo sensível (cópias mutáveis) do mundo inteligível das Ideias (Formas) perfeitas e eternas."
+    - "O conhecimento verdadeiro (episteme) é das Ideias; a opinião (doxa) fica presa às aparências."
+    - "A alegoria da caverna ilustra a passagem da ignorância ao conhecimento e o papel do filósofo."
+    - "Para Platão, a alma é tripartida e a justiça é a harmonia entre suas partes."
+    - "Na política, Platão propõe a cidade justa governada pelos filósofos (o rei-filósofo)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-4-platao/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-4-platao/02-teoria-das-ideias.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: platao
+        difficulty: medium
+        tags: [enem, platao]
+        skill: "distinguir mundo sensível e mundo inteligível e relacionar episteme e doxa"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-4-platao/03-alegoria-da-caverna.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: platao
+        difficulty: medium
+        tags: [enem, platao]
+        skill: "interpretar a alegoria da caverna como percurso do conhecimento e crítica às aparências"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-4-platao/04-alma-e-politica.md
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: platao
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          A cidade justa é governada pelos filósofos, administrada pelos cientistas, protegida pelos guerreiros e mantida pelos produtores. Cada classe cumprirá sua função para o bem da pólis, racionalmente dirigida pelos filósofos. Em contrapartida, a cidade injusta é aquela onde o governo está nas mãos dos proprietários — que não pensam no bem comum da pólis e lutarão por interesses econômicos particulares.
+
+          CHAUÍ, M. *Convite à filosofia*. São Paulo: Ática, 2000.
+
+          O texto apresenta a estrutura de governo da cidade ideal pensada por Platão, que postula uma indissociabilidade entre
+        options:
+        - text: "cognoscência e relação intersubjetiva."
+          correct: false
+          feedback: "O texto não trata da construção do conhecimento entre sujeitos, mas de quem deve governar e por quê."
+        - text: "mitologia e teorias cosmogônicas."
+          correct: false
+          feedback: "A cidade justa de Platão se funda na razão filosófica, não em explicações mitológicas sobre a origem do mundo."
+        - text: "cidadania e primazia da retórica."
+          correct: false
+          feedback: "Platão desconfia da retórica (associada aos sofistas); o governo cabe a quem conhece o bem, não a quem persuade."
+        - text: "moralidade e virtudes cardeais."
+          correct: false
+          feedback: "Embora Platão trabalhe com virtudes, o texto enfatiza quem governa e o porquê — o saber que liga ética e poder —, não as quatro virtudes cardeais."
+        - text: "ética e exercício do poder."
+          correct: true
+        explanation: |
+          Para Platão, a cidade só é **justa** quando governada pelos **filósofos** — aqueles que conhecem o **bem**. O poder não pode estar dissociado do saber ético: governa bem quem sabe o que é o bem comum. A **cidade injusta** é justamente aquela em que o poder se separa da ética (cai nas mãos dos proprietários, movidos por interesses particulares). Logo, Platão postula a **indissociabilidade entre ética e exercício do poder** — a base da ideia do **rei-filósofo**. Resposta **(E)**.
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-4-platao/05-o-que-vimos.md
+
+  - slug: aula-5-aristoteles
+    title: "Aula 5 — Aristóteles: lógica, ética e política"
+    description: Metafísica do concreto, lógica, a ética da virtude e a felicidade (eudaimonia).
+    tags: [filosofia, aristoteles]
+    summary:
+    - "Aristóteles parte do mundo concreto: a essência está nas próprias coisas, não num mundo separado."
+    - "Sua lógica formaliza o raciocínio válido por meio do silogismo."
+    - "A ética aristotélica é uma ética da virtude: a virtude é o justo meio entre dois excessos."
+    - "O fim último da vida humana é a eudaimonia, a felicidade entendida como realização plena."
+    - "O ser humano é um animal político; a vida boa só se realiza na pólis."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-5-aristoteles/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-5-aristoteles/02-metafisica-e-logica.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: aristoteles
+        difficulty: medium
+        tags: [enem, aristoteles]
+        skill: "contrastar a metafísica de Aristóteles com a teoria das ideias de Platão"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-5-aristoteles/03-etica-e-virtude.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: aristoteles
+        difficulty: medium
+        tags: [enem, aristoteles]
+        skill: "aplicar a doutrina do justo meio (mediania) para classificar uma virtude entre dois vícios"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-5-aristoteles/04-felicidade-e-politica.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: aristoteles
+        difficulty: hard
+        tags: [enem, aristoteles]
+        skill: "relacionar eudaimonia e a tese do homem como animal político à vida em comunidade"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-5-aristoteles/05-o-que-vimos.md
+
+  - slug: aula-6-filosofia-medieval
+    title: "Aula 6 — Filosofia medieval: patrística e escolástica"
+    description: A relação entre fé e razão em Agostinho e Tomás de Aquino.
+    tags: [filosofia, filosofia-medieval]
+    summary:
+    - "A filosofia medieval articula a herança grega com o cristianismo, discutindo a relação entre fé e razão."
+    - "Na patrística, Agostinho reinterpreta Platão e defende a iluminação divina e o livre-arbítrio."
+    - "Na escolástica, Tomás de Aquino reinterpreta Aristóteles e harmoniza fé e razão."
+    - "Tomás propõe vias racionais para demonstrar a existência de Deus e a noção de lei natural."
+    - "O período prepara as discussões modernas sobre conhecimento, vontade e moral."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-6-filosofia-medieval/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-6-filosofia-medieval/02-patristica-agostinho.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: filosofia-medieval
+        difficulty: medium
+        tags: [enem, filosofia-medieval]
+        skill: "identificar a influência platônica e o papel da iluminação divina no pensamento de Agostinho"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-6-filosofia-medieval/03-escolastica-tomas.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: filosofia-medieval
+        difficulty: medium
+        tags: [enem, filosofia-medieval]
+        skill: "reconhecer a influência aristotélica e a harmonização entre fé e razão em Tomás de Aquino"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-6-filosofia-medieval/04-fe-e-razao.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: filosofia-medieval
+        difficulty: hard
+        tags: [enem, filosofia-medieval]
+        skill: "comparar como patrística e escolástica concebem a relação entre fé e razão"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-6-filosofia-medieval/05-o-que-vimos.md
+
+  - slug: aula-7-descartes-racionalismo
+    title: Aula 7 — Descartes e o racionalismo
+    description: A dúvida metódica, o cogito e a razão como fundamento do conhecimento.
+    tags: [filosofia, racionalismo]
+    summary:
+    - "A modernidade desloca o fundamento do conhecimento de Deus para o sujeito que pensa."
+    - "Descartes usa a dúvida metódica para encontrar uma verdade indubitável."
+    - "O cogito (penso, logo existo) é a primeira certeza, base de todo o conhecimento."
+    - "Para o racionalismo, a razão, e não os sentidos, é a fonte segura do saber."
+    - "Descartes inaugura o problema moderno entre sujeito e objeto (res cogitans e res extensa)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-7-descartes-racionalismo/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-7-descartes-racionalismo/02-origens-da-modernidade.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: racionalismo
+        difficulty: easy
+        tags: [enem, racionalismo]
+        skill: "caracterizar a virada moderna que coloca o sujeito como fundamento do conhecimento"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-7-descartes-racionalismo/03-duvida-metodica.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: racionalismo
+        difficulty: medium
+        tags: [enem, racionalismo]
+        skill: "explicar a função da dúvida metódica como caminho para uma certeza indubitável"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-7-descartes-racionalismo/04-cogito-e-razao.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: racionalismo
+        difficulty: medium
+        tags: [enem, racionalismo]
+        skill: "interpretar o cogito como primeira verdade e fundamento racional do saber"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-7-descartes-racionalismo/05-o-que-vimos.md
+
+  - slug: aula-8-empirismo
+    title: Aula 8 — O empirismo
+    description: A experiência como origem do conhecimento em Locke e Hume.
+    tags: [filosofia, empirismo]
+    summary:
+    - "O empirismo afirma que todo conhecimento tem origem na experiência sensível."
+    - "Locke recusa as ideias inatas: a mente nasce como uma tábula rasa preenchida pela experiência."
+    - "Hume distingue impressões e ideias e analisa criticamente a noção de causalidade."
+    - "A crítica de Hume à causalidade mostra os limites do conhecimento empírico (ceticismo)."
+    - "Racionalismo e empirismo dividem-se sobre a fonte do conhecimento: razão ou experiência."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-8-empirismo/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-8-empirismo/02-locke-e-a-tabula-rasa.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: empirismo
+        difficulty: medium
+        tags: [enem, empirismo]
+        skill: "contrastar a tese empirista da tábula rasa com o inatismo racionalista"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-8-empirismo/03-hume-e-a-causalidade.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: empirismo
+        difficulty: hard
+        tags: [enem, empirismo]
+        skill: "explicar a crítica de Hume à causalidade e seus efeitos sobre o conhecimento"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-8-empirismo/04-racionalismo-x-empirismo.md
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: empirismo
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          A credulidade dos ouvintes aumenta o descaramento do narrador, e o descaramento deste conquista-lhes a credulidade. A eloquência, quando levada a seu patamar mais alto, deixa pouco lugar à razão ou à reflexão, mas, dirigindo-se inteiramente à imaginação e aos afetos, cativa os ouvintes condescendentes e subjuga-lhes o entendimento.
+
+          HUME, D. *Uma investigação sobre o entendimento humano e sobre os princípios da moral*. São Paulo: Edunesp, 2003.
+
+          No contexto do século XVIII, o autor propõe uma reflexão radical acerca da arte da eloquência, restringindo-a ao
+        options:
+        - text: "sistema de crenças, conforme a proposta kantiana de objetividade do conhecimento."
+          correct: false
+          feedback: "Kant é posterior a Hume e busca condições objetivas do conhecimento — o oposto da eloquência que apela aos afetos."
+        - text: "campo dos absolutos, semelhante ao entendimento medieval dos Universais."
+          correct: false
+          feedback: "O debate medieval dos universais não tem relação com a crítica de Hume à eloquência."
+        - text: "domínio da lógica, consoante a compreensão aristotélica nos Analíticos."
+          correct: false
+          feedback: "O texto diz exatamente o contrário: a eloquência \"deixa pouco lugar à razão ou à reflexão\", logo não se reduz à lógica."
+        - text: "paradigma da racionalidade, alinhado ao modelo cartesiano de método."
+          correct: false
+          feedback: "A eloquência descrita dirige-se à imaginação e aos afetos, afastando-se da racionalidade metódica de Descartes."
+        - text: "âmbito da persuasão, análogo às críticas platônicas aos sofistas."
+          correct: true
+        explanation: |
+          Hume observa que a eloquência, no seu auge, **deixa pouco lugar à razão** e dirige-se **à imaginação e aos afetos** — ou seja, ela **persuade** sem **convencer** racionalmente. Ele a restringe, portanto, ao **âmbito da persuasão**. Isso retoma a crítica de **Platão aos sofistas**, que dominavam a arte de convencer (retórica) independentemente da verdade. Resposta **(E)**.
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-8-empirismo/05-o-que-vimos.md
+
+  - slug: aula-9-iluminismo
+    title: Aula 9 — Iluminismo e razão crítica
+    description: O uso público da razão, a crítica à tradição e o legado político do Esclarecimento.
+    tags: [filosofia, iluminismo]
+    summary:
+    - "O Iluminismo defende o uso autônomo e público da razão como instrumento de emancipação."
+    - "A razão crítica questiona a tradição, o dogma e a autoridade injustificada."
+    - "Kant define o Esclarecimento como a saída da menoridade intelectual."
+    - "O movimento influencia ideais de liberdade, igualdade e direitos que marcam a política moderna."
+    - "O Iluminismo é base para a crítica social e os direitos discutidos no ENEM."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-9-iluminismo/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-9-iluminismo/02-o-esclarecimento.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: iluminismo
+        difficulty: medium
+        tags: [enem, iluminismo]
+        skill: "interpretar o Esclarecimento como saída da menoridade e uso autônomo da razão"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-9-iluminismo/03-razao-critica-e-tradicao.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: iluminismo
+        difficulty: medium
+        tags: [enem, iluminismo]
+        skill: "relacionar a crítica iluminista à tradição com debates atuais sobre autonomia e autoridade"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-9-iluminismo/04-legado-politico.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: iluminismo
+        difficulty: hard
+        tags: [enem, iluminismo]
+        skill: "associar ideais iluministas (liberdade, igualdade, direitos) a transformações políticas modernas"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-9-iluminismo/05-o-que-vimos.md
+
+  - slug: aula-10-contratualistas
+    title: "Aula 10 — Filosofia política: os contratualistas"
+    description: Estado de natureza e contrato social em Hobbes, Locke e Rousseau.
+    tags: [filosofia, contratualistas]
+    summary:
+    - "Os contratualistas explicam a origem do Estado por um pacto que substitui o estado de natureza."
+    - "Hobbes vê o estado de natureza como guerra de todos contra todos e defende o poder soberano absoluto."
+    - "Locke vê direitos naturais (vida, liberdade, propriedade) e defende o governo limitado e o direito de resistência."
+    - "Rousseau vê o ser humano naturalmente bom e propõe o contrato fundado na vontade geral."
+    - "As ideias contratualistas fundamentam o Estado moderno, a democracia e os direitos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-10-contratualistas/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-10-contratualistas/02-estado-de-natureza-e-contrato.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: contratualistas
+        difficulty: easy
+        tags: [enem, contratualistas]
+        skill: "explicar a estrutura geral do contratualismo (estado de natureza, pacto, sociedade civil)"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-10-contratualistas/03-hobbes-e-locke.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: contratualistas
+        difficulty: medium
+        tags: [enem, contratualistas]
+        skill: "contrastar o absolutismo de Hobbes com o liberalismo político de Locke"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-10-contratualistas/04-rousseau-e-a-vontade-geral.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: contratualistas
+        difficulty: hard
+        tags: [enem, contratualistas]
+        skill: "relacionar a vontade geral de Rousseau a noções atuais de soberania popular e democracia"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-10-contratualistas/05-o-que-vimos.md
+
+  - slug: aula-11-etica-kant-utilitarismo
+    title: "Aula 11 — Ética e moral: Kant e o utilitarismo"
+    description: A ética do dever de Kant e a ética das consequências do utilitarismo.
+    tags: [filosofia, etica-moral]
+    summary:
+    - "Ética é a reflexão filosófica sobre a moral, o conjunto de valores e normas de uma sociedade."
+    - "A ética de Kant é deontológica: o valor moral está no dever e na boa vontade, não nas consequências."
+    - "O imperativo categórico exige agir segundo máximas que possam ser universalizadas."
+    - "O utilitarismo é consequencialista: a ação correta é a que maximiza o bem-estar do maior número."
+    - "Deontologia e utilitarismo oferecem critérios distintos para avaliar dilemas éticos atuais."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-11-etica-kant-utilitarismo/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-11-etica-kant-utilitarismo/02-etica-e-moral.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: etica-moral
+        difficulty: easy
+        tags: [enem, etica-moral]
+        skill: "distinguir ética e moral e identificar autonomia e heteronomia"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-11-etica-kant-utilitarismo/03-kant-e-o-dever.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: etica-moral
+        difficulty: medium
+        tags: [enem, etica-moral]
+        skill: "aplicar o imperativo categórico (universalização da máxima) a um caso concreto"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-11-etica-kant-utilitarismo/04-utilitarismo.md
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: etica-moral
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          A missão dos governantes consiste em promover a felicidade da sociedade, punindo e recompensando. A parte da missão de governo que consiste em punir constitui mais particularmente o objeto da lei penal. A obrigatoriedade ou necessidade de punir uma ação é proporcional à medida que tal ação tende a perturbar a felicidade e à medida que a tendência do referido ato é perniciosa. A felicidade consiste naquilo que já vimos, ou seja, em desfrutar prazeres e em estar isento de dores.
+
+          BENTHAM, J. *Uma introdução aos princípios da moral e da legislação*. São Paulo: Abril Cultural, 1974 (adaptado).
+
+          Qual perspectiva de justiça emerge da relação, estabelecida no texto, entre punição e felicidade?
+        options:
+        - text: "Aplicação de meios para atingir um fim."
+          correct: true
+        - text: "Imposição de regras para estabelecer um dever."
+          correct: false
+          feedback: "Justiça como dever é a perspectiva deontológica (Kant), oposta ao raciocínio consequencialista do texto."
+        - text: "Sobreposição de princípios para fundamentar um direito."
+          correct: false
+          feedback: "O texto não fundamenta a punição em princípios ou direitos, mas em seus efeitos sobre a felicidade."
+        - text: "Criação de parâmetros para reconhecer uma prescrição."
+          correct: false
+          feedback: "A punição não decorre de uma prescrição prévia, e sim do cálculo de suas consequências."
+        - text: "Elaboração de convenções para referendar um costume."
+          correct: false
+          feedback: "Não há apelo a costumes ou convenções: o critério é a maximização da felicidade."
+        explanation: |
+          O texto é de **Bentham**, fundador do **utilitarismo**, uma ética **consequencialista**: uma ação é correta conforme suas **consequências** para a felicidade (prazer e ausência de dor). A punição é justificada como **meio** para o **fim** de preservar a felicidade da sociedade, e sua intensidade é proporcional ao dano que o ato causa. Trata-se, portanto, de uma justiça que aplica **meios para atingir um fim**. Resposta **(A)**.
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-11-etica-kant-utilitarismo/05-o-que-vimos.md
+
+  - slug: aula-12-filosofia-contemporanea
+    title: Aula 12 — Introdução à filosofia contemporânea
+    description: Suspeita, existência, linguagem e crítica da técnica no pensamento dos séculos XIX e XX.
+    tags: [filosofia, filosofia-contemporanea]
+    summary:
+    - "A filosofia contemporânea questiona as certezas da razão moderna a partir de novas perspectivas."
+    - "Os 'mestres da suspeita' (Marx, Nietzsche, Freud) desmascaram interesses ocultos por trás das ideias."
+    - "O existencialismo coloca a existência e a liberdade humana no centro da reflexão."
+    - "A Escola de Frankfurt critica a razão instrumental e a indústria cultural."
+    - "Esses temas embasam debates atuais do ENEM sobre poder, mídia, tecnologia e liberdade."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: filosofia/aula-12-filosofia-contemporanea/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: filosofia/aula-12-filosofia-contemporanea/02-mestres-da-suspeita.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: filosofia-contemporanea
+        difficulty: medium
+        tags: [enem, filosofia-contemporanea]
+        skill: "identificar a crítica dos mestres da suspeita às ideias como expressão de interesses ocultos"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: filosofia/aula-12-filosofia-contemporanea/03-existencialismo.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: filosofia-contemporanea
+        difficulty: medium
+        tags: [enem, filosofia-contemporanea]
+        skill: "interpretar a tese existencialista da liberdade e responsabilidade humanas"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: filosofia/aula-12-filosofia-contemporanea/04-razao-instrumental.md
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: filosofia-contemporanea
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          A "invenção" dessa nova anatomia política não deve ser entendida como uma descoberta súbita. Mas como uma multiplicidade de processos muitas vezes mínimos, de origens diferentes, de localizações esparsas, que se recordam, que se repetem, ou se imitam, apoiam-se uns sobre os outros e esboçam aos poucos a fachada de um método geral. Encontramo-los em funcionamento nos colégios, muito cedo; mais tarde, nas escolas primárias, no espaço hospitalar e na organização militar.
+
+          FOUCAULT, M. *Vigiar e punir*. Petrópolis: Vozes, 2011.
+
+          O texto indica o seguinte aspecto da disciplina como ferramenta política:
+        options:
+        - text: "Expansão das técnicas de suplício."
+          correct: false
+          feedback: "Foucault contrapõe a disciplina ao suplício; o poder disciplinar não amplia o castigo físico."
+        - text: "Judicialização das relações de poder."
+          correct: false
+          feedback: "A disciplina opera fora dos tribunais — em escolas, hospitais e quartéis."
+        - text: "Dissolução das distinções de nobreza."
+          correct: false
+          feedback: "O texto não trata de hierarquias nobiliárquicas."
+        - text: "Capilarização das práticas de controle."
+          correct: true
+        - text: "Espetacularização das medidas de penitência."
+          correct: false
+          feedback: "A disciplina é discreta e difusa, o oposto do castigo como espetáculo público."
+        explanation: |
+          Foucault descreve o poder disciplinar como uma multiplicidade de processos mínimos e dispersos que se espalham por colégios, escolas, hospitais e quartéis. Trata-se da **capilarização das práticas de controle** — um poder que penetra de forma difusa em todo o tecido social. Resposta **(D)**.
+    - key: c5
+      type: content
+      markdownFile: filosofia/aula-12-filosofia-contemporanea/05-o-que-vimos.md

@@ -1,0 +1,662 @@
+subject:
+  slug: portugues
+  name: Língua Portuguesa
+  description: Leitura, interpretação e análise de textos para o ENEM e o vestibular.
+
+topics:
+- slug: interpretacao
+  name: Interpretação e inferência
+- slug: denotacao-conotacao
+  name: Denotação e conotação
+- slug: figuras-linguagem
+  name: Figuras de linguagem
+- slug: coesao-coerencia
+  name: Coesão e coerência
+- slug: funcoes-linguagem
+  name: Funções da linguagem
+- slug: generos-textuais
+  name: Gêneros textuais
+- slug: variacao-linguistica
+  name: Variação linguística
+- slug: intertextualidade
+  name: Intertextualidade
+- slug: textos-multimodais
+  name: Textos multimodais
+- slug: literatura
+  name: Literatura aplicada à leitura
+
+tracks:
+- slug: portugues-base
+  title: Língua Portuguesa — base
+  description: A trilha de leitura e análise de textos, da interpretação à literatura.
+  lessons:
+  - slug: aula-1-competencia-leitora
+    title: Aula 1 — Competência leitora e interpretação
+    description: Ler além das linhas — compreensão, interpretação e inferência.
+    tags: [portugues, interpretacao]
+    summary:
+    - "Compreender é extrair o que o texto diz; interpretar é ir além, com base no texto."
+    - "A inferência preenche o não dito a partir de pistas textuais e do contexto."
+    - "Tema e tese organizam a leitura: do assunto geral ao ponto de vista defendido."
+    - "Pressuposto e subentendido carregam sentidos implícitos no texto."
+    - "Extrapolar sem apoio no texto é o erro mais comum em prova."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-1-competencia-leitora/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-1-competencia-leitora/02-compreender-e-interpretar.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: interpretacao
+        difficulty: easy
+        tags: [enem, interpretacao]
+        skill: "localizar uma informação explícita em um texto curto e distingui-la de uma extrapolação indevida"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-1-competencia-leitora/03-inferencia.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: interpretacao
+        difficulty: medium
+        tags: [enem, interpretacao]
+        skill: "inferir uma informação implícita a partir de pistas textuais e do contexto de um texto verbal"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-1-competencia-leitora/04-tema-tese.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: interpretacao
+        difficulty: medium
+        tags: [enem, interpretacao]
+        skill: "identificar a tese (ponto de vista) defendida pelo autor e diferenciá-la do tema do texto"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-1-competencia-leitora/05-pressuposto-subentendido.md
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: interpretacao
+        difficulty: hard
+        tags: [enem, interpretacao]
+        skill: "reconhecer um pressuposto ou um subentendido em um enunciado e o sentido implícito que ele veicula"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c6
+      type: content
+      markdownFile: portugues/aula-1-competencia-leitora/06-o-que-vimos.md
+
+  - slug: aula-2-denotacao-conotacao
+    title: Aula 2 — Denotação e conotação
+    description: Sentido literal e sentido figurado, e como o texto sinaliza cada um.
+    tags: [portugues, denotacao-conotacao]
+    summary:
+    - "Denotação é o sentido literal, de dicionário; conotação é o sentido figurado, contextual."
+    - "O mesmo termo muda de sentido conforme o gênero e o contexto de uso."
+    - "Textos científicos e jornalísticos tendem ao denotativo; literários e publicitários, ao conotativo."
+    - "Captar a conotação é condição para entender ironia, humor e crítica."
+    - "Trocar denotação por conotação (ou o contrário) muda toda a interpretação."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-2-denotacao-conotacao/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-2-denotacao-conotacao/02-os-dois-sentidos.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: denotacao-conotacao
+        difficulty: easy
+        tags: [enem, denotacao-conotacao]
+        skill: "classificar o emprego de uma palavra ou expressão como denotativo ou conotativo em um trecho"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-2-denotacao-conotacao/03-contexto-e-genero.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: denotacao-conotacao
+        difficulty: medium
+        tags: [enem, denotacao-conotacao]
+        skill: "interpretar o sentido conotativo de uma expressão e relacioná-lo à intenção do texto"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-2-denotacao-conotacao/04-efeitos-de-sentido.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: denotacao-conotacao
+        difficulty: medium
+        tags: [enem, denotacao-conotacao]
+        skill: "explicar o efeito de sentido produzido pelo uso figurado da linguagem em um texto publicitário ou literário"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-2-denotacao-conotacao/05-o-que-vimos.md
+
+  - slug: aula-3-figuras-de-linguagem
+    title: Aula 3 — Figuras de linguagem
+    description: Metáfora, metonímia, ironia, hipérbole e outras figuras como recursos de sentido.
+    tags: [portugues, figuras-linguagem]
+    summary:
+    - "Figuras de linguagem são desvios intencionais que ampliam ou intensificam o sentido."
+    - "Figuras de palavra: metáfora, metonímia, comparação, catacrese, sinestesia."
+    - "Figuras de pensamento: ironia, hipérbole, eufemismo, antítese, paradoxo, personificação."
+    - "Figuras de sintaxe: elipse, pleonasmo, anáfora, hipérbato, polissíndeto."
+    - "No ENEM, a figura nunca é fim em si: importa o efeito de sentido que ela cria."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-3-figuras-de-linguagem/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-3-figuras-de-linguagem/02-figuras-de-palavra.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: figuras-linguagem
+        difficulty: easy
+        tags: [enem, figuras-linguagem]
+        skill: "identificar metáfora, metonímia ou comparação em um trecho e diferenciá-las entre si"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-3-figuras-de-linguagem/03-figuras-de-pensamento.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: figuras-linguagem
+        difficulty: medium
+        tags: [enem, figuras-linguagem]
+        skill: "reconhecer ironia, hipérbole ou eufemismo e explicar o efeito de sentido que produz no texto"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-3-figuras-de-linguagem/04-figuras-de-sintaxe-e-som.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: figuras-linguagem
+        difficulty: medium
+        tags: [enem, figuras-linguagem]
+        skill: "associar uma figura de sintaxe ou de som ao efeito expressivo que ela cria em um poema ou letra"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-3-figuras-de-linguagem/05-figura-e-efeito.md
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: figuras-linguagem
+        difficulty: hard
+        tags: [enem, figuras-linguagem]
+        skill: "interpretar o sentido global de um texto a partir da figura de linguagem predominante nele"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c6
+      type: content
+      markdownFile: portugues/aula-3-figuras-de-linguagem/06-o-que-vimos.md
+
+  - slug: aula-4-coesao-coerencia
+    title: Aula 4 — Coesão e coerência
+    description: Como as partes do texto se conectam (coesão) e fazem sentido juntas (coerência).
+    tags: [portugues, coesao-coerencia]
+    summary:
+    - "Coesão é a amarração entre as partes; coerência é o sentido lógico do todo."
+    - "A coesão referencial usa pronomes, sinônimos e elipses para retomar termos."
+    - "Conectivos sinalizam relações: causa, oposição, conclusão, adição, tempo."
+    - "Um texto pode ser coeso e incoerente, ou coerente apesar de falhas de coesão."
+    - "Trocar o conectivo muda a relação lógica e, com ela, o sentido do período."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-4-coesao-coerencia/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-4-coesao-coerencia/02-coesao-referencial.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: coesao-coerencia
+        difficulty: easy
+        tags: [enem, coesao-coerencia]
+        skill: "identificar o termo retomado por um pronome ou expressão referencial em um trecho"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-4-coesao-coerencia/03-coesao-sequencial.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: coesao-coerencia
+        difficulty: medium
+        tags: [enem, coesao-coerencia]
+        skill: "determinar a relação lógico-semântica estabelecida por um conectivo (causa, oposição, conclusão)"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-4-coesao-coerencia/04-coerencia.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: coesao-coerencia
+        difficulty: hard
+        tags: [enem, coesao-coerencia]
+        skill: "avaliar a coerência de um texto ou o efeito da substituição de um conectivo sobre o sentido"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-4-coesao-coerencia/05-o-que-vimos.md
+
+  - slug: aula-5-funcoes-da-linguagem
+    title: Aula 5 — Funções da linguagem
+    description: As seis funções de Jakobson e como reconhecê-las pela ênfase do texto.
+    tags: [portugues, funcoes-linguagem]
+    summary:
+    - "Cada função destaca um elemento da comunicação (emissor, receptor, mensagem etc.)."
+    - "Referencial informa; emotiva expressa o emissor; conativa apela ao receptor."
+    - "Fática testa o canal; metalinguística fala da própria linguagem; poética foca a forma da mensagem."
+    - "Um texto costuma misturar funções, com uma predominante."
+    - "Identificar a função predominante revela a intenção comunicativa do texto."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-5-funcoes-da-linguagem/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-5-funcoes-da-linguagem/02-os-elementos-da-comunicacao.md
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-5-funcoes-da-linguagem/03-as-seis-funcoes.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: funcoes-linguagem
+        difficulty: medium
+        tags: [enem, funcoes-linguagem]
+        skill: "identificar a função da linguagem predominante em um texto a partir do elemento da comunicação enfatizado"
+        suggestedSources: [ENEM, UNESP]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-5-funcoes-da-linguagem/04-funcoes-na-pratica.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: funcoes-linguagem
+        difficulty: medium
+        tags: [enem, funcoes-linguagem]
+        skill: "relacionar a função conativa ou emotiva à intenção persuasiva ou expressiva de um texto publicitário"
+        suggestedSources: [ENEM, FUVEST]
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: funcoes-linguagem
+        difficulty: hard
+        tags: [enem, funcoes-linguagem]
+        skill: "reconhecer a função metalinguística ou poética e justificar a escolha pelo foco no código ou na mensagem"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-5-funcoes-da-linguagem/05-o-que-vimos.md
+
+  - slug: aula-6-generos-narrativos
+    title: Aula 6 — Gêneros textuais e o texto narrativo
+    description: O conceito de gênero, tipos textuais e a estrutura da narrativa.
+    tags: [portugues, generos-textuais]
+    summary:
+    - "Gênero textual é uma forma social de uso da língua, com função e suporte próprios."
+    - "Tipos textuais (narração, descrição, dissertação, injunção) compõem os gêneros."
+    - "A narrativa organiza fatos no tempo: enredo, personagens, narrador, espaço."
+    - "O foco narrativo (1ª ou 3ª pessoa) determina o ponto de vista da história."
+    - "Reconhecer o gênero orienta as expectativas de leitura."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-6-generos-narrativos/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-6-generos-narrativos/02-genero-e-tipo-textual.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: easy
+        tags: [enem, generos-textuais]
+        skill: "identificar o gênero textual e sua função social a partir da estrutura, do suporte e da linguagem"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-6-generos-narrativos/03-elementos-da-narrativa.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: medium
+        tags: [enem, generos-textuais]
+        skill: "reconhecer o foco narrativo e os elementos da narrativa (enredo, narrador, personagem, tempo) em um conto"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-6-generos-narrativos/04-tipos-de-narrador.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: medium
+        tags: [enem, generos-textuais]
+        skill: "analisar como o tipo de narrador afeta a perspectiva e o sentido de um texto narrativo"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-6-generos-narrativos/05-o-que-vimos.md
+
+  - slug: aula-7-genero-dissertativo-argumentativo
+    title: Aula 7 — O texto dissertativo-argumentativo
+    description: Tese, argumentos, estratégias argumentativas e estrutura da argumentação.
+    tags: [portugues, generos-textuais]
+    summary:
+    - "O texto dissertativo-argumentativo defende um ponto de vista com argumentos."
+    - "Estrutura: introdução (tese), desenvolvimento (argumentos) e conclusão (proposta/síntese)."
+    - "Argumentos de autoridade, exemplificação, causa/consequência e dados sustentam a tese."
+    - "Fato é verificável; opinião é avaliação — separá-los é essencial na leitura crítica."
+    - "Esse é o gênero da redação do ENEM e de muitos textos de prova."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-7-genero-dissertativo-argumentativo/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-7-genero-dissertativo-argumentativo/02-estrutura-argumentativa.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: medium
+        tags: [enem, generos-textuais]
+        skill: "identificar a tese e os argumentos que a sustentam em um texto dissertativo-argumentativo"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-7-genero-dissertativo-argumentativo/03-estrategias-argumentativas.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: medium
+        tags: [enem, generos-textuais]
+        skill: "reconhecer a estratégia argumentativa empregada (autoridade, exemplificação, causa e consequência, dados)"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-7-genero-dissertativo-argumentativo/04-fato-e-opiniao.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: hard
+        tags: [enem, generos-textuais]
+        skill: "distinguir fato de opinião e avaliar a consistência da argumentação em um texto opinativo"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-7-genero-dissertativo-argumentativo/05-o-que-vimos.md
+
+  - slug: aula-8-generos-midiaticos
+    title: "Aula 8 — Gêneros midiáticos: propaganda e charge"
+    description: Texto publicitário, charge e cartum como gêneros de leitura crítica no ENEM.
+    tags: [portugues, generos-textuais]
+    summary:
+    - "A propaganda articula linguagem verbal e visual para persuadir."
+    - "Recursos persuasivos: apelo emocional, imperativo, jogos de palavras, autoridade."
+    - "A charge é um gênero de opinião que critica fatos atuais com humor e ironia."
+    - "Ler charge exige reconhecer o contexto (referente) a que ela alude."
+    - "Propaganda e charge cobram leitura crítica, não decoração de regras."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-8-generos-midiaticos/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-8-generos-midiaticos/02-texto-publicitario.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: medium
+        tags: [enem, generos-textuais]
+        skill: "identificar o recurso persuasivo e o público-alvo de um texto publicitário (apelo, imperativo, jogo de palavras)"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-8-generos-midiaticos/03-charge-e-cartum.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: medium
+        tags: [enem, generos-textuais]
+        skill: "interpretar a crítica social e a ironia de uma charge a partir da relação entre imagem, texto e contexto"
+        suggestedSources: [ENEM, FUVEST]
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: generos-textuais
+        difficulty: hard
+        tags: [enem, generos-textuais]
+        skill: "comparar charge e cartum quanto à dependência do contexto histórico e ao alcance da crítica"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-8-generos-midiaticos/04-o-que-vimos.md
+
+  - slug: aula-9-variacao-linguistica
+    title: Aula 9 — Variação linguística e preconceito linguístico
+    description: As variedades da língua, os tipos de variação e a crítica ao preconceito linguístico.
+    tags: [portugues, variacao-linguistica]
+    summary:
+    - "A língua varia no espaço, no tempo, no grupo social e na situação de uso."
+    - "Nenhuma variedade é errada: cada uma é adequada (ou não) ao contexto."
+    - "Norma-padrão é uma variedade de prestígio, não a única forma correta."
+    - "Adequação linguística é escolher o registro certo para a situação."
+    - "Preconceito linguístico julga o falante pela variedade que usa — e o ENEM o critica."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-9-variacao-linguistica/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-9-variacao-linguistica/02-tipos-de-variacao.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: variacao-linguistica
+        difficulty: easy
+        tags: [enem, variacao-linguistica]
+        skill: "classificar o tipo de variação linguística presente em um texto (regional, social, histórica, situacional)"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-9-variacao-linguistica/03-norma-e-adequacao.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: variacao-linguistica
+        difficulty: medium
+        tags: [enem, variacao-linguistica]
+        skill: "avaliar a adequação de um registro (formal ou informal) à situação de comunicação descrita"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-9-variacao-linguistica/04-preconceito-linguistico.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: variacao-linguistica
+        difficulty: medium
+        tags: [enem, variacao-linguistica]
+        skill: "reconhecer a valorização da diversidade linguística e a crítica ao preconceito linguístico em um texto"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-9-variacao-linguistica/05-o-que-vimos.md
+
+  - slug: aula-10-intertextualidade
+    title: Aula 10 — Intertextualidade
+    description: "O diálogo entre textos: citação, alusão, paródia, paráfrase e referência."
+    tags: [portugues, intertextualidade]
+    summary:
+    - "Intertextualidade é o diálogo de um texto com outros textos."
+    - "Citação e alusão trazem o texto-fonte de forma explícita ou indireta."
+    - "Paráfrase reafirma o sentido; paródia subverte com humor ou crítica."
+    - "Reconhecer o texto-fonte é condição para entender o sentido do novo texto."
+    - "A intertextualidade é frequente em charges, propagandas e literatura no ENEM."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-10-intertextualidade/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-10-intertextualidade/02-o-dialogo-entre-textos.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: intertextualidade
+        difficulty: medium
+        tags: [enem, intertextualidade]
+        skill: "identificar a relação intertextual (citação, alusão, paráfrase, paródia) entre dois textos"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-10-intertextualidade/03-parafrase-e-parodia.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: intertextualidade
+        difficulty: medium
+        tags: [enem, intertextualidade]
+        skill: "diferenciar paráfrase de paródia pelo efeito de manutenção ou subversão do sentido original"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-10-intertextualidade/04-intertextualidade-na-pratica.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: intertextualidade
+        difficulty: hard
+        tags: [enem, intertextualidade]
+        skill: "interpretar o efeito de sentido produzido pela retomada de um texto-fonte em charge, propaganda ou poema"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-10-intertextualidade/05-o-que-vimos.md
+
+  - slug: aula-11-textos-multimodais
+    title: Aula 11 — Textos multimodais
+    description: Leitura integrada de imagem e palavra em charges, propagandas e infográficos.
+    tags: [portugues, textos-multimodais]
+    summary:
+    - "Texto multimodal combina linguagem verbal e não verbal (imagem, cor, layout)."
+    - "Cores, enquadramento, gestos e tipografia também produzem sentido."
+    - "No infográfico, dados e visualização se integram para informar."
+    - "Ler o multimodal exige relacionar o verbal e o visual, não isolá-los."
+    - "Charges, propagandas e infográficos são multimodais recorrentes no ENEM."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-11-textos-multimodais/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-11-textos-multimodais/02-verbal-e-nao-verbal.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: textos-multimodais
+        difficulty: medium
+        tags: [enem, textos-multimodais]
+        skill: "interpretar como elementos não verbais (cor, enquadramento, gesto) constroem o sentido de uma imagem"
+        suggestedSources: [ENEM, UNESP]
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-11-textos-multimodais/03-leitura-integrada.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: textos-multimodais
+        difficulty: medium
+        tags: [enem, textos-multimodais]
+        skill: "relacionar texto verbal e imagem para apreender o sentido global de uma propaganda ou charge"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-11-textos-multimodais/04-infografico.md
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: textos-multimodais
+        difficulty: hard
+        tags: [enem, textos-multimodais]
+        skill: "extrair e cruzar informações de um infográfico que integra dados, texto e elementos visuais"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-11-textos-multimodais/05-o-que-vimos.md
+
+  - slug: aula-12-literatura-enem
+    title: Aula 12 — Literatura como contexto de leitura
+    description: Movimentos literários como chave para interpretar textos no ENEM.
+    tags: [portugues, literatura]
+    summary:
+    - "No ENEM, a literatura é cobrada como leitura, não como datas a decorar."
+    - "Cada movimento responde a um contexto histórico com escolhas estéticas próprias."
+    - "Romantismo, Realismo, Modernismo: idealização, crítica social, ruptura formal."
+    - "O estilo de época ajuda a interpretar o sentido e a intenção do texto."
+    - "Relacionar texto literário e contexto é a competência cobrada na prova."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: portugues/aula-12-literatura-enem/01-para-comecar.md
+    - key: c2
+      type: content
+      markdownFile: portugues/aula-12-literatura-enem/02-literatura-no-enem.md
+    - key: c3
+      type: content
+      markdownFile: portugues/aula-12-literatura-enem/03-estilos-de-epoca.md
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: literatura
+        difficulty: medium
+        tags: [enem, literatura]
+        skill: "associar características de um texto literário ao movimento (estilo de época) a que pertence"
+        suggestedSources: [ENEM, FUVEST]
+    - key: c4
+      type: content
+      markdownFile: portugues/aula-12-literatura-enem/04-literatura-e-contexto.md
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: literatura
+        difficulty: medium
+        tags: [enem, literatura]
+        skill: "relacionar um texto literário ao seu contexto histórico-cultural para interpretar seu sentido"
+        suggestedSources: [ENEM, UNICAMP]
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: literatura
+        difficulty: hard
+        tags: [enem, literatura]
+        skill: "comparar dois textos de movimentos distintos quanto à visão de mundo e às escolhas estéticas"
+        suggestedSources: [FUVEST, UNICAMP]
+    - key: c5
+      type: content
+      markdownFile: portugues/aula-12-literatura-enem/05-o-que-vimos.md

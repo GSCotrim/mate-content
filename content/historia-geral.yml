@@ -1,0 +1,816 @@
+subject:
+  slug: historia-geral
+  name: História Geral
+  description: Da Antiguidade Clássica à globalização, a História Geral para o vestibular e o ENEM.
+
+topics:
+- slug: antiguidade-classica
+  name: Antiguidade Clássica (Grécia e Roma)
+- slug: idade-media
+  name: Idade Média
+- slug: renascimento-reformas
+  name: Renascimento e Reformas religiosas
+- slug: navegacoes-mercantilismo
+  name: Grandes Navegações e Mercantilismo
+- slug: absolutismo
+  name: Absolutismo
+- slug: iluminismo
+  name: Iluminismo
+- slug: revolucoes-burguesas
+  name: Revoluções burguesas (Inglesa, Americana, Francesa)
+- slug: revolucao-industrial
+  name: Revolução Industrial
+- slug: seculo-xix
+  name: Século XIX (liberalismo, nacionalismo, imperialismo)
+- slug: guerras-mundiais
+  name: Guerras Mundiais
+- slug: guerra-fria
+  name: Guerra Fria
+- slug: mundo-contemporaneo
+  name: Mundo contemporâneo e globalização
+
+tracks:
+- slug: historia-geral-base
+  title: História Geral — base
+  description: A trilha de História Geral, da Antiguidade Clássica ao mundo contemporâneo.
+  lessons:
+  - slug: aula-1-antiguidade-classica
+    title: Aula 1 — Antiguidade Clássica (Grécia e Roma)
+    description: Pólis e democracia grega, cultura clássica e a trajetória de Roma da República ao Império.
+    tags: [historia-geral, antiguidade-classica]
+    summary:
+    - "A Grécia se organizava em póleis: Atenas (democracia direta e excludente) e Esparta (militarista)."
+    - "A cultura grega criou a filosofia, o teatro e a explicação racional do mundo."
+    - "Roma passou por Monarquia, República e Império, expandindo-se pelo Mediterrâneo."
+    - "O legado romano inclui o direito, o latim, a engenharia e o cristianismo."
+    - "A queda de Roma (476 d.C.) marca o fim da Idade Antiga."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-1-antiguidade-classica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-1-antiguidade-classica/02-grecia-polis-democracia.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: antiguidade-classica
+        difficulty: medium
+        tags: [enem, antiguidade-classica]
+        skill: "comparar a democracia ateniense com a democracia atual, identificando seu caráter direto e os grupos excluídos da cidadania"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-1-antiguidade-classica/03-cultura-grega.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: antiguidade-classica
+        difficulty: easy
+        tags: [enem, antiguidade-classica]
+        skill: "reconhecer o legado cultural grego (filosofia, razão, teatro) e seu sentido de explicação racional do mundo"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-1-antiguidade-classica/04-roma.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: antiguidade-classica
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          Durante a realeza, e nos primeiros anos republicanos, as leis eram transmitidas oralmente de uma geração para outra. A ausência de uma legislação escrita permitia aos patrícios manipular a justiça conforme seus interesses.
+
+          *A cidade antiga*. São Paulo: Martins Fontes, 2000.
+
+          A conjuntura sociopolítica da Roma Antiga, conforme apresentada no texto, foi contestada pelos
+        options:
+        - text: "monarcas, que queriam expandir o código jurídico."
+          correct: false
+          feedback: "A monarquia já havia acabado; não eram os reis que contestavam a ordem."
+        - text: "plebeus, que almejavam participar da vida política."
+          correct: true
+        - text: "nobres, que desejavam superar a relação de dependência."
+          correct: false
+          feedback: "Os patrícios (nobres) eram os beneficiados pela lei oral, não os contestadores."
+        - text: "camponeses, que aspiravam diminuir a jornada de trabalho."
+          correct: false
+          feedback: "A reivindicação era por direitos e leis escritas, não por jornada de trabalho."
+        - text: "estrangeiros, que ambicionavam acessar os espaços públicos."
+          correct: false
+          feedback: "O conflito era interno, entre patrícios e plebeus."
+        explanation: |
+          Com as leis apenas orais, os patrícios as manipulavam em proveito próprio. Foram os **plebeus** que contestaram essa situação, exigindo leis escritas e participação política — luta que levou, por exemplo, à Lei das Doze Tábuas. Resposta **(B)**.
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-1-antiguidade-classica/05-legado-e-crise.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: antiguidade-classica
+        difficulty: easy
+        tags: [enem, antiguidade-classica]
+        skill: "identificar elementos do legado romano (direito, línguas neolatinas, engenharia, cristianismo) presentes no mundo atual"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c6
+      type: content
+      markdownFile: historia-geral/aula-1-antiguidade-classica/06-o-que-vimos.md
+
+  - slug: aula-2-idade-media
+    title: Aula 2 — Idade Média
+    description: Feudalismo, o poder da Igreja, as Cruzadas e a crise do século XIV.
+    tags: [historia-geral, idade-media]
+    summary:
+    - "O feudalismo tinha economia rural e de subsistência e uma sociedade estamental."
+    - "Servidão e suserania-vassalagem organizavam as relações de produção e de poder."
+    - "A Igreja Católica era a maior força espiritual, cultural, econômica e política."
+    - "As Cruzadas reabriram o Mediterrâneo e impulsionaram o renascimento comercial e urbano."
+    - "A crise do século XIV (fome, Peste Negra, guerras) enfraqueceu o feudalismo."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-2-idade-media/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-2-idade-media/02-feudalismo.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: idade-media
+        difficulty: medium
+        tags: [enem, idade-media]
+        skill: "caracterizar o feudalismo (servidão, sociedade estamental, economia de subsistência) e distingui-lo da escravidão antiga"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-2-idade-media/03-igreja.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: idade-media
+        difficulty: medium
+        tags: [enem, idade-media]
+        skill: "explicar as dimensões do poder da Igreja medieval e a visão teocêntrica de mundo"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-2-idade-media/04-cruzadas-renascimento-urbano.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: hard
+        topic: idade-media
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          A difusão pelos cônegos do ideal apostólico, bem como a influência dos eremitas e dos pregadores errantes que na sua esteira propagavam temas evangélicos, contribuíram para fazer nascer, entre os fiéis, o desejo de se erguerem ao nível espiritual do clero e de obterem a sua salvação, sem que para isso tivessem de renunciar ao seu estado. Pela primeira vez, a Igreja entreabria as portas da graça em benefício da totalidade dos fiéis, colocando, como única condição, a sua partida para o Oriente, a fim de aí lutarem contra os inimigos de Cristo.
+
+          *A espiritualidade da Idade Média Ocidental, séc. VIII-XIII*. Lisboa: Estampa, 1995.
+
+          Conforme o texto, no imaginário dos fiéis cristãos do período medieval, a salvação era alcançada por meio das
+        options:
+        - text: "palavras escritas."
+          correct: false
+          feedback: "O texto enfatiza a ação de partir em peregrinação armada, não a leitura."
+        - text: "práticas litúrgicas."
+          correct: false
+          feedback: "A condição posta não é o culto litúrgico, mas a ida ao Oriente."
+        - text: "ações voluntárias."
+          correct: true
+        - text: "ideias messiânicas."
+          correct: false
+          feedback: "Não se trata de espera messiânica, e sim do engajamento pessoal na cruzada."
+        - text: "celebrações coletivas."
+          correct: false
+          feedback: "A salvação é ligada à decisão individual de partir, não a celebrações."
+        explanation: |
+          O texto descreve a pregação que levou os fiéis a buscar a salvação tendo como "única condição" partir para o Oriente para lutar contra os inimigos de Cristo — isto é, engajar-se voluntariamente nas **Cruzadas**. A salvação seria alcançada por meio de **ações voluntárias** do próprio fiel. Resposta **(C)**.
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-2-idade-media/05-crise-baixa-idade-media.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: idade-media
+        difficulty: medium
+        tags: [enem, idade-media]
+        skill: "associar a crise do século XIV (Peste Negra, fome, guerras) ao enfraquecimento da servidão e à formação das monarquias nacionais"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c6
+      type: content
+      markdownFile: historia-geral/aula-2-idade-media/06-o-que-vimos.md
+
+  - slug: aula-3-renascimento-reformas
+    title: Aula 3 — Renascimento e Reformas religiosas
+    description: Humanismo e Renascimento, a Reforma Protestante e a Contrarreforma católica.
+    tags: [historia-geral, renascimento-reformas]
+    summary:
+    - "O Renascimento valorizou o ser humano (humanismo e antropocentrismo) e a razão."
+    - "A ciência avançou com o heliocentrismo, e a prensa de Gutenberg difundiu ideias."
+    - "Em 1517, Lutero rompeu com Roma: salvação pela fé e a Bíblia como autoridade."
+    - "A Contrarreforma reagiu com o Concílio de Trento, os jesuítas e a Inquisição."
+    - "A Europa ficou dividida religiosamente, o que influenciou a colonização da América."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-3-renascimento-reformas/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-3-renascimento-reformas/02-renascimento.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: renascimento-reformas
+        difficulty: medium
+        tags: [enem, renascimento-reformas]
+        skill: "identificar os valores do Renascimento (humanismo, antropocentrismo, racionalismo) em contraste com a mentalidade medieval"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-3-renascimento-reformas/03-reforma-protestante.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: renascimento-reformas
+        difficulty: medium
+        tags: [enem, renascimento-reformas]
+        skill: "relacionar as críticas de Lutero (indulgências, salvação pela fé) e os interesses de reis e burgueses ao avanço da Reforma"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-3-renascimento-reformas/04-contrarreforma.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: renascimento-reformas
+        difficulty: medium
+        tags: [enem, renascimento-reformas]
+        skill: "reconhecer os instrumentos da Contrarreforma (Concílio de Trento, jesuítas, Inquisição, Index) e seus efeitos, inclusive na colonização da América"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-3-renascimento-reformas/05-o-que-vimos.md
+
+  - slug: aula-4-navegacoes-mercantilismo
+    title: Aula 4 — Grandes Navegações e Mercantilismo
+    description: Expansão marítima europeia, Tratado de Tordesilhas, Mercantilismo e impactos globais.
+    tags: [historia-geral, navegacoes-mercantilismo]
+    summary:
+    - "Especiarias, metais, bloqueio das rotas e avanços técnicos motivaram as navegações."
+    - "Portugal (Vasco da Gama) e Espanha (Colombo) lideraram a expansão; Tordesilhas (1494) dividiu o mundo."
+    - "O Mercantilismo buscava acumular metais com balança comercial favorável e protecionismo."
+    - "O Pacto Colonial obrigava a colônia a comerciar só com a metrópole, em benefício dela."
+    - "A expansão trouxe dominação indígena, tráfico de africanos e acúmulo de capital na Europa."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-4-navegacoes-mercantilismo/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-4-navegacoes-mercantilismo/02-grandes-navegacoes.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: navegacoes-mercantilismo
+        difficulty: medium
+        tags: [enem, navegacoes-mercantilismo]
+        skill: "explicar as motivações das Grandes Navegações e o pioneirismo português a partir da centralização monárquica e da posição geográfica"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-4-navegacoes-mercantilismo/03-mercantilismo.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: navegacoes-mercantilismo
+        difficulty: medium
+        tags: [enem, navegacoes-mercantilismo]
+        skill: "identificar os princípios do Mercantilismo (metalismo, balança comercial favorável, protecionismo) e o papel do Pacto Colonial"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-4-navegacoes-mercantilismo/04-colonizacao-impactos.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: navegacoes-mercantilismo
+        difficulty: hard
+        tags: [enem, navegacoes-mercantilismo]
+        skill: "relacionar o comércio triangular atlântico, o tráfico de escravizados e a catástrofe demográfica indígena à acumulação de capital europeia"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-4-navegacoes-mercantilismo/05-o-que-vimos.md
+
+  - slug: aula-5-absolutismo
+    title: Aula 5 — Absolutismo
+    description: A formação do Estado absolutista, suas teorias políticas e principais exemplos.
+    tags: [historia-geral, absolutismo]
+    summary:
+    - "O Absolutismo concentrou o poder do Estado nas mãos do rei nas monarquias nacionais."
+    - "Nobreza (privilégios) e burguesia (Estado forte) sustentavam o poder real."
+    - "Teorias o justificavam: direito divino (Bossuet), Maquiavel e Hobbes."
+    - "A França de Luís XIV (Versalhes) é o caso clássico; a Inglaterra seguiu outro caminho."
+    - "Absolutismo e Mercantilismo se reforçavam: o Estado forte dirigia a economia."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-5-absolutismo/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-5-absolutismo/02-formacao-e-teorias.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: absolutismo
+        difficulty: medium
+        tags: [enem, absolutismo]
+        skill: "associar as teorias absolutistas (direito divino de Bossuet, Maquiavel, Hobbes) à justificação do poder concentrado do rei"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-5-absolutismo/03-exemplos.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: absolutismo
+        difficulty: medium
+        tags: [enem, absolutismo]
+        skill: "relacionar Absolutismo e Mercantilismo e reconhecer a aliança entre rei, nobreza e burguesia que sustentava o Antigo Regime"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-5-absolutismo/04-o-que-vimos.md
+
+  - slug: aula-6-iluminismo
+    title: Aula 6 — Iluminismo
+    description: As ideias das Luzes, os principais pensadores e seus impactos políticos.
+    tags: [historia-geral, iluminismo]
+    summary:
+    - "O Iluminismo confiava na razão e defendia liberdade, igualdade jurídica e tolerância."
+    - "Montesquieu propôs a separação dos poderes; Rousseau, a soberania popular."
+    - "Adam Smith defendeu o liberalismo econômico, em crítica ao Mercantilismo."
+    - "As ideias iluministas inspiraram as independências e revoluções modernas."
+    - "O Despotismo Esclarecido adotou reformas sem abrir mão do poder absoluto."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-6-iluminismo/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-6-iluminismo/02-ideias-pensadores.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: iluminismo
+        difficulty: medium
+        tags: [enem, iluminismo]
+        skill: "associar cada pensador iluminista à sua ideia central (Montesquieu/três poderes, Rousseau/soberania popular, Smith/liberalismo econômico)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-6-iluminismo/03-impactos.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: iluminismo
+        difficulty: medium
+        tags: [enem, iluminismo]
+        skill: "relacionar as ideias iluministas à crítica do Antigo Regime e à inspiração das revoluções e independências, inclusive na América"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-6-iluminismo/04-o-que-vimos.md
+
+  - slug: aula-7-revolucoes-burguesas
+    title: Aula 7 — Revoluções burguesas (Inglesa, Americana, Francesa)
+    description: As revoluções que derrubaram o Antigo Regime e Napoleão.
+    tags: [historia-geral, revolucoes-burguesas]
+    summary:
+    - "A Revolução Inglesa limitou o rei e criou a monarquia parlamentar."
+    - "A Independência dos EUA (1776) adotou república, federalismo e Constituição escrita."
+    - "A Revolução Francesa (1789) derrubou o Antigo Regime em nome de liberdade e igualdade."
+    - "Napoleão consolidou conquistas (Código Civil) e seu bloqueio levou a corte portuguesa ao Brasil."
+    - "As revoluções burguesas inauguraram o mundo contemporâneo e a ascensão da burguesia."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-7-revolucoes-burguesas/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-7-revolucoes-burguesas/02-revolucao-inglesa.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: revolucoes-burguesas
+        difficulty: medium
+        tags: [enem, revolucoes-burguesas]
+        skill: "explicar como a Revolução Inglesa (Puritana e Gloriosa) limitou o poder do rei e instaurou a monarquia parlamentar"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-7-revolucoes-burguesas/03-independencia-eua.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: revolucoes-burguesas
+        difficulty: medium
+        tags: [enem, revolucoes-burguesas]
+        skill: "relacionar as causas da Independência dos EUA (taxação sem representação) às inovações políticas adotadas (república, federalismo, separação de poderes)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-7-revolucoes-burguesas/04-revolucao-francesa.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: revolucoes-burguesas
+        difficulty: hard
+        tags: [enem, revolucoes-burguesas]
+        skill: "analisar a estrutura social do Antigo Regime francês (os três Estados) e as fases da Revolução Francesa até a ascensão de Napoleão"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-7-revolucoes-burguesas/05-napoleao-legado.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: revolucoes-burguesas
+        difficulty: medium
+        tags: [enem, revolucoes-burguesas]
+        skill: "relacionar o Bloqueio Continental de Napoleão à vinda da corte portuguesa ao Brasil (1808) e ao processo de Independência"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c6
+      type: content
+      markdownFile: historia-geral/aula-7-revolucoes-burguesas/06-o-que-vimos.md
+
+  - slug: aula-8-revolucao-industrial
+    title: Aula 8 — Revolução Industrial
+    description: Da produção artesanal à fabril, as fases da industrialização e o movimento operário.
+    tags: [historia-geral, revolucao-industrial]
+    summary:
+    - "A Revolução Industrial passou da produção artesanal à mecanizada, começando na Inglaterra."
+    - "Capital, burguesia no poder, carvão, mão de obra e mercado colonial explicam o pioneirismo inglês."
+    - "A industrialização teve fases marcadas por novas fontes de energia (vapor, eletricidade, eletrônica)."
+    - "A urbanização trouxe jornadas longas, trabalho infantil e o nascimento do operariado."
+    - "Surgiram o movimento operário e ideias críticas: socialismo, comunismo e anarquismo."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-8-revolucao-industrial/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-8-revolucao-industrial/02-por-que-inglaterra.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: revolucao-industrial
+        difficulty: medium
+        tags: [enem, revolucao-industrial]
+        skill: "explicar os fatores do pioneirismo industrial inglês e a transição do trabalho artesanal para o sistema fabril"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-8-revolucao-industrial/03-fases.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: revolucao-industrial
+        difficulty: medium
+        tags: [enem, revolucao-industrial]
+        skill: "distinguir as fases da industrialização pelas fontes de energia e tecnologias (vapor, eletricidade/petróleo, eletrônica)"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-8-revolucao-industrial/04-impactos-sociais.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: revolucao-industrial
+        difficulty: hard
+        tags: [enem, revolucao-industrial]
+        skill: "relacionar os impactos sociais da industrialização às respostas dos trabalhadores (ludismo, cartismo, sindicatos) e às ideias socialistas e anarquistas"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-8-revolucao-industrial/05-o-que-vimos.md
+
+  - slug: aula-9-seculo-xix
+    title: Aula 9 — Século XIX (liberalismo, nacionalismo, imperialismo)
+    description: As grandes forças do século XIX que moldaram o mundo contemporâneo.
+    tags: [historia-geral, seculo-xix]
+    summary:
+    - "O Congresso de Viena (1815) tentou restaurar a velha ordem após Napoleão."
+    - "O liberalismo defendia liberdades individuais (político) e livre mercado (econômico)."
+    - "O nacionalismo levou às unificações da Itália (1870) e da Alemanha (1871)."
+    - "O imperialismo dividiu a África e a Ásia em busca de matérias-primas e mercados."
+    - "Nacionalismo e rivalidades imperialistas são raízes da Primeira Guerra Mundial."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-9-seculo-xix/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-9-seculo-xix/02-liberalismo-nacionalismo.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: seculo-xix
+        difficulty: medium
+        tags: [enem, seculo-xix]
+        skill: "distinguir liberalismo político de liberalismo econômico e relacionar o nacionalismo às unificações da Itália e da Alemanha"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-9-seculo-xix/03-imperialismo.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: seculo-xix
+        difficulty: hard
+        tags: [enem, seculo-xix]
+        skill: "relacionar as causas econômicas do imperialismo e a partilha da África (Conferência de Berlim) aos conflitos atuais por fronteiras artificiais"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-9-seculo-xix/04-o-que-vimos.md
+
+  - slug: aula-10-guerras-mundiais
+    title: Aula 10 — Guerras Mundiais
+    description: A Primeira Guerra, o período entreguerras, o totalitarismo e a Segunda Guerra.
+    tags: [historia-geral, guerras-mundiais]
+    summary:
+    - "A Primeira Guerra (1914–1918) nasceu do imperialismo, do nacionalismo e das alianças militares."
+    - "O Tratado de Versalhes puniu a Alemanha e alimentou o ressentimento que gerou o nazismo."
+    - "O entreguerras teve a Revolução Russa (1917) e a Crise de 1929."
+    - "O totalitarismo (fascismo e nazismo) levou à Segunda Guerra (1939–1945)."
+    - "A guerra terminou com bombas atômicas, o Holocausto e a criação da ONU."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-10-guerras-mundiais/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-10-guerras-mundiais/02-primeira-guerra.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: guerras-mundiais
+        difficulty: medium
+        tags: [enem, guerras-mundiais]
+        skill: "relacionar as causas da Primeira Guerra (imperialismo, nacionalismo, alianças) às punições do Tratado de Versalhes e suas consequências"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-10-guerras-mundiais/03-entreguerras.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: guerras-mundiais
+        difficulty: hard
+        tags: [enem, guerras-mundiais]
+        skill: "relacionar a Crise de 1929 e o entreguerras à ascensão dos regimes totalitários (fascismo e nazismo)"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-10-guerras-mundiais/04-segunda-guerra.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: guerras-mundiais
+        difficulty: medium
+        tags: [enem, guerras-mundiais]
+        skill: "identificar os blocos da Segunda Guerra, os pontos de virada e a participação do Brasil (FEB) ao lado dos Aliados"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-10-guerras-mundiais/05-holocausto-consequencias.md
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: guerras-mundiais
+        difficulty: medium
+        tags: [enem, guerras-mundiais]
+        skill: "relacionar o Holocausto e as consequências da Segunda Guerra à criação da ONU e à Declaração Universal dos Direitos Humanos"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c6
+      type: content
+      markdownFile: historia-geral/aula-10-guerras-mundiais/06-o-que-vimos.md
+
+  - slug: aula-11-guerra-fria
+    title: Aula 11 — Guerra Fria
+    description: O mundo bipolar, seus conflitos e o fim da União Soviética.
+    tags: [historia-geral, guerra-fria]
+    summary:
+    - "A Guerra Fria (1947–1991) opôs EUA e URSS sem confronto militar direto."
+    - "O mundo bipolar dividiu-se em OTAN e Pacto de Varsóvia, com a Cortina de Ferro."
+    - "Houve corrida armamentista e espacial e conflitos como Coreia, Vietnã e a Crise dos Mísseis."
+    - "O anticomunismo justificou ditaduras na América Latina, inclusive no Brasil (1964–1985)."
+    - "Glasnost e perestroika levaram à queda do Muro (1989) e ao fim da URSS (1991)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-11-guerra-fria/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-11-guerra-fria/02-mundo-bipolar.md
+
+    - key: ex1
+      type: exercise
+      exercise:
+        type: multiple_choice
+        difficulty: medium
+        topic: guerra-fria
+        source:
+          exam: ENEM
+          year: 2025
+        prompt: |
+          Moradores de Berlim protestaram contra a demolição de um trecho do muro que dividiu a cidade durante quase três décadas. Tratado como patrimônio cultural e histórico da cidade, o East Side Gallery, repleto de grafites emblemáticos, está na mira de uma construtora que pretende levantar um condomínio de luxo às margens do Rio Spree, que corta a cidade.
+
+          *Alemães impedem demolição de último trecho original do muro de Berlim*. Disponível em: http://operamundi.uol.com.br. Acesso em: 2 fev. 2021 (adaptado).
+
+          A demolição do símbolo histórico mencionado representa uma
+        options:
+        - text: "violação da memória coletiva."
+          correct: true
+        - text: "alteração das fronteiras políticas."
+          correct: false
+          feedback: "O muro já não é fronteira desde 1989; demoli-lo não altera fronteiras."
+        - text: "adesão à arquitetura neoclássica."
+          correct: false
+          feedback: "O texto não trata de estilo arquitetônico."
+        - text: "negação das influências orientais."
+          correct: false
+          feedback: "Não há referência a influências orientais."
+        - text: "reorganização da mobilidade urbana."
+          correct: false
+          feedback: "A questão é a preservação do patrimônio, não o trânsito da cidade."
+        explanation: |
+          O trecho preservado do Muro de Berlim (East Side Gallery) é tratado como patrimônio histórico e cultural — registro material da divisão da cidade na Guerra Fria. Demoli-lo para erguer um condomínio significa apagar esse testemunho, ou seja, uma **violação da memória coletiva**. Resposta **(A)**.
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-11-guerra-fria/03-conflitos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: guerra-fria
+        difficulty: medium
+        tags: [enem, guerra-fria]
+        skill: "relacionar os conflitos da Guerra Fria (Coreia, Vietnã, Cuba) ao apoio dos EUA a ditaduras militares na América Latina"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-11-guerra-fria/04-fim-guerra-fria.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: guerra-fria
+        difficulty: medium
+        tags: [enem, guerra-fria]
+        skill: "explicar o papel da glasnost e da perestroika no fim da URSS e relacionar a queda do Muro (1989) ao avanço da globalização"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-11-guerra-fria/05-o-que-vimos.md
+
+  - slug: aula-12-mundo-contemporaneo
+    title: Aula 12 — Mundo contemporâneo e globalização
+    description: A globalização, os blocos econômicos, os novos conflitos e os desafios do presente.
+    tags: [historia-geral, mundo-contemporaneo]
+    summary:
+    - "A globalização integrou economia, cultura e informação, intensificando-se após a Guerra Fria."
+    - "Ela tem prós (acesso, integração) e contras (desigualdade, pressão ambiental)."
+    - "O mundo é multipolar: EUA, União Europeia, China e emergentes; surgem blocos econômicos."
+    - "Os novos conflitos incluem disputas étnicas e o terrorismo internacional (11/9)."
+    - "Os grandes desafios são a crise ambiental, a desigualdade, as migrações e a revolução digital."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: historia-geral/aula-12-mundo-contemporaneo/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: historia-geral/aula-12-mundo-contemporaneo/02-globalizacao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: mundo-contemporaneo
+        difficulty: medium
+        tags: [enem, mundo-contemporaneo]
+        skill: "avaliar os aspectos positivos e negativos da globalização e caracterizar o mundo multipolar atual"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: historia-geral/aula-12-mundo-contemporaneo/03-blocos-conflitos.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: mundo-contemporaneo
+        difficulty: medium
+        tags: [enem, mundo-contemporaneo]
+        skill: "relacionar os blocos econômicos e os novos conflitos (étnicos, terrorismo, 11/9) às raízes históricas do imperialismo e da Guerra Fria"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: historia-geral/aula-12-mundo-contemporaneo/04-desafios.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: mundo-contemporaneo
+        difficulty: medium
+        tags: [enem, mundo-contemporaneo]
+        skill: "interpretar os desafios do mundo atual (crise ambiental, desigualdade, migrações, revolução digital) articulando passado e presente"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: historia-geral/aula-12-mundo-contemporaneo/05-o-que-vimos.md

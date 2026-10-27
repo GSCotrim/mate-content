@@ -1,0 +1,829 @@
+subject:
+  slug: matematica
+  name: Matemática
+  description: Fundamentos da Matemática para o vestibular e o ENEM.
+
+topics:
+- slug: conjuntos-numericos
+  name: Conjuntos numéricos
+- slug: razao-proporcao
+  name: Razão, proporção e regra de três
+- slug: porcentagem
+  name: Porcentagem
+- slug: funcao-afim
+  name: Função afim
+- slug: funcao-quadratica
+  name: Função quadrática
+- slug: funcao-exponencial
+  name: Função exponencial
+- slug: logaritmo
+  name: Logaritmos
+- slug: sequencias
+  name: Sequências (PA e PG)
+- slug: equacoes-inequacoes
+  name: Equações, inequações e sistemas
+- slug: geometria-plana
+  name: Geometria plana
+- slug: geometria-espacial
+  name: Geometria espacial
+- slug: trigonometria
+  name: Trigonometria
+- slug: estatistica
+  name: Estatística
+- slug: probabilidade
+  name: Probabilidade
+- slug: combinatoria
+  name: Análise combinatória
+- slug: matematica-financeira
+  name: Matemática financeira
+
+tracks:
+- slug: matematica-base
+  title: Matemática — base
+  description: A trilha inicial de Matemática, dos conjuntos numéricos à matemática financeira.
+  lessons:
+  - slug: aula-1-conjuntos-numericos
+    title: Aula 1 — Conjuntos numéricos e operações
+    description: Naturais a reais, frações, decimais, potências, raízes e notação científica.
+    tags: [matematica, conjuntos-numericos]
+    summary:
+    - "Os conjuntos numéricos se ampliam: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ."
+    - "Racionais são frações/dízimas; irracionais são decimais infinitos não periódicos."
+    - "Frações e decimais se convertem; porcentagem é fração de 100."
+    - "Potências e raízes têm propriedades operatórias fixas."
+    - "A notação científica representa grandezas muito grandes ou pequenas."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-1-conjuntos-numericos/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-1-conjuntos-numericos/02-conjuntos-numericos.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: conjuntos-numericos
+        difficulty: easy
+        tags: [enem, conjuntos-numericos]
+        skill: "classificar um número quanto ao conjunto a que pertence (natural, inteiro, racional, irracional, real)"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-1-conjuntos-numericos/03-fracoes-e-decimais.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: conjuntos-numericos
+        difficulty: medium
+        tags: [enem, conjuntos-numericos]
+        skill: "operar com frações e decimais em um problema contextualizado (soma, fração de quantidade)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-1-conjuntos-numericos/04-potencias-e-raizes.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: conjuntos-numericos
+        difficulty: medium
+        tags: [enem, conjuntos-numericos]
+        skill: "aplicar propriedades de potências ou interpretar um valor em notação científica"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-1-conjuntos-numericos/05-o-que-vimos.md
+
+  - slug: aula-2-razao-proporcao-porcentagem
+    title: Aula 2 — Razão, proporção e porcentagem
+    description: Razões, proporções, regra de três simples e composta, porcentagem e fator de multiplicação.
+    tags: [matematica, razao-proporcao]
+    summary:
+    - "Razão compara dois valores; proporção iguala duas razões (meios × extremos)."
+    - "Regra de três resolve proporções; distinguir grandezas diretas de inversas é o passo-chave."
+    - "Porcentagem é razão de 100, calculada multiplicando pelo decimal."
+    - "Fator de multiplicação: ×(1 + p/100) para aumento, ×(1 − p/100) para desconto."
+    - "Acréscimos e descontos sucessivos se multiplicam, nunca se somam."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-2-razao-proporcao-porcentagem/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-2-razao-proporcao-porcentagem/02-razao-e-proporcao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: razao-proporcao
+        difficulty: easy
+        tags: [enem, razao-proporcao]
+        skill: "montar e resolver uma proporção (escala, mapa, receita) pela propriedade fundamental"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-2-razao-proporcao-porcentagem/03-regra-de-tres.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: razao-proporcao
+        difficulty: medium
+        tags: [enem, razao-proporcao]
+        skill: "resolver regra de três identificando se as grandezas são direta ou inversamente proporcionais"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-2-razao-proporcao-porcentagem/04-porcentagem.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: porcentagem
+        difficulty: medium
+        tags: [enem, porcentagem]
+        skill: "calcular porcentagem de um valor ou um aumento/desconto simples em contexto de consumo"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: porcentagem
+        difficulty: hard
+        tags: [enem, porcentagem]
+        skill: "resolver acréscimos e descontos sucessivos usando o produto dos fatores de multiplicação"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-2-razao-proporcao-porcentagem/05-o-que-vimos.md
+
+  - slug: aula-3-funcao-afim
+    title: Aula 3 — Funções e função afim
+    description: Conceito de função, domínio e imagem, função do 1º grau, gráfico, coeficientes e raiz.
+    tags: [matematica, funcao-afim]
+    summary:
+    - "Função associa a cada entrada x uma única saída f(x); domínio e imagem."
+    - "Função afim: f(x) = ax + b, gráfico em reta."
+    - "a é a taxa (a>0 cresce, a<0 decresce); b é o valor inicial."
+    - "A raiz é x = −b/a, onde a reta corta o eixo x."
+    - "A taxa de variação é constante — marca da função do 1º grau."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-3-funcao-afim/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-3-funcao-afim/02-conceito-de-funcao.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: funcao-afim
+        difficulty: easy
+        tags: [enem, funcao-afim]
+        skill: "interpretar a lei de uma função afim em contexto e calcular f(x) para um valor dado"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-3-funcao-afim/03-funcao-afim.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: funcao-afim
+        difficulty: medium
+        tags: [enem, funcao-afim]
+        skill: "identificar os coeficientes angular e linear e o comportamento (crescente/decrescente) a partir da lei ou do gráfico"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-3-funcao-afim/04-grafico-e-raiz.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: funcao-afim
+        difficulty: medium
+        tags: [enem, funcao-afim]
+        skill: "determinar a raiz de uma função afim ou o ponto de equilíbrio entre duas funções do 1º grau"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-3-funcao-afim/05-o-que-vimos.md
+
+  - slug: aula-4-funcao-quadratica
+    title: Aula 4 — Função quadrática
+    description: Função do 2º grau, raízes por Bhaskara, discriminante, parábola, concavidade e vértice.
+    tags: [matematica, funcao-quadratica]
+    summary:
+    - "Função quadrática: f(x) = ax² + bx + c, gráfico em parábola."
+    - "Raízes por Bhaskara; o Δ diz se há duas, uma ou nenhuma raiz real."
+    - "a>0 abre para cima (mínimo); a<0 abre para baixo (máximo)."
+    - "Vértice: x_v = −b/2a, y_v = −Δ/4a — o ponto de máximo ou mínimo."
+    - "O vértice resolve problemas de otimização (altura, lucro, área máximos)."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-4-funcao-quadratica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-4-funcao-quadratica/02-a-funcao-e-as-raizes.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: funcao-quadratica
+        difficulty: medium
+        tags: [enem, funcao-quadratica]
+        skill: "determinar as raízes de uma função quadrática por Bhaskara e analisar o sinal do discriminante"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-4-funcao-quadratica/03-grafico-e-concavidade.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: funcao-quadratica
+        difficulty: medium
+        tags: [enem, funcao-quadratica]
+        skill: "ler do gráfico da parábola o sinal de a, o número de raízes e o corte com o eixo y"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-4-funcao-quadratica/04-vertice-maximo-minimo.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: funcao-quadratica
+        difficulty: hard
+        tags: [enem, funcao-quadratica]
+        skill: "resolver um problema de otimização (valor ou ponto máximo/mínimo) usando as coordenadas do vértice"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-4-funcao-quadratica/05-o-que-vimos.md
+
+  - slug: aula-5-exponencial-logaritmo
+    title: Aula 5 — Função exponencial e logaritmo
+    description: Função exponencial, gráfico, equações exponenciais, logaritmo e suas propriedades.
+    tags: [matematica, funcao-exponencial]
+    summary:
+    - "Função exponencial: f(x) = aˣ; a>1 cresce, 0<a<1 decresce."
+    - "O gráfico passa por (0,1), é sempre positivo e tem o eixo x como assíntota."
+    - "Equações exponenciais: igualar as bases para igualar os expoentes."
+    - "Logaritmo é o inverso da exponencial: log_a b = x ⟺ aˣ = b."
+    - "As propriedades do log transformam produto em soma; pH, Richter e decibéis são logarítmicos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-5-exponencial-logaritmo/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-5-exponencial-logaritmo/02-funcao-exponencial.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: funcao-exponencial
+        difficulty: medium
+        tags: [enem, funcao-exponencial]
+        skill: "aplicar um modelo de crescimento ou decaimento exponencial (população, meia-vida) para calcular um valor"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-5-exponencial-logaritmo/03-equacoes-exponenciais.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: funcao-exponencial
+        difficulty: medium
+        tags: [enem, funcao-exponencial]
+        skill: "resolver uma equação exponencial reescrevendo os dois lados na mesma base"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-5-exponencial-logaritmo/04-logaritmos.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: logaritmo
+        difficulty: hard
+        tags: [enem, logaritmo]
+        skill: "calcular um logaritmo ou aplicar suas propriedades, inclusive em escalas logarítmicas (pH, Richter)"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-5-exponencial-logaritmo/05-o-que-vimos.md
+
+  - slug: aula-6-sequencias-pa-pg
+    title: "Aula 6 — Sequências: PA e PG"
+    description: Progressões aritmética e geométrica, termo geral e soma dos termos.
+    tags: [matematica, sequencias]
+    summary:
+    - "Sequência com padrão regular tem fórmula para qualquer termo."
+    - "PA soma a razão r: aₙ = a₁ + (n−1)r; soma Sₙ = (a₁ + aₙ)n/2."
+    - "PG multiplica pela razão q: aₙ = a₁·q^(n−1); soma Sₙ = a₁(qⁿ−1)/(q−1)."
+    - "A PA é a versão discreta da função afim; a PG, da exponencial."
+    - "A PG modela juros compostos, depreciação e meia-vida."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-6-sequencias-pa-pg/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-6-sequencias-pa-pg/02-progressao-aritmetica.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: sequencias
+        difficulty: medium
+        tags: [enem, sequencias]
+        skill: "usar o termo geral ou a soma de uma PA para resolver um problema contextualizado"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-6-sequencias-pa-pg/03-progressao-geometrica.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: sequencias
+        difficulty: medium
+        tags: [enem, sequencias]
+        skill: "usar o termo geral ou a soma de uma PG em contexto de crescimento, depreciação ou meia-vida"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: sequencias
+        difficulty: hard
+        tags: [enem, sequencias]
+        skill: "identificar se uma sequência é PA ou PG e determinar a razão a partir de termos dados"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-6-sequencias-pa-pg/04-o-que-vimos.md
+
+  - slug: aula-7-equacoes-inequacoes-sistemas
+    title: Aula 7 — Equações, inequações e sistemas
+    description: Equações do 1º e 2º grau, inequações e sistemas lineares e sua interpretação geométrica.
+    tags: [matematica, equacoes-inequacoes]
+    summary:
+    - "Equação do 1º grau: x = −b/a; do 2º grau: Bhaskara ou casos incompletos."
+    - "Inequação tem solução em intervalo; multiplicar por negativo inverte o sinal."
+    - "A inequação do 2º grau exige o estudo do sinal da parábola."
+    - "Sistemas: substituição ou adição; geometricamente, o encontro de retas."
+    - "Um sistema pode ter uma, nenhuma ou infinitas soluções."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-7-equacoes-inequacoes-sistemas/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-7-equacoes-inequacoes-sistemas/02-equacoes.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: equacoes-inequacoes
+        difficulty: easy
+        tags: [enem, equacoes-inequacoes]
+        skill: "traduzir um enunciado em equação do 1º ou 2º grau e resolvê-la"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-7-equacoes-inequacoes-sistemas/03-inequacoes.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: equacoes-inequacoes
+        difficulty: medium
+        tags: [enem, equacoes-inequacoes]
+        skill: "resolver uma inequação e interpretar o intervalo-solução em um contexto (limite de gastos, faixa de valores)"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-7-equacoes-inequacoes-sistemas/04-sistemas.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: equacoes-inequacoes
+        difficulty: medium
+        tags: [enem, equacoes-inequacoes]
+        skill: "montar e resolver um sistema linear 2x2 a partir de um problema contextualizado"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-7-equacoes-inequacoes-sistemas/05-o-que-vimos.md
+
+  - slug: aula-8-geometria-plana
+    title: Aula 8 — Geometria plana
+    description: Áreas das figuras planas, Teorema de Pitágoras e semelhança de figuras.
+    tags: [matematica, geometria-plana]
+    summary:
+    - "Áreas das figuras fundamentais; figuras irregulares se decompõem."
+    - "Conversão de área muda ao quadrado: 1 m² = 10 000 cm²."
+    - "Pitágoras: a² = b² + c² no triângulo retângulo."
+    - "Diagonais úteis: quadrado l√2, altura do equilátero (l√3)/2."
+    - "Semelhança: lados proporcionais; comprimento ×k, área ×k²."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-8-geometria-plana/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-8-geometria-plana/02-areas.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: geometria-plana
+        difficulty: medium
+        tags: [enem, geometria-plana]
+        skill: "calcular a área de uma figura plana, inclusive por decomposição de uma figura irregular"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-8-geometria-plana/03-pitagoras.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: geometria-plana
+        difficulty: medium
+        tags: [enem, geometria-plana]
+        skill: "aplicar o Teorema de Pitágoras para obter uma distância ou comprimento inacessível"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-8-geometria-plana/04-semelhanca.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: geometria-plana
+        difficulty: hard
+        tags: [enem, geometria-plana]
+        skill: "usar semelhança e razão de escala para relacionar comprimentos e áreas (mapa, ampliação)"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: geometria-plana
+        difficulty: easy
+        tags: [enem, geometria-plana]
+        skill: "calcular perímetro ou comprimento de circunferência em um contexto cotidiano"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-8-geometria-plana/05-o-que-vimos.md
+
+  - slug: aula-9-geometria-espacial
+    title: Aula 9 — Geometria espacial
+    description: Volumes de prismas, cilindros, pirâmides, cones e esferas; volume e capacidade.
+    tags: [matematica, geometria-espacial]
+    summary:
+    - "Prismas e cilindros: V = A_base × h; cilindro V = πr²h."
+    - "Pirâmides e cones: V = (1/3)·A_base·h — um terço do sólido reto correspondente."
+    - "Esfera: V = (4/3)πr³, área 4πr²."
+    - "Capacidade: 1 L = 1 dm³, 1 m³ = 1000 L; unidades cúbicas mudam de mil em mil."
+    - "O deslocamento de líquido mede o volume de um corpo submerso."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-9-geometria-espacial/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-9-geometria-espacial/02-prismas-e-cilindros.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: geometria-espacial
+        difficulty: medium
+        tags: [enem, geometria-espacial]
+        skill: "calcular o volume de um prisma ou cilindro em um contexto (reservatório, embalagem)"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-9-geometria-espacial/03-piramides-cones-esferas.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: geometria-espacial
+        difficulty: hard
+        tags: [enem, geometria-espacial]
+        skill: "calcular ou comparar volumes de cone, pirâmide ou esfera, usando a razão de 1/3 quando cabível"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-9-geometria-espacial/04-volume-e-capacidade.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: geometria-espacial
+        difficulty: medium
+        tags: [enem, geometria-espacial]
+        skill: "converter entre volume e capacidade (m³, litros, dm³) em um problema prático"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-9-geometria-espacial/05-o-que-vimos.md
+
+  - slug: aula-10-trigonometria
+    title: Aula 10 — Trigonometria
+    description: Razões trigonométricas no triângulo retângulo, ângulos notáveis e o ciclo trigonométrico.
+    tags: [matematica, trigonometria]
+    summary:
+    - "Seno, cosseno e tangente relacionam ângulos e lados (SOH-CAH-TOA)."
+    - "As razões dependem só do ângulo — medem alturas e distâncias inacessíveis."
+    - "Ângulos notáveis 30°, 45°, 60° e a relação sen²θ + cos²θ = 1."
+    - "O ciclo trigonométrico estende seno e cosseno a qualquer ângulo; 180° = π rad."
+    - "As funções seno e cosseno são periódicas e modelam fenômenos cíclicos."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-10-trigonometria/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-10-trigonometria/02-razoes-trigonometricas.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: trigonometria
+        difficulty: medium
+        tags: [enem, trigonometria]
+        skill: "usar seno, cosseno ou tangente no triângulo retângulo para obter uma altura ou distância"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-10-trigonometria/03-angulos-notaveis.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: trigonometria
+        difficulty: medium
+        tags: [enem, trigonometria]
+        skill: "aplicar os valores dos ângulos notáveis ou a relação fundamental para resolver um problema"
+        suggestedSources: [FUVEST, UNESP]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-10-trigonometria/04-ciclo-e-funcoes.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: trigonometria
+        difficulty: hard
+        tags: [enem, trigonometria]
+        skill: "ler período e amplitude de um gráfico de função periódica (seno/cosseno) em um fenômeno cíclico"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-10-trigonometria/05-o-que-vimos.md
+
+  - slug: aula-11-estatistica
+    title: Aula 11 — Estatística
+    description: Médias, mediana, moda, medidas de dispersão e leitura crítica de gráficos.
+    tags: [matematica, estatistica]
+    summary:
+    - "Tendência central: média, mediana e moda; a mediana resiste a outliers."
+    - "A média ponderada usa pesos diferentes para cada valor."
+    - "Dispersão: amplitude, variância e desvio padrão medem o espalhamento."
+    - "Menor desvio padrão significa dados mais regulares."
+    - "Gráficos de barras, linhas, setores e histograma; atenção a eixos truncados."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-11-estatistica/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-11-estatistica/02-medidas-de-tendencia-central.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: estatistica
+        difficulty: medium
+        tags: [enem, estatistica]
+        skill: "calcular média, mediana ou moda e escolher a medida mais adequada para representar os dados"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-11-estatistica/03-dispersao.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: estatistica
+        difficulty: hard
+        tags: [enem, estatistica]
+        skill: "comparar a regularidade de dois conjuntos de dados pelo desvio padrão ou pela amplitude"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-11-estatistica/04-leitura-de-graficos.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: estatistica
+        difficulty: medium
+        tags: [enem, estatistica]
+        skill: "interpretar um gráfico (barras, linhas, setores) extraindo valores e identificando distorções de escala"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: estatistica
+        difficulty: easy
+        tags: [enem, estatistica]
+        skill: "converter porcentagem em ângulo de setor ou vice-versa em um gráfico de pizza"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-11-estatistica/05-o-que-vimos.md
+
+  - slug: aula-12-probabilidade-combinatoria
+    title: Aula 12 — Probabilidade e análise combinatória
+    description: Princípio multiplicativo, fatorial, arranjos, combinações e cálculo de probabilidades.
+    tags: [matematica, probabilidade]
+    summary:
+    - "Princípio multiplicativo: multiplicam-se as opções de cada etapa; fatorial n!."
+    - "Arranjo (ordem importa) × combinação (ordem não importa); permutação usa todos."
+    - "Probabilidade: casos favoráveis sobre casos possíveis, entre 0 e 1."
+    - "Complementar P(não A) = 1 − P(A); independentes multiplicam, exclusivos somam."
+    - "A combinatória conta os casos que entram no cálculo da probabilidade."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-12-probabilidade-combinatoria/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-12-probabilidade-combinatoria/02-principio-multiplicativo.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: combinatoria
+        difficulty: medium
+        tags: [enem, combinatoria]
+        skill: "contar possibilidades pelo princípio multiplicativo (senhas, placas, cardápios)"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-12-probabilidade-combinatoria/03-arranjos-e-combinacoes.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: combinatoria
+        difficulty: hard
+        tags: [enem, combinatoria]
+        skill: "decidir entre arranjo e combinação conforme a ordem importar ou não, e calcular a quantidade"
+        suggestedSources: [FUVEST, UNICAMP]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-12-probabilidade-combinatoria/04-probabilidade.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: probabilidade
+        difficulty: medium
+        tags: [enem, probabilidade]
+        skill: "calcular a probabilidade de um evento como casos favoráveis sobre possíveis em um contexto"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: ph4
+      type: exercise_placeholder
+      placeholder:
+        topic: probabilidade
+        difficulty: hard
+        tags: [enem, probabilidade]
+        skill: "calcular a probabilidade de eventos sucessivos ou combinados (independentes, complementar, união)"
+        suggestedSources: [FUVEST, ITA]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-12-probabilidade-combinatoria/05-o-que-vimos.md
+
+  - slug: aula-13-matematica-financeira
+    title: Aula 13 — Matemática financeira
+    description: Juros simples e compostos, acréscimos e descontos sucessivos e inflação.
+    tags: [matematica, matematica-financeira]
+    summary:
+    - "Juros simples: J = C·i·t, crescimento linear (montantes em PA)."
+    - "Juros compostos: M = C·(1 + i)ᵗ, crescimento exponencial (montantes em PG)."
+    - "Taxa e tempo devem estar na mesma unidade."
+    - "Acréscimos e descontos sucessivos multiplicam fatores — nunca se somam."
+    - "À vista × parcelado e inflação: comparar valores e entender o ganho real."
+    blocks:
+    - key: c1
+      type: content
+      markdownFile: matematica/aula-13-matematica-financeira/01-para-comecar.md
+
+    - key: c2
+      type: content
+      markdownFile: matematica/aula-13-matematica-financeira/02-juros-simples.md
+
+    - key: ph1
+      type: exercise_placeholder
+      placeholder:
+        topic: matematica-financeira
+        difficulty: easy
+        tags: [enem, matematica-financeira]
+        skill: "calcular juro ou montante em regime de juros simples cuidando da unidade de taxa e tempo"
+        suggestedSources: [ENEM, UNESP]
+
+    - key: c3
+      type: content
+      markdownFile: matematica/aula-13-matematica-financeira/03-juros-compostos.md
+
+    - key: ph2
+      type: exercise_placeholder
+      placeholder:
+        topic: matematica-financeira
+        difficulty: medium
+        tags: [enem, matematica-financeira]
+        skill: "calcular o montante em juros compostos e compará-lo ao regime simples"
+        suggestedSources: [ENEM, FUVEST]
+
+    - key: c4
+      type: content
+      markdownFile: matematica/aula-13-matematica-financeira/04-acrescimos-descontos-inflacao.md
+
+    - key: ph3
+      type: exercise_placeholder
+      placeholder:
+        topic: matematica-financeira
+        difficulty: hard
+        tags: [enem, matematica-financeira]
+        skill: "resolver um problema de decisão financeira (à vista × parcelado, descontos sucessivos, ganho real frente à inflação)"
+        suggestedSources: [ENEM, UNICAMP]
+
+    - key: c5
+      type: content
+      markdownFile: matematica/aula-13-matematica-financeira/05-o-que-vimos.md
